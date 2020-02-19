@@ -5,7 +5,7 @@ print(a+b)
 c='hi'
 print(c*3)
 
-str1='abcdef'
+str1='abcde'
 print(str1[0])
 print(str1[-1])
 print(str1[0:4])
