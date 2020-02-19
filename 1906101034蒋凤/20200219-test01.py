@@ -32,5 +32,6 @@ list.sort()
 print(list)
 #元组
 tup=('s',20,[5,9])
+tup[1]=200
 print(tup)
 
