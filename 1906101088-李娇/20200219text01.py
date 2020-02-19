@@ -26,9 +26,10 @@ for x in [1,2,3,4]:
 list1=[1,2,3,4,5,6]
 list1.append(7)
 list1.extend([3,4])
-#list1.pop(1)
-#list1.sort()
+list1.pop(1)
+list1.sort()
 print(list1)
 
 
-list2=[]
+tup=('s',100,[1,2])
+print(tup)
