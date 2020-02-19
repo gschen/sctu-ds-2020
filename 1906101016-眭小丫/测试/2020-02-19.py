@@ -8,7 +8,7 @@ print(c*3)
 
 
 str1='abcdef'
-print(str1[1])
+print(str1[0])
 print(str1[-1])
 print(str1[1:3])
 
@@ -31,3 +31,4 @@ for x in range(len(list)):
     tup=('s',100,[1,2])
     tup[1]-200
     print(tup)
+
