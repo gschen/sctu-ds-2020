@@ -24,6 +24,7 @@ print(a*3)
 
 
 
+
 for x in range(len(list1)):
      print(x)
 
@@ -50,3 +51,5 @@ tup=('n',199,[6,6])
 print(tup)
 tup[1]=200
 
+a='mmm'
+print(a*3)
