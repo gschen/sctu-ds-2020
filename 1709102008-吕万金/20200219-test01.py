@@ -25,5 +25,8 @@ lis1.append(7)
 print(lis1)
 
 lis2=[5,4,2,8,3,8]
-lis2.sort()
+#lis2.append(7)
+#lis2.extend([1,2])
+lis2.pop()
+#lis2.sort()
 print(lis2)
