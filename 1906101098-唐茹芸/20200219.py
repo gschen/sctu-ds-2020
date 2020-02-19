@@ -5,8 +5,6 @@ print(c)
 
 
 
-
-
 c='hi'
 print(c*3)
 
@@ -20,7 +18,6 @@ print(str1[0:4])
 
 print("我叫%s"%('张三'))
 print（"我今年%d"%(10))
-
 
 
 
