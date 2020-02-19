@@ -25,12 +25,12 @@ for x in [1,2,3]:
     print(x)
 
 #增加删除
-# list.append(7)
-# print(list)
-# list.extend([1,2])
-# print(list)
-# print(list.index(2))
-# print(list.pop(1))
+list.append(7)
+print(list)
+list.extend([1,2])
+print(list)
+print(list.index(2))
+print(list.pop(1))
 
 #排序
 list1=[5,7,4,3,6,2]
