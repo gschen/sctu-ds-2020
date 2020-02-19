@@ -30,7 +30,8 @@ list.pop()
 list=list.sort
 print(list)
 
-#元组
+'''元组
 tup=('s',100,[1,2])
 tup[1]=200
 print(tup)
+'''
