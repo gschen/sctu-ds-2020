@@ -21,8 +21,12 @@ print("我叫%s"%('张三'))
 #列表
 list1=[1,2,3,[4,5,6]]
 print(len(list1))
-for x in range(len(list)):
-    print(list[x])
+for x in range(len(list1)):
+    print(list1)
+    
+
+
+
 
 #添加
 list1=[1,2,3,[4,5,6]]
