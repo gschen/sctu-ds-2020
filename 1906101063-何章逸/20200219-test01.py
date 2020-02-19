@@ -20,13 +20,8 @@ len(list10)
 a='hi'
 print(a*3)
 
-
-
-
-
-
-for x in range(len(list1)):
-     print(x)
+for x in range(len(list1))：
+    print(x)
 
 list1=[1,2,3[4,5,6]]
 list1.append(7) 
