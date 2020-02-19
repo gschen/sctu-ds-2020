@@ -23,7 +23,7 @@ list1.sort()
 print(list1)
 print(len(list))
 
-tuple('haha',2[1,2,3])
+tuple('haha',2,[1,2,3])
 print(tuple)
 #元组里面的元素不可修改
 
