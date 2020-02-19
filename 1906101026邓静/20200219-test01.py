@@ -27,7 +27,6 @@ for x in range(len(list1)):
 
 
 
-
 #添加
 list1=[1,2,3,[4,5,6]]
 list1.append(7)
