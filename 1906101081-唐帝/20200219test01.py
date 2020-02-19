@@ -36,5 +36,5 @@ for x in range(len(list1)):
 
 #元组
 tup1 = ('Google', 'Runoob', 1997, 2000)
-#tup1[1]='tangdi'
+tup1[1]='tangdi'
 print(tup1)
