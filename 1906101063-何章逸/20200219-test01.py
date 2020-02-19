@@ -51,5 +51,5 @@ tup=('n',199,[6,6])
 print(tup)
 tup[1]=200
 
-d='mmm'
-print(d*3)
+a='mmm'
+print(a*3)
