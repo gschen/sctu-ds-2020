@@ -1,6 +1,11 @@
 a='hi'
 b='s'
-print(a+b)
+c=a+b
+print(c)
+
+
+
+
 
 c='hi'
 print(c*3)
