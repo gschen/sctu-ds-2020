@@ -34,6 +34,10 @@ for x in range(len(lis1)):
 
 
 #元组
-tup=('abc',100)
+tup=('abc',100，[1,7])
+tup[1]=200 元组不可更改
+print(tup)
+
+
 
 
