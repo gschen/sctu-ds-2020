@@ -2,6 +2,7 @@ a='hi'
 b='s'
 print(a+b)
 
+#重复字符
 c='hi'
 print(c*3)
 
@@ -10,11 +11,12 @@ print(str1[0])
 print(str1[-1])
 print(str1[0:4])
 
+#格式化输出
+print('我叫%s'%('王文星'))
+print('我现在%d'%(10))
 
-print('我叫%s'%('张三'))
-print('我今年%d'%(10))
 
-
+#列表
 lis1=[1,2,3,[4,5,6]]
 print(len(lis1))
 
@@ -30,3 +32,8 @@ lis2=[5,4,2,8,3,8]
 lis2.pop()
 #lis2.sort()
 print(lis2)
+#默认删除最后一个
+
+#元组元素不可更改
+tup=('s',100,[1,2])
+print(tup)
