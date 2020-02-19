@@ -18,12 +18,16 @@
 # print("我今年%d岁"%(12))
 
 #列表
-# lis1=[5,4,7,3,8]
-# # lis1.append(1)
-# # lis1.extend([1,2])
-# # lis1.pop(1)  #通过下标删值，默认是最后一个
+lis1=[5,4,7,3,8]
+print(len(lis1))
+# lis1.append(1)
+# lis1.extend([1,2])
+# lis1.pop(1)  #通过下标删值，默认是最后一个
 # lis1.sort()
-# print(lis1)
+print(lis1.index(7))
+
+# for x in range(len(lis1)):
+#     print(lis1[x])
 
 #元祖
 tup=("s",100,[1,2])
