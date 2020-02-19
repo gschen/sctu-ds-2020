@@ -1,3 +1,2 @@
-a='hi'
-b='s'
-print(a+b)
+print(def funcname(self, parameter_list):
+    pass
