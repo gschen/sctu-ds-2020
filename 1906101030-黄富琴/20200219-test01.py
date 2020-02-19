@@ -25,6 +25,7 @@ list=[5,4,2,8,3,8]
 list.append(7)
 list.extend([1,2])
 list.pop()
+
 #排序
 list.sort()
 print(list)
