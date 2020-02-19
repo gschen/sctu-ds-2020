@@ -28,3 +28,4 @@ print(list)
 
 #元组
 tup-("s",100,[])
+print(tup)
