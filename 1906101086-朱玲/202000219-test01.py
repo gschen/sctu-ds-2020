@@ -24,7 +24,7 @@ print(len(list1))
 list1=[5,4,2,8,3,8]
 list1.append(7)
 list1.extend([1,2])
-list1.1pop(1)
+list1.pop(1)
 list1.sort()
 print(list1)
 
