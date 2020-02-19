@@ -28,6 +28,7 @@ list.pop(1)
 # list.sort()
 print(list)
 
+
 tup=('s',100,[1,2])
 #tup[1]-200 不可更改
 print(tup)
