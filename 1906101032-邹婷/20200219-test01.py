@@ -2,11 +2,14 @@
 a='hi'
 b='s'
 print(a+b)
+
 #重复字符
 c='hi'
 print(c*3)
+
 #格式化输出
 print('我叫%S'%(zouting))
+
 #索引 切片
 str1='abccde'
 print(str1[0])
