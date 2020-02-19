@@ -40,10 +40,10 @@ list1.extend(1,2)
 print(list1)
 
 
-list1=[4,7,9,0]
-list1.sort()
-list1.pop()
-print(list1)
+list2=[4,7,9,0]
+list2.sort()
+list2.pop()
+print(list2)
 
 
 
