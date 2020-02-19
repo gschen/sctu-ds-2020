@@ -2,7 +2,6 @@
 a='hi'
 b='s'
 print(a+b)
-
 #重复字符
 c='hi'
 print(c*3)
