@@ -32,6 +32,7 @@ lis1.sort()
 print(lis1)
 lis1.pop()  #默认最后一个元素
 
+
 #元组
 tup=("s",100,[1,2])
 print(tup)

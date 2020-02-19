@@ -27,4 +27,9 @@ list.pop()
 print(list)
 
 #元组
+<<<<<<< HEAD
 tup-("s",100,[])
+=======
+tup-("s",100,[])
+print(tup)
+>>>>>>> ab307a874cb500107616bcae5dacf6b2bbf9e267
