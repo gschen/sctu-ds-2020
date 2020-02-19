@@ -1,1 +1,1 @@
-ceshi fyu
+print("hello world")
