@@ -1,5 +1,4 @@
-# coding=utf-8
-
+#连接字符
 a='hi'
 b='s'
 print(a+b)
@@ -8,37 +7,25 @@ print(a+b)
 c='hi'
 print(c*3)
 
+#切片
 str1='abcde'
 print(str1[0])
 print(str1[-1])
 print(str1[0:4])
-print(str1[::-1])
-
 print('b' in str1)
 print('v' not in str1)
 
 #格式化输出
-print('我叫%s'%('ST-one'))
-print('我叫{}'.format('ST-one'))
-print('我今年%d'%(20))
-print('我今年{}'.format(20))
+print("我叫%s"%('张三'))
+print("我今年%d"%(10))
 
 #列表
-list1=[1,2,3,[4,5,6]]
-print(len(list1))
-
-for x in [1,2,3]:
-    print(x,end=' ')
-print('')
-
-list1.append(7)
-print(list1)
-list1.extend([1,2])
-print(list1)
-print(list1.index(2))
-list1.pop(1)
-print(list1)
-
+list=[5,4,2,8,3,8]
+list.append(7)
+list.extend([1,2])
+list.pop(1)
+list.sort()
+print(list)
 list2=[5,8,6,4,2,5,8,9,1]
 list2.sort()
 print(list2)
