@@ -39,5 +39,5 @@ print(lis1)
 #元组
 tup=('s',100,[1,7])
 #tup[1]=200  元组不可更改
-print(tup)
+print(tup)   
 
