@@ -19,6 +19,9 @@ print("我今年%d岁"%10)
 
 
 
+
+#
+
 list1= [1,2,3,[4,5,6]]
 list1.append(7)
 print(list1)
