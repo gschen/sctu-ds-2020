@@ -1,1 +1,1 @@
-print('YUN')
+print('Yun')
