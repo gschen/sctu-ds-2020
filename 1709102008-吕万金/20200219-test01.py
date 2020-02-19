@@ -30,4 +30,3 @@ lis2=[5,4,2,8,3,8]
 lis2.pop()
 #lis2.sort()
 print(lis2)
-
