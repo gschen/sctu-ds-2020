@@ -27,3 +27,6 @@ print(list)
 
 tup=("s",100,[])
 print(tup)
+
+
+2020/02/19
