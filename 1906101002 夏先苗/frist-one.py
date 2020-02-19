@@ -1,1 +1,1 @@
-print('hello world')
+print('please enter your name:')
