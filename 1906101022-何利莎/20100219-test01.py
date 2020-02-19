@@ -31,3 +31,7 @@ list.pop()
 #索引
 print(list.index(2))
 list=list.sort(list)
+
+#元组
+tup=("s",100,[])
+print(tup)
