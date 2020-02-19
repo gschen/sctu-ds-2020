@@ -24,6 +24,10 @@ for x in range(len(list)):
 list.append(7)
 list.extend([1,2])
 print(list)
+
+#删除
+list.pop()
+
 #索引
 print(list.index(2))
 list=list.sort(list)
