@@ -1,1 +1,1 @@
-print('yzqy')
+print('yzq')
