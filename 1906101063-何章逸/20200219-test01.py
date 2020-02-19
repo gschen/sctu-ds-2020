@@ -29,7 +29,7 @@ for x in range(len(list1)):
      print(x)
 
 list1=[1,2,3[4,5,6]]
-list1.append(7)
+list1.append(7) 
 list1.extend(1,2)
 print(list1)
 
