@@ -24,7 +24,7 @@ list=[1,2,3,4,5]
 list.append(100)
 list.extend([70,80])
 print(list)
-#
+##
 tup1="a","b","c","d"
 tup2="1","2","3","4","5"
 tup3="bob","mary","bruce"
