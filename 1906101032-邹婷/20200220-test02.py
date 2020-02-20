@@ -5,7 +5,6 @@ def factorial(n):
         result *= i 
     return result
 print (factorial(18))
-
 #第二题
 def addMulti(P,T,R):
     return (P*T*R)/100
