@@ -16,7 +16,7 @@ print("a" in str1)
 "用not in判断不存在"
 print("v" not in str1)
 "格式化输出"
-print("我叫%s"%("卢本伟"))
+print("我叫%s"%("lz"))
 print("我进年%d岁"%(10))
 
 #列表
@@ -39,6 +39,5 @@ print(list1)
 
 #元组 
 tup = ("s",100,[1,2])
- #元素不可修改
+tup[1] = 200 #元素不可修改
 print(tup)
-
