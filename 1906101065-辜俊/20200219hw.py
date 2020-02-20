@@ -1,9 +1,12 @@
 # 1、求给定数的阶乘
 n = eval(input('请输入一个数:'))
 m = 1
-for i in range(1,n+1):
-    m = m*i
-print(m)
+if n==1 or n==10 or n==20 or n==30 or n==40 or n==50:
+    print('不能输入这个数')
+else:
+    for i in range(1,n+1):
+        m = m*i
+    print(m)
 
 
 # 2、求单利
@@ -12,7 +15,8 @@ t = eval(input('请输入时间:'))
 r = eval(input('请输入利率:'))
 dl = (p*t*r)/100
 print(dl)
-
+ 
+ 
 # 3、查找数组中的最大元素
 l =  [14,25,98,75,23,14,56,59]
 print(max(l))
