@@ -8,7 +8,7 @@
 # print(c*3)
 
 #切片
-# str1='asdfg'
+# str1='asdfgc'
 # print(str1[0])
 # print(str1[-1])
 # print(str1[0:4])
@@ -30,6 +30,6 @@ print(lis1.index(7))
 #     print(lis1[x])
 
 #元祖
-tup=("s",100,[1,2])
+tup=("s",100,[1,2,3])
 # tup[1]=200  #元祖元素不能被更改
 print(tup)
