@@ -15,7 +15,7 @@ a="abcd"
 "h" not in a
 #
 print("我叫%s"%("岳彬睿"))
-print("我今年%d"%("19"))
+print("我今年%d"%(19))
 #
 list=[1,2,3,[4,5,6]]
 print(len(list))
