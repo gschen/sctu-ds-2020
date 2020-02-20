@@ -6,3 +6,4 @@ if x not in l:
             return 1
         return i*jc(i-1)
     print(jc(x))
+    #
