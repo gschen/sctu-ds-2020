@@ -1,0 +1,9 @@
+#交换列表中的任意两个元素：
+lis1=[14,25,98,75,23,1,4,56,59]
+m=int(input("请输入位置一："))
+n=int(input("请输入位置二："))
+x=lis1[m]
+y=lis1[n]
+lis1[n]=x
+lis1[m]=y
+print(lis1)
