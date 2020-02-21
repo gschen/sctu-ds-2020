@@ -15,7 +15,7 @@ print('e' in a)
 print('i' in a)
 #格式化输出
 print('我叫%s' %('张三'))
-print('我今年%d'%(10))
+print('我今年%d'%(18))
 #列表
 list=[1,2,3,[4,5,6]]
 print(len(list))
