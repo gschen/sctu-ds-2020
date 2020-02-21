@@ -1,4 +1,4 @@
-#  第一题
+# 第一题
 def func(n):
     if n == 0 or n == 1:
         return 1
@@ -14,7 +14,7 @@ R=int(input())
 m=(P*T*R)/100
 print(m)
 
-#第 三题
+#第三题
 L=[14,25,98,75,23,1,4,56,59]
 L.sort()
 print(L[-1])
