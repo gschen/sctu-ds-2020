@@ -26,4 +26,28 @@ T=float(input("T="))
 danli=(P+T+R)/100
 print(danli)
 
+#第三题
+lis1=[14,25,98,75,23,1,4,56,59]
+print(max(lis1))
+
+#第四题(思路：用while和for循环结构，暂时不会做)
+lis1=[14,25,98,75,23,1,4,56,59]
+n=int(input("输入n:"))
+while a<n:
+    for i in lis1:
+
+#第五题
+lis1=[14,25,98,75,23,1,4,56,59]
+a,b=map(int,input("输入需要交换的位置：").split())
+lis1[a],lis1[b]=lis1[b],lis1[a]
+print(lis1)
+
+
+
+
+
+
+
+
+
 
