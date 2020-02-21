@@ -1,6 +1,7 @@
 a="hi"
 d='s'
 print(a+d)
+
 #重复字符
 c='hi'
 print(c*3)
@@ -9,7 +10,6 @@ str1='abcde'
 print(str1[0])
 print(str1[-2])
 print(str1[0:4])
-
 
 #格式化输出
 print('我叫%s'%('张三'))
