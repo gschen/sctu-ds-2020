@@ -30,11 +30,18 @@ print(danli)
 lis1=[14,25,98,75,23,1,4,56,59]
 print(max(lis1))
 
-#第四题(思路：用while和for循环结构，暂时不会做)
+#第四题
 lis1=[14,25,98,75,23,1,4,56,59]
 n=int(input("输入n:"))
-while a<n:
-    for i in lis1:
+a=len(lis1)
+if n>a or n<1:
+    print("error")
+else:
+    b=0
+    while n>=1:
+        b+=lis1[n-1]**2
+        n=n-1
+    print(b)
 
 #第五题
 lis1=[14,25,98,75,23,1,4,56,59]
