@@ -1,6 +1,8 @@
 a="hi"
 d='s'
 print(a+d)
+
+
 #重复字符
 c='hi'
 print(c*3)
@@ -19,6 +21,7 @@ print('我今年%d'%(20))
 #列表
 lis1=[1,2,3,[4,5,6]]
 print(len(lis1))
+
 
 
 #迭代输出
