@@ -1,0 +1,1 @@
+print('人生苦短，请学python')
