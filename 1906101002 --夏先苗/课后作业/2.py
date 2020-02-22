@@ -4,6 +4,7 @@
       #T = 5
 #输出：2500
 #要求:P、T、R都是input输入的，不能固定
+
 P=int(input('P='))
 T=int(input('T='))
 R=int(input('R='))
