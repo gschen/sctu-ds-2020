@@ -1,4 +1,4 @@
-#第一题
+#第 一题
 wrong_list=[1,10,20,30,40,50]
 n=int(input('请输入n='))
 def fact(n):
