@@ -10,6 +10,7 @@ def H(n):
 a=H(5)
 print(a)
 
+
 #单利公式
 import math
 P=int(input("p=:"))
