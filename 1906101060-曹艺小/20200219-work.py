@@ -27,11 +27,11 @@ else:
         s=s+i**2
     print(s)
 #第五题
-lis3=[14,25,98,75,23,1,4,56,59]
+list3=[14,25,98,75,23,1,4,56,59]
 x,s=map(int,input("输入两个置换元素的位置： ".split(',')))
-b=lis3[x]
-lis3[x]=lis3[s]
-lis3[s]=b
-print(lis3)
+b=list3[x]
+list3[x]=list3[s]
+list3[s]=b
+print(list3)
 
 
