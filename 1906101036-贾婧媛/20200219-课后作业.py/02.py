@@ -5,6 +5,7 @@
 输出：2500
 要求：P、T、R都是input输入的，不能固定'''
 
+
 P = int(input("请输入本金："))
 T = int(input("请输入时间："))
 R = int(input("请输入利率："))
