@@ -40,11 +40,11 @@ print(Pingfang(*l))
 
 
 #5.交换列表中的任意两个元素：[14,25,98,75,23,1,4,56,59]
-list1=[14,25,98,75,23,1,4,56,59]
+list2=[14,25,98,75,23,1,4,56,59]
 a=int(input("请输入要替换的位置："))
 b=int(input("请输入要替换的位置："))
-list1[a],list1[b]=list1[b],list1[a]
-print(list1)
+list2[a],list2[b]=list2[b],list2[a]
+print(list2)
 
 
 
