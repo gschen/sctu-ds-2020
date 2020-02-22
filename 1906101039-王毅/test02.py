@@ -35,3 +35,4 @@ print(sum(map(jiang,nums[:n])))
 
 
 
+
