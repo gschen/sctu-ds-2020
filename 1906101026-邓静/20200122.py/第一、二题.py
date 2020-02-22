@@ -18,6 +18,3 @@ R=int(input("G=:"))
 T=int(input("T=:"))
 Q=(P*R*T)/100
 print(Q)
-
-
-

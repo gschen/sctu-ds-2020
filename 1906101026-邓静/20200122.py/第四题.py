@@ -5,6 +5,3 @@ def H(x):
     return x*x
 print(sum(map(H,list[:n])))
 
-
-
-
