@@ -3,3 +3,4 @@ n = int(input())
 def L(x):
     return x*x
 print(sum(map(L,nums[:n])))
+

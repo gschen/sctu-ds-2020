@@ -9,3 +9,4 @@ if x in wrong_nums:
     print('wrong num')
 else:
     print(JC(x))
+    
