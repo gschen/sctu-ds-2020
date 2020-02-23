@@ -35,3 +35,4 @@ if n1>len(S) or n2>len(S):
     print('超出范围')
 S[n1],S[n2]=S[n2],S[n1]
 print(S)
+。
