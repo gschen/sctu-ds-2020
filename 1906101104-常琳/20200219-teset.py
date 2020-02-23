@@ -13,7 +13,7 @@ print(d[0])
 print(d[-1])
 print(d[2:])
 print(d[:2])
-print(d[1:3])
+
 
 #判断
 s='python'
