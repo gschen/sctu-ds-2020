@@ -2,4 +2,4 @@
 l=(14,25,98,75,23,1,4,56,59)
 x,y=map(int,input().split())
 l[x],l[y]=l[y],l[x]
-print(l）
+print(l)
