@@ -3,3 +3,4 @@ n = int(input())
 def jiang(x):
     return x*x
 print(sum(map(jiang,nums[:n])))
+ 

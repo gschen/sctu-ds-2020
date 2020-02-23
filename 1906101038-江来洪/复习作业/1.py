@@ -8,4 +8,4 @@ def jiang(x):
 if x in wrong_nums:
     print('wrong num')
 else:
-    print(jiang(x))
+    print(jiang(x)) 

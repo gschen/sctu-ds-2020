@@ -14,7 +14,7 @@ a='abcd'
 print('e' in a)
 print('i' in a)
 #格式化输出
-print('我叫%s' %('江来洪'))
+print('我叫%s' %('江来洪')) 
 print('我今年%d'%(19))
 #列表
 list=[1,2,3,[4,5,6]]
