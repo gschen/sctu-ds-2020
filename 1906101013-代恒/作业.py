@@ -1,8 +1,6 @@
-#第一题
-
 def f(x):
     if x == 0:
-    return 0
+     return 0
     eilf x == 1:
     return 1
     else:
@@ -45,4 +43,4 @@ print(result)
 list=[14,25,98,75,23,1,4,56,59]
 a,b=map(int,input().split())
 list[a],list[b]=list[b],list[a]
-print(list)
+print(list
