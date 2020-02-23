@@ -35,4 +35,4 @@ for i in [1, 2, 3]:
 #元组
 tup1 = ('a', 12, [1, 2])
 print(tup1)
-print("END")
+print("EN")
