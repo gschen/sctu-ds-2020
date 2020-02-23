@@ -14,7 +14,7 @@ print(str1[-1])
 print(str1[0:4])
 
 #格式化输出
-print("我叫%s"%李四)
+print("我叫%s"%'李四')
 print("我今年%d"%(10))
 
 #列表
