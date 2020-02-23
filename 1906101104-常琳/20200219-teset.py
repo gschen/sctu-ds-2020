@@ -5,7 +5,7 @@ print(a+b)
 
 #重复
 c='hi'
-print(c*5)
+print(c*2)
 
 #索引
 d='python'
