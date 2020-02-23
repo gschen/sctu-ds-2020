@@ -38,5 +38,4 @@ print(sorted(list1))
 
 #元祖(元祖中的元素不能更改)
 tup=('s',100,[1,2])
-tup[1]=200
 print(tup)
