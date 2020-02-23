@@ -1,5 +1,5 @@
 #第一题
-n=eval(input('请输入一个整数:'))
+n=eval(input('请输入一个非负整数:'))
 a=1
 if n==1 or n==10 or n==20 or n==30 or n==30 or n==40 or n==50:
     print('不能输入这个数')
