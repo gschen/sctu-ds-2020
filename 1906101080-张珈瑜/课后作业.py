@@ -1,32 +1,45 @@
-a="hi"
-b="s"
-print(a+b)
+#1
+m=int(input("请输入一个数:"))
+n=1
+if m == 0:
+    print("阶乘为1")
+if m < 0:
+    print("该数没有阶乘")
+if m == 1 or m ==10 or m ==20 or m ==30 or m ==40 or m ==50:
+    pass
+else:
+    for i in range(1,n+1):
+        m = m*i
+        print(m)
 
-#重复字符
-c="hi"
-print(c*3)
 
-str1(abcde)
-print(str1[0])
-print(str1[-1])
-print(str1[0:4])
+#2
+P=int(input())
+T=int(input())
+R=int(input())
+n = (P*T*R)/100
+print(n) 
 
-#格式化输出
-print("我叫%s"%('张三'))
-print("我今年%d"%('10'))
 
-#列表
-lis1[1,2,3[4,5,6]]
-print(len(lis1))
-lis1.append(7)
-lis1.extend([1,2])
-print(lis1)
-print(lis1,index(2))
-lis2=[5,4,3,8,9]
-lis2.sort()
-print(lis2)
+#3
+list=[14,25,98,75,23,1,4,56,59]
+print(max(list))
 
-#元祖
-tup=('s',100,[1,2])
-print(tup)
-t=tup[1]
+
+#4
+list=[14,25,98,75,23,1,4,56,59]
+n=int(input())
+s=0
+if n<len(list):
+    while n>0:
+        s=s+list[n-1]**2
+        n-=1
+print(s)
+
+
+#5.list=[14,25,98,75,23,1,4,56,59]
+m,n=map(int,input('输入两个置换元素的位置').split(','))
+a=list[m]
+list[m]=list[n]
+list[n]=a
+print(list)
