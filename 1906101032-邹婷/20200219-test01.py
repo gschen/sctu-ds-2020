@@ -6,7 +6,7 @@ print(a+b)
 c='hi'
 print(c*3)
 #格式化输出
-print('我叫%S'%("zouting"S))
+print('我叫%S'%("zouting"))
 #索引 切片
 str1='abccde'
 print(str1[0])
