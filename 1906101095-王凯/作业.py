@@ -28,7 +28,7 @@ for i in L:
 print(s)
 
 
-#第五题
+#2020第五题
 n1,n2=map(int,input('请输入两个用逗号隔开的数：').split(','))
 S=[14,25,98,75,23,1,4,56,59]
 if n1>len(S) or n2>len(S):
