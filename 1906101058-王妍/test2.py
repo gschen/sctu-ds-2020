@@ -25,18 +25,21 @@ print(n)
 list=[14,25,98,75,23,1,4,56,59]
 print(max(list))
 
-#4.L=[14,25,98,75,23,1,4,56,59]
+
+#4
+list=[14,25,98,75,23,1,4,56,59]
 n=int(input())
-m=list(L[:n])
 s=0
-if n < len(L):
-    for i in m:
-        s=s+i**2
-print(s) 
+if n<len(list):
+    while n>0:
+        s=s+list[n-1]**2
+        n-=1
+print(s)
+
 
 #5.list=[14,25,98,75,23,1,4,56,59]
-m,n=map(int,input('输入两个置换元素的位置：').split(','))
+m,n=map(int,input('输入两个置换元素的位置').split(','))
 a=list[m]
-list[m]=lis[n]
+list[m]=list[n]
 list[n]=a
 print(list)
