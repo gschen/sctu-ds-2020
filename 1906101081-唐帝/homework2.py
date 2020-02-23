@@ -1,4 +1,4 @@
-#使用单利公式.
+#使用单利公式
 
 
 a, b, c = map(int, input().split())
