@@ -34,12 +34,12 @@
 
 
 # 5题
-a,b=map(int,input("请输入：").split(","))
-l3=[14,25,98,75,23,1,4,56,59]
-if a<=len(l3) and b<=len(l3):
-    c=l3[a]
-    l3[a]=l3[b]
-    l3[b]=c
-    print(l3)
-else:
-    print("数字太大了")
+# a,b=map(int,input("请输入：").split(","))
+# l3=[14,25,98,75,23,1,4,56,59]
+# if a<=len(l3) and b<=len(l3):
+#     c=l3[a]
+#     l3[a]=l3[b]
+#     l3[b]=c
+#     print(l3)
+# else:
+#     print("数字太大了")
