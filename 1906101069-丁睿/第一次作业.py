@@ -15,7 +15,7 @@ else:
 P,T,R = map(int,input().split())
 print((P*T*R)/100)
 
-#3
+  #3
 print(max([14,25,98,75,23,1,4,56,59]))
 
 #4
