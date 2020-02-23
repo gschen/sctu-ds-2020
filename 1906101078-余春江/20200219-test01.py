@@ -14,8 +14,8 @@ print(str1[0:4])
 
 
 #格式化输出
-print("我叫%s"%("张三"))
 print("我今年%d"%(10))
+print("我叫%s"%("张三"))
 
 #列表
 list=[1,2,3,[4,5,6]]
@@ -27,9 +27,5 @@ list.pop()
 print(list)
 
 #元组
-<<<<<<< HEAD
-tup-("s",100,[])
-=======
-tup-("s",100,[])
+tup=("s",100,[])
 print(tup)
->>>>>>> ab307a874cb500107616bcae5dacf6b2bbf9e267
