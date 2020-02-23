@@ -44,7 +44,7 @@ b=len(L2)
 if n < b:
     for i in L2[0:n]:
         a = a+(i*i)
-    print("数组中的前n个位数的平方为：%d" % (a))
+    print("数组中的前n个位数的平方和为：%d" % (a))
 else:
     print("n不能大于数组长度")
 
@@ -55,8 +55,7 @@ else:
 L3 = [14, 25, 98, 75, 23, 1, 4, 56, 59]
 a=int(input())
 b=int(input())
-c=L3[a]
-d=L3[b]
-L3[a]=d
-L3[b]=c
+L3[a],L3[b]=L3[b],L3[a]
 print(L3)
+
+
