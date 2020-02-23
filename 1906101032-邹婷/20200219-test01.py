@@ -12,7 +12,6 @@ str1='abccde'
 print(str1[0])
 print(str1[-1])
 print(str1[0:4])
-
 #迭代
 for x in [1,2,3]:
     print(x)
