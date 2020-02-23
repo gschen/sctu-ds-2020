@@ -1,33 +1,47 @@
-import requests
 
-from urllib import re
-
-base_url = 'http://ns.meituan.com/meishi/b25710/'
-
-cookies_str = ''
-
-cookies_dict = {}
-for cookie in cookies_str.split(";"):
-    k, v = cookie.split("=", 1)
-    cookies_dict[k.strip()] = v.strip()
-
-headers = {
-    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/71.0.3578.98 Chrome/71.0.3578.98 Safari/537.36'
-}
-
-page = requests.get(
-    url=base_url,
-    cookies=cookies_dict,
-    headers=headers
-)
-
-def get_element_from_html(raw_html):
-    regex = ReUtil.get_regex(begin_with=['"poiInfos":'], end_with=['},"comHeader"'])
-    result = regex.findall(raw_html)
-    print(result[0][1])
-    ans = ""
-    for i in range(4):
-        ans += result[0][i]
-    return result
-
-get_element_from_html(page.text)
+import urllib.request
+import csv
+import re
+import json
+ 
+ 
+file = open("meituan.txt","w",encoding='utf8') 
+writer = csv.writer(file, delimiter=',')
+ 
+class Spider:
+	def loadPage(self,page):
+		url = "http://gz.meituan.com/meishi/pn"+str(page)+"/"
+ 
+		#user-Agent头
+		user_agent="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT6.1; Trident/5.0"
+		headers = {"User-Agent":user_agent}
+		req = urllib.request.Request(url,headers = headers)
+		response = urllib.request.urlopen(req)
+		html =str(response.read(),'utf8')
+ 
+		
+		#找到商家信息的内容为：{"poiId":xxx}
+		#re.S 如果没有re.S,则是只匹配一行有没有符合规则的字符串，如果没有则匹配下一行重新匹配
+		#如果加上re.S,则是将所有的字符串按一个整体进行匹配
+		
+		pattern = re.compile(r'{"poiId":.*?}',re.S)
+		item_list = pattern.findall(html)#获取数据
+			
+		#dictinfo = json.loads(item_list[0])#把字符串转化为字典
+		
+		list = []#存放数据的数组
+		
+		for data in item_list:
+				dictinfo = json.loads(data)
+				writer.writerow([dictinfo["title"],dictinfo["address"],dictinfo["avgScore"],dictinfo["avgPrice"]])
+		
+		
+ 
+if __name__ == "__main__":
+	mySpider = Spider()
+	
+	for i in range(1,33):
+		print("fecth:Page"+str(i))
+		mySpider.loadPage(i)
+		
+	file.close()
