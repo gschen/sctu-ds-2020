@@ -79,7 +79,7 @@ else:
 a=0
 x=0
 while a<100:
-    a + = 1
+    a+=1
     x+=a
 print(x)
 
