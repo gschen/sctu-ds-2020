@@ -11,6 +11,6 @@ while(num1!=num2):
     num=int(input("请输入你猜的数字："))
     if num1>num2:
         print("你输入的值小了")
-    elif:
+    #elif:
     print("你输入的值正确!")
 
