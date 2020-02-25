@@ -90,7 +90,7 @@ dic["name"] = "李四"
 # def change2(x):
 #     x.append([1,2,3])
 # change2(c)
-# print(c)
+# print(c).
 
 def main(x,*y):
     print(x)
