@@ -1,0 +1,45 @@
+#集合
+A={'a','b','c',1}
+B=set('aabbcce')
+#并
+print(A|B)
+#交
+print(A&B)
+#差（补）
+print(A-B)
+print(B-A)
+#不同时包含
+print(A^B)
+#为几个添加元素，当存在时不添加。
+A.add('d')
+print(A)
+#增加元素，参数可以是列表、元素、字典
+B.update({1,3},[4,2],'e')
+print(B)
+#移除指定元素，元素不在时会报错
+A.remove('a')
+A.remove('f')
+#移除指定元素，元素不在时不会报错
+A.discard('f')
+#随机移除元素,并返回被删除的元素
+B.pop()
+print(B)
+#字典(键必须唯一，值可以多样)
+d={'name':'张三','age':19,'school':'sctu'}
+print(d)
+#修改数据
+d['name']='李四'
+#查找数据
+d.get('address')
+d.setdefaul
+t('name')
+#增加数据
+d['class']='1班'
+print(d)
+#删除数据 前两种必须写出
+#del dic['name']   删除键值和value
+#删除并返回删除的value   d.pop('age')
+print(d)
+#删除最后一个值
+d.popitem()
+print(d)
