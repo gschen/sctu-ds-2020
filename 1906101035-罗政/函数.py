@@ -19,3 +19,4 @@ print(b)
 #lambda函数：格式；变量名=lambda 参数1 参数2 返回
 circle=lambda r,pi:r**2*pi
 print(circle(3,3.14))
+#

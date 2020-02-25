@@ -21,3 +21,4 @@ for i in range(2,x):
 else:
     print("是")
 #判断是不是素数
+#

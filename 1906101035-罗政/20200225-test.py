@@ -28,3 +28,4 @@ del dic['name']
 dic.pop('name')
 dic.popitem('class')
 print(dic)
+print

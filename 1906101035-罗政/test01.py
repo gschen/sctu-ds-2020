@@ -12,3 +12,4 @@ while(num1 !=num2):
         print("太小了")
     elif num1<num2:
         print("太大了")
+#
