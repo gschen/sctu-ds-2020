@@ -45,10 +45,3 @@ print(c)
 
 b='123'
 b=123
-
-def main(x,*y):
-    print(x)
-    for i in range(len(y)):
-        print(y[i])
-
-main(1,11,12,13,14)
