@@ -12,6 +12,7 @@ def change(a):
     a=10
 
 
+
 b=2
 change(b)#2->a,a=2->a=10
 print(b)
