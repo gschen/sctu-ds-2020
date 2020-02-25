@@ -11,7 +11,7 @@ A.discard("f")
 A.pop()
 
 #字典
-dic={"name":"张三"，"age":19,"school":"sctu"}
+dic={"name":"张三","age":19,"school":"sctu"}
 #修改数据
 dic["name"]="李四"
 dic.get("address")
