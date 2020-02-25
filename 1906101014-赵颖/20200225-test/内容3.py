@@ -1,3 +1,4 @@
+#
 circle2= lambda r,pi:r**2*pi
 print(circle2(pi=3.14,r=6))
 
@@ -28,12 +29,14 @@ print(area)
 
 circle3=lambda r,pi:r**2*pi
 print(circle3(3,3.14))
+
 #不可更改对象
 def change(a):
     a=10
 b=2
 change(b)
 print(b)
+
 #可更改对象
 c=[1,2,3]
 def change2(x):
@@ -41,6 +44,7 @@ def change2(x):
 change2(c)
 print(c)
 
+#
 b='123'
 b=123
 

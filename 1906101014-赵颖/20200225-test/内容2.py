@@ -1,3 +1,4 @@
+#1
 age=int(input("请输入你的年龄"))
 
 if age >=18:
@@ -5,7 +6,7 @@ if age >=18:
 else:
     peint("你还未成年")
 
-
+#2
 num1 = 25
 num = 1
 while(num1 != num2):
@@ -17,7 +18,7 @@ while(num1 != num2):
 print('猜对了')
 
 
-
+#3
 num = int(input("请输入一个数字："))
 if num %2 ==0:
     if num % 3 ==0:
@@ -29,7 +30,7 @@ else:
         print("这个数字能被3整除，不能被2整除")
     else:
         print("既不能被3整除，也不能被2整除")
-
+#4
 sum=0
 a=1
 while(a<=100):
@@ -38,7 +39,7 @@ while(a<=100):
 print(sum)
 
 
-#while循环
+#5.while循环
 count=0
 
 while count < 5:
@@ -48,7 +49,7 @@ else:
     print(str(count)+"=5")
 
 
-#for循环
+#6.for循环
 list1 = [1,2,3,4,5]
 for i in list1:
     print(i)
