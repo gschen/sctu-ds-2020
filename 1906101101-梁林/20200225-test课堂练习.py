@@ -104,7 +104,7 @@ for i in range(7):
     print(i)
 for i in range(5,7):
     print(i)
-for i in range(1,10,2)
+for i in range(1,10,2):
     print(i)
 print(list(range(5)))
 
@@ -142,7 +142,7 @@ print(mj(2))
 
 #固定参数
 def mj(x=5):
-
+    pass
 #
 a=2
 def mj():
