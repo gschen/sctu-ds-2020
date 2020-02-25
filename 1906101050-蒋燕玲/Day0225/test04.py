@@ -15,4 +15,3 @@
   
 #print(list(range(5)))  #"左闭右开"
 
-

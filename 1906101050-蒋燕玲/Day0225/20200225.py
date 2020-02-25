@@ -23,7 +23,7 @@ B=set("abcce")
 dic={"name":'张三'，"age":19,"school":"sctu"}
 print(dic)
 #修改数据
-#dic["name"]="李四"
+#dic["name"]="李四" 
 #查找数据
 #dic.get("address")
 #dic.setdefault("address",default="成都")

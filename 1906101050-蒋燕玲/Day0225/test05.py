@@ -36,5 +36,3 @@
 #     else:
 #         sum = sum +1
 # print(sum)
-
-  
