@@ -23,7 +23,7 @@ def change2(x):
 change2(c)
 print(c)
 
-b="321"
-b=321
+ b="321"
+ b=321
 
 def main(x,y)
