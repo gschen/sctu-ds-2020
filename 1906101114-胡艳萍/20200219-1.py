@@ -34,14 +34,16 @@
 # for x in range(len(1,2,3)):
     # print(x)
 
-# list=[1,2,3,[4,5,6]]
-# list.append(7)
-# list.extend([1,2,3])
-# list.index(2)
-# 排序：sort
-# list.sort()
-# list.pop(2)
-# print(list)
+list=[1,2,3,[4,5,6]]
+list.append(7)
+list.extend([1,2,3])
+list.index(2)
+排序：sort
+list.sort()
+list.pop(2)
+print(list)
+# sorted有返回值，sort没有返回值
+
 
 # 元组
 # tup=('s',18,[20,1])
