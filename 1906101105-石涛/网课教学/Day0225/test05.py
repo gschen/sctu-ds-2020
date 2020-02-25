@@ -25,6 +25,7 @@ for i in range(2,x):
 else:
     print('是素数')
 
+# 素数个数计算
 x=10
 sum1=0
 for i in range(2,x+1):
