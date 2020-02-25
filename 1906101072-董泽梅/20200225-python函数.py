@@ -49,7 +49,6 @@
 # chage2(c)
 # print(c)
 
-
 #不定长参数
 # def printinfo(x,*y):
 #     print(x)

@@ -76,6 +76,7 @@
 
 #循环小练习
 #找出列表中最大元素
+
 # list = [1,2,3,4]
 # a = list[0]
 # for i in list:
@@ -84,6 +85,7 @@
 # print(a)
 
 #列表数之和
+
 # list = [1,2,3,4,'a',5]
 # sum = 0
 # for i in list:

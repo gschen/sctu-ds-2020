@@ -28,6 +28,7 @@ print(A.pop())
 
 #字典
 #字典格式
+
 dic={'name':'张三','age':19,'school':'sctu'}
 #修改数据
 dic ['name']='李四'
