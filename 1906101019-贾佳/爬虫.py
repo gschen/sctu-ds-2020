@@ -2,49 +2,46 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
+fb = open('meituan.txt', 'w', encoding='utf-8')
 list1=[]
 url = "https://my.meituan.com/"
 hd = {
     'Connection': 'keep-alive',
-    'Cache-Control': 'max-age=0',
     'Upgrade-Insecure-Requests': '1',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36',
     'Sec-Fetch-Mode': 'navigate',
     'Sec-Fetch-User': '?1',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
-    'Sec-Fetch-Site': 'none',
-    'Referer': 'https://passport.meituan.com/account/unitivelogin?service=www^&continue=https^%^3A^%^2F^%^2Fwww.meituan.com^%^2Faccount^%^2Fsettoken^%^3Fcontinue^%^3Dhttps^%^253A^%^252F^%^252Fmy.meituan.com^%^252F',
+    'Sec-Fetch-Site': 'same-site',
+    'Referer': 'https://www.meituan.com/changecity/',
     'Accept-Encoding': 'gzip, deflate, br',
     'Accept-Language': 'zh-CN,zh;q=0.9',
-    '_lxsdk_cuid': '16fc6fb4d7cc8-0a65609de2006d-5f4e2917-144000-16fc6fb4d7dc8',
+     '_lxsdk_cuid': '16fc6fb4d7cc8-0a65609de2006d-5f4e2917-144000-16fc6fb4d7dc8',
     '_hc.v': 'eb3cfd6e-da18-88dd-fa60-52c34db11e2a.1579754519',
     'iuuid': 'D0225863F610C6D6D7009BE3044B4D184157FF6786A1FAE6526FB12E94BA74EC',
     'cityname': '^%^E7^%^BB^%^B5^%^E9^%^98^%^B3',
     '_lxsdk': 'D0225863F610C6D6D7009BE3044B4D184157FF6786A1FAE6526FB12E94BA74EC',
     '_ga': 'GA1.2.1895632125.1581180523',
-    'ci': '306',
-    'rvct': '306^%^2C1',
     'lsu': '',
     'webp': '1',
     'i_extend': 'H__a100002__b1',
     '__utma': '74597006.1895632125.1581180523.1581698908.1581698908.1',
     '__utmz': '74597006.1581698908.1.1.utmcsr=blog.csdn.net^|utmccn=(referral)^|utmcmd=referral^|utmcct=/weixin_43420032/article/details/84841043',
-    'latlng': '31.474527,104.735155,1581698908596',
-    '_lx_utm': 'utm_source^%^3Dblog.csdn.net^%^26utm_medium^%^3Dreferral^%^26utm_content^%^3D^%^252Fweixin_43420032^%^252Farticle^%^252Fdetails^%^252F84841043',
     'uuid': 'e88281a99acf493b89e9.1581843463.1.0.0',
-    'userTicket': 'ZylZfwXhnMZcNBcXLSiHBIWKDFdyYPZsQHIAUsye',
-    'client-id': '3e37fd84-aa02-47dd-b4a7-b9fb19f23e84',
+    'ci': '1',
+    'rvct': '1^%^2C306',
+    'lat': '39.90093',
+    'lng': '116.500992',
     'mtcdn': 'K',
-    'n': 'WFV811789004',
-    'lt': '_wWhu8aH5dCwc6A8-kEp2ZdWF-EAAAAAEQoAADw6rrMghG64h8bpf4nDSHBk3UCTzakSUP6OZtECLDUqwhuvIzMNkOhx8mIAH-tIow',
-    'token2': '_wWhu8aH5dCwc6A8-kEp2ZdWF-EAAAAAEQoAADw6rrMghG64h8bpf4nDSHBk3UCTzakSUP6OZtECLDUqwhuvIzMNkOhx8mIAH-tIow',
-    'unc': 'WFV811789004',
-    'lat': '31.484039',
-    'lng': '104.77077',
     'u': '803983320',
-    'firstTime': '1582025050306',
-    '__mta': '209007277.1579591374166.1581952905369.1582025050426.28',
-    '_lxsdk_s': '17057fe7264-90d-48f-d89^%^7C^%^7C7'
+    'n': 'WFV811789004',
+    'lt': 'HJEaQlZIbtNXC24XiXPYsYcVn7kAAAAAEQoAALEqQXpDH2OEPYh8yzu5kMxnqB_9jDrGWoJIJ5dDHnRb7NVWpKK-hzCobQUW0cmWHg',
+    'token2': 'HJEaQlZIbtNXC24XiXPYsYcVn7kAAAAAEQoAALEqQXpDH2OEPYh8yzu5kMxnqB_9jDrGWoJIJ5dDHnRb7NVWpKK-hzCobQUW0cmWHg',
+    'unc': 'WFV811789004',
+    '_lx_utm': 'utm_source^%^3DBaidu^%^26utm_medium^%^3Dorganic',
+    'firstTime': '1582608160450',
+    '_lxsdk_s': '1707ac8687b-68f-c08-b10^%^7C^%^7C23',
+
 }
 
 
@@ -105,11 +102,11 @@ def get_item_info(url,headers=hd):
     str4 = "".join(list4)
     str4 = str(str4)
     list4c = str4.replace("address","地址")
-    print(list3c)
-    print(list2c)
-    print(list1c)
-    print(list4c)
-    print("==============================================================")
+    fb.write(list3c)
+    fb.write(list2c)
+    fb.write(list1c)
+    fb.write(list4c)
+    fb.write("\n")
 def main(url):
     start_url_list = get_start_links(url)
     for j in  start_url_list:#分类链接
