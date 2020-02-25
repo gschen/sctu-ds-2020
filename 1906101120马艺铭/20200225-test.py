@@ -128,6 +128,7 @@ print(list(range(5)))
 
 list = [1,2,3,2]
 
+
 a = list[1]
 
 for i in list1:
