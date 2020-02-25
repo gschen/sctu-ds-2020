@@ -18,7 +18,7 @@ print(B)
 A.remove('h')#遇见不存在元素报错 
 A.discard('y')#不会报错 
 print(A) 
-A.pop()#随机删除 
+A.pop()#随机删除  
 print(A) 
  
 #字典 
