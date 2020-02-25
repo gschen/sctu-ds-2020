@@ -176,11 +176,11 @@ def circle(r):
     return r**2*3.14
 print(circle(1))
 
+
 a = 2
 def main():
     b=3
     print(a)
 main()
 print(b)
- 
  
