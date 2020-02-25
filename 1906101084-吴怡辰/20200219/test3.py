@@ -1,8 +1,9 @@
 list = [14,25,98,75,23,1,4,56,59]
 max = 0
-maxi = " "
-for i in range(0,9):
-    if list[i] > max:
-        maxi = i
-        max = list[maxi]
+for i in list:
+    if i > max:
+        max = i
 print(max)
+
+# print(max([14,25,98,75,23,1,4,56,59]))
+
