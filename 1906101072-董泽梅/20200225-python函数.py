@@ -13,7 +13,6 @@
 # s = area(3)
 # print(s)
 
-
 #形参和实参
 #形参
 # def area(r):
@@ -35,7 +34,6 @@
 #lambda函数
 # circle = lambda r,pi:r**2*pi
 # print(circle(3,3.14))
-
 
 #python传不可变对象实例
 # def chage(a):
