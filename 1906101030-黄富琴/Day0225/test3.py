@@ -7,7 +7,7 @@
 #while():
 #    print('无线循环中！！！')
 
-count = 0
+count=0
 
 while count < 5:
     print(count)

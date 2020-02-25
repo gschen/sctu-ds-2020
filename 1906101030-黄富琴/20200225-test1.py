@@ -39,7 +39,7 @@
 
 def main(x,*y):
     print(x)
-    for i in range(len(y)):
-        print(y[i])
+    for j in range(len(y)):
+        print(y[j])
 
 main(1,7,8,9,10)
