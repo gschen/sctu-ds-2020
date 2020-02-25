@@ -36,5 +36,5 @@ for i in range(2,x+1):
         if i % j ==0:
             break
     else:
-        summ=sum+1
+        sum = sum + 1
 print(sum)

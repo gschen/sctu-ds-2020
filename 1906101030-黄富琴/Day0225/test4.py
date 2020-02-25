@@ -12,7 +12,7 @@
 #for i i range(2,10):
 #    print(i)
 
-for i in range(0,11,4):
+for i in range(0,11,3):
     print(i)
 
 print(list(range(5)))

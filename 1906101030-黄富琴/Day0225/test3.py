@@ -10,7 +10,7 @@
 count=0
 
 while count < 5:
-    print(count)
+    print(str(count),'<5')
     count=count + 1
 else:
-    print(count+'=5')
+    print(str(count)+'=5')

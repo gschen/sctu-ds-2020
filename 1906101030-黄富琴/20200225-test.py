@@ -27,7 +27,7 @@ print(B)
 dic={'name':'张三','age':19,'school':'sctu'}
 print(dic)
 #修改数据
-dic['name']='王五'
+dic['name']='李四'
 #查找数据
 dic.get('name')
 dic.get('address')
