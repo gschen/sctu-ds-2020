@@ -15,7 +15,7 @@ B.update([1,3],[4,2],'e')
 print(B)
 
 
-#删除元素
+# 删除元素
 A = ['a','b','c','c',1]
 A.remove('a')
 A.remove('f')
