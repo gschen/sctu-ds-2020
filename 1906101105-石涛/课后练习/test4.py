@@ -10,7 +10,7 @@ n=int(input())
 m=0
 for i in l:
     if n>0:
-        m+=i
+        m+=i**2
         n-=1
     else:
         print(m)
