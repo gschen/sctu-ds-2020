@@ -141,7 +141,3 @@
 # print(result)
 # print(AplusB(10,12))
 
-def main(x,*y):
-    print(x)
-    for i in range(len(y)):
-        print(y[i])
