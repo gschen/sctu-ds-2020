@@ -9,7 +9,7 @@ b=(set('zwsa'))
 #a.add('q')  #添加元素，但加入相同不重复
 #print(a)
 #b.update({1,2},[4,3],'l')  #元素添加可以是列表，元组，str
-#print(b)
+#print(b)  
 #a.remove('c')  #删除元素，如果列表无此元素就报错
 #print(a)
 #a.discard('d')   #删除元素，无此元素也不会报错
