@@ -191,4 +191,3 @@ def main(x,*y):
     for i in y:
         print(y)
 main(1,11,12,13,14)
-
