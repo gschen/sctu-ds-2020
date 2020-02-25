@@ -165,10 +165,6 @@ def circle_s(r):
 print(circle_s(3))
 
 
-def circle_s(r,pi):
-    s=r**2*pi
-    return s
-print(circle_s(5,3.14))
 
 
 
@@ -182,13 +178,6 @@ def change(a):
 b=2
 change(b)
 print(b)
-
-
-l=[1,2,3,4]
-def change(x):
-    x.append([2,3,4])
-    chenge(l)
-print(l)
 
 
 def ma(x,*y):
