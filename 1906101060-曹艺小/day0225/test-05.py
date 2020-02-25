@@ -19,7 +19,6 @@
 #         break
 # else:
     # print("是素数")
-
 x = 10
 sum = 0
 for i in range(2,x+1):

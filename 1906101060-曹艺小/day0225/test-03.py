@@ -6,7 +6,7 @@
 # print(sum)
 
 # while():
-#     print("无限循环中！！！")
+#     print("无限循环中！！")
 
 
 count = 0

@@ -34,6 +34,7 @@ print(dic)
 #删除数据
 #del dic['name']
 #print(dic)
+
 #dic.pop('name')
 #print(dic)
 dic.popitem()

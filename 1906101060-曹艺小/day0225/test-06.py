@@ -34,7 +34,6 @@ def change2(x):
 change2(c)
 print(c)
 
-
 def printinfo(arg1,*vartuple):
     "打印任何传入的数字"
     print("输出：")
