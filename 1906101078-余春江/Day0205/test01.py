@@ -5,5 +5,3 @@ if age >= 18:
 else:
     print("你还未成年")
 
-
-
