@@ -62,6 +62,3 @@ dic.popitem() # 随机删除键和值
 print(dic)
 
 # dic.clear() # 删除所有元素
-
-
-'''条件判断和循环'''
