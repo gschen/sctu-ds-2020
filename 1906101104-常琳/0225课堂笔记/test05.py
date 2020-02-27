@@ -50,6 +50,7 @@ print(c)
 def g(x,*y):
     print(x)
     for i in y:
+        print(i)
         print(y)
 g(1,2,3,4)
 #元组是一个整体，不能用for i in遍历
