@@ -63,40 +63,21 @@
 
 # 6、
 # n = eval(input('请输入n的值:'))
-# #定义n为奇数时的求和函数
-# def fn(n):
-#     sum1 = 0
-#     result1 = 0
-#     if n==1:
-#         return (1)
-#     else:
-#         for i in range(1,n,2):
-#             sum1 += 1/i
-#         result1 = sum1 + 1/n
-#         return result1
-# #定义n为偶数时的求和函数
-# def sn(n):
-#     sum2 = 0
-#     result2 = 0
-#     if n==2:
-#         return (0.5)
-#     else:
-#         for i in range(2,n,2):
-#             sum2 += 1/i
-#         result2 = sum2 + 1/n
-#         return result2
-# #套用上面两个函数
 # def qiuhe(n):
-#     if n%2!=0:
-#         return fn(n)
+#     sum = 0
+#     if n%2 != 0:
+#         for i in range(1,n+1,2):
+#             sum = sum + 1/i
 #     else:
-#         return sn(n)
-        
+#         for i in range(2,n+1,2):
+#             sum = sum + 1/i
+#     return sum
+
 # print(qiuhe(n))
 
 
 
-# 6、
+# 7、
 def count_str_char(string):
     char_num, digit_num, space_num, other_num = 0, 0, 0, 0
     for c in string:
