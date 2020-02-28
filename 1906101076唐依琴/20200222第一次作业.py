@@ -17,7 +17,7 @@ P=int(input('P='))
 R=int(input('R='))
 T=int(input('T='))
 y=(P*R*T)/100
-print('输出:%d'%(y))
+print('输出:%d'%(s))
 
 
 #3.找数组中最大元素
