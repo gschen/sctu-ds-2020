@@ -5,6 +5,7 @@ def f(x):
 for i in list:
     print(f(i))
 #第二题
+
 x=int(input('x='))
 def chengji(x):
     if 90<=x<=100:
