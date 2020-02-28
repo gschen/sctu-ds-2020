@@ -44,8 +44,6 @@ for x in list:
                 print(list.sort())
 print(list)
 #第六题
-
-
 n=int(input())
 def f(n):
     if n%2==0:
@@ -59,7 +57,8 @@ def f(n):
             sum2=sum2+1/i     
             print(sum2)   
 print(f(n))
-#第七题：
+#第七题
+# ：
 def f(n):
     x,y,z,m=0,0,0,0
     for i in n:
