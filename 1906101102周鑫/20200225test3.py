@@ -38,3 +38,5 @@ for i in range(2,x+1):
     else:
        sum=sum+1
 print(sum)
+
+
