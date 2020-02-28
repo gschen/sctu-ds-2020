@@ -6,12 +6,13 @@ print(a+b)
 c='hi'
 print(c*3)
 #格式化输出
-print('我叫%S'%("zouting"))
+print('我叫%S'%(zouting))
 #索引 切片
 str1='abccde'
 print(str1[0])
 print(str1[-1])
 print(str1[0:4])
+
 #迭代
 for x in [1,2,3]:
     print(x)
@@ -20,6 +21,7 @@ a='abcd'
 'e' in a
 'd' in a
 'e' not in a
+
 #列表
 list=[1,2,3,[4,5,6]]
 print(len[list])
