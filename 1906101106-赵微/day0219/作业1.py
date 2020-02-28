@@ -2,7 +2,7 @@
 1、	求给定数的阶乘
 要求：所求阶乘的数不可以是这几个数：[1,10,20,30,40,50]
 '''
-L=[1,10,20,30,40,50]
+L = [1, 10, 20, 30, 40, 50]
 x = 1
 y = int(input("请输入要计算的数:"))
 for i in range(1, y + 1):
@@ -24,7 +24,7 @@ else:
 P = int(input("请输入本金："))
 T = int(input("请输入时间："))
 R = int(input("请输入利率："))
-a =(P * T * R)/ 100
+a = (P * T * R) / 100
 print("单利为：" and a)
 
 '''
@@ -38,9 +38,9 @@ print(max(L1))
 要求：n需要是input输入，且小于数组长度，不能固定
 '''
 L2 = [14, 25, 98, 75, 23, 1, 4, 56, 59]
-n=int(input("请输入n:"))
+n = int(input("请输入n:"))
 a = 0
-b=len(L2)
+b = len(L2)
 if n < b:
     for i in L2[0:n]:
         a = a+(i*i)
@@ -53,9 +53,7 @@ else:
 要求，被置换的两个位置需要input输入
 '''
 L3 = [14, 25, 98, 75, 23, 1, 4, 56, 59]
-a=int(input())
-b=int(input())
-L3[a],L3[b]=L3[b],L3[a]
+a = int(input())
+b = int(input())
+L3[a], L3[b] = L3[b], L3[a]
 print(L3)
-
-
