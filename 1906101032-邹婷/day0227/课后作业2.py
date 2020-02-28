@@ -44,6 +44,8 @@ for x in list:
                 print(list.sort())
 print(list)
 #第六题
+
+
 n=int(input())
 def f(n):
     if n%2==0:
