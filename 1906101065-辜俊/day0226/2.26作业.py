@@ -78,22 +78,22 @@
 
 
 # 7、
-def count_str_char(string):
-    char_num, digit_num, space_num, other_num = 0, 0, 0, 0
-    for c in string:
-        if c.isdigit():
-            digit_num += 1
-        elif c.isalpha():
-            char_num += 1
-        elif c.isspace():
-            space_num += 1
-        else:
-            other_num += 1
-    return char_num, digit_num, space_num, other_num
+# def count_str_char(string):
+#     char_num, digit_num, space_num, other_num = 0, 0, 0, 0
+#     for c in string:
+#         if c.isdigit():
+#             digit_num += 1
+#         elif c.isalpha():
+#             char_num += 1
+#         elif c.isspace():
+#             space_num += 1
+#         else:
+#             other_num += 1
+#     return char_num, digit_num, space_num, other_num
 
-string = input("请输入一个字符串:")
-char_num, digit_num, space_num, other_num = count_str_char(string)
-print('字母个数', char_num)
-print('数字个数', digit_num)
-print('空格个数', space_num)
-print('其他字符个数', other_num)
+# string = input("请输入一个字符串:")
+# char_num, digit_num, space_num, other_num = count_str_char(string)
+# print('字母个数', char_num)
+# print('数字个数', digit_num)
+# print('空格个数', space_num)
+# print('其他字符个数', other_num)
