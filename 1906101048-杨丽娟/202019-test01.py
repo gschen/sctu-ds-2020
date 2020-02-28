@@ -12,7 +12,7 @@ print(c*3)
 str1='abcde'
 print(str1[0])
 print(str1[-1])
-print(str1[0:4])
+print(stri[0:4])
 
 
 #格式化输出
@@ -35,3 +35,7 @@ print(lis1)
 lis1=[5,4,2,8,3,8]
 lis1.sort()
 print(lis1)
+
+tup=('s',100,[1,2])
+tup[1]=200
+print(tup)
