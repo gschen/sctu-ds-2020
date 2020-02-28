@@ -44,3 +44,6 @@ dic.pop('age')
 print(dic)
 dic.popitem()
 print(dic)
+
+
+#

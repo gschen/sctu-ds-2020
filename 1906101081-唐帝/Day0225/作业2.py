@@ -11,3 +11,6 @@ def cj(x):
                 if x<60:
                     print('D')
 cj(85)
+
+
+#。。。
