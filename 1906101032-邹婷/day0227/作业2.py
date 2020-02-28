@@ -58,7 +58,6 @@ def f(n):
             print(sum2)   
 print(f(n))
 #第七题：
-# n=[D,a, ,s,1,3,2, ,a,2,d,a]
 def f(n):
     x,y,z,m=0,0,0,0
     for i in n:
