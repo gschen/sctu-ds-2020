@@ -4,7 +4,7 @@ x=eval(input("请输入成绩："))
 def f(x):
     if 90<=x<=100:
         print("A")
-    elif 80<=x<=90:
+    elif 80<=x<90:
         print("B")
     elif 80<=x<=90:
         print("C")
