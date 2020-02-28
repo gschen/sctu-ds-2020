@@ -6,6 +6,7 @@ print(a+b)
 c="hi"
 print(c*3)
 
+
 #切片
 str1="abcde"
 print(str1[0])
