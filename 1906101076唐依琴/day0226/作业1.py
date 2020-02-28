@@ -1,3 +1,4 @@
+
 #1
 def f(*x):
     for i in x:
