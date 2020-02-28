@@ -48,6 +48,7 @@ for i in l3:
                 print(i*100+n*10+x)
             else:
                 pass
+print("一共%s个"%m)
 
 
 #5
