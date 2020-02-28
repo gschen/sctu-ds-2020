@@ -28,13 +28,3 @@ print(len(lis1))
 
 for x in range(len(lis1)):  #迭代
     print(lis1[x])
-
-#排序
-list=[5,7,4,3,6,2]
-list.sort()
-print(list)
-#元祖
-tup=('s',100,[1,2])
-print(tup)
-#tup[100]=200
-#print(tup)
