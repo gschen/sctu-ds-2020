@@ -63,16 +63,16 @@
 # print(num(n))
 
 #第七题
-def count_strs(strs):
-    char_number,num_number,space_number,other_number=0,0,0,0
-    for i in strs:
-        if i.isalpha():
-            char_number+=1
-        elif i.isdigit():
-            num_number+=1
-        elif i==' ':
-            space_number+=1
-        else:
-            other_number+=1
-    print('字符串中有%d个字母,%d个数字,%d个空格,%d个其他字符' %(char_number,num_number,space_number,other_number))
-count_strs('Da s132 a2da')
+# def count_strs(strs):
+#     char_number,num_number,space_number,other_number=0,0,0,0
+#     for i in strs:
+#         if i.isalpha():
+#             char_number+=1
+#         elif i.isdigit():
+#             num_number+=1
+#         elif i==' ':
+#             space_number+=1
+#         else:
+#             other_number+=1
+#     print('字符串中有%d个字母,%d个数字,%d个空格,%d个其他字符' %(char_number,num_number,space_number,other_number))
+# count_strs('Da s132 a2da')
