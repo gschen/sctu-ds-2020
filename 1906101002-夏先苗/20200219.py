@@ -5,13 +5,13 @@ print(a+b)
 
 #重复字符
 c="hi"
-print(c*3)
+pritn(c*3)
 
 #切片
 str1="abcde"
 print(str1[0])
 print(str1[-1])
-print(str1[0:4])
+print(str1[]0:4)
 
 a="bcde"
 print("e" in a)
