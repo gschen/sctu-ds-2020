@@ -15,4 +15,3 @@ while(num1 != num2):
     elif num1<num2:
         print('你输入的值大了')
 print('猜对了')
-
