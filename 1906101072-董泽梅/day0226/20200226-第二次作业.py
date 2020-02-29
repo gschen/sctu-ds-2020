@@ -7,6 +7,7 @@ for i in l:
     s=first(i)
     print(s)
 
+
 #第二题
 score= int(input('请输入分数：'))
 def second(score):
@@ -20,6 +21,7 @@ def second(score):
         print('D')
 second(score)
 
+
 #第三题
 def thirth(p):
     li=[]
@@ -32,6 +34,7 @@ def thirth(p):
 l=[1,2,3,4,5,6,7,]
 r=thirth(l)
 print(r)
+
 
 #第四题
 sum=0
@@ -48,6 +51,7 @@ for i in range(1,5):
                     sum=sum+1
 print('')
 print('总计有'+str(sum)+'个数')
+
 
 #第五题
 x=int(input('请输入一个整数：'))
