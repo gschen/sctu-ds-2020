@@ -1,5 +1,3 @@
-
-
 p=int(input())
 t=int(input())
 r=int(input())
