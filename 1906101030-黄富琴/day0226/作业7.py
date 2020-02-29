@@ -1,6 +1,6 @@
-n=input('请输入字符串:')
+m=input('请输入字符串:')
 a=b=c=d=0
-for i in n:
+for i in m:
     if i.isalpha():
         a+=1
     elif i =='':

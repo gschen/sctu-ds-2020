@@ -1,4 +1,4 @@
-score=eval(input('请输入成绩:'))
+score=int(input('请输入成绩:'))
 def chengji():
     if score>=90:
         print('A')
