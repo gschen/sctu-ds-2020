@@ -54,7 +54,6 @@ print('')
 print('总计有'+str(sum)+'个数')
 
 
-
 #5
 x = int(input('请输入第一个整数：'))
 y = int(input('请输入第二个整数：'))
