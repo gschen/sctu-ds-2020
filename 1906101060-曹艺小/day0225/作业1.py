@@ -44,6 +44,7 @@ if x>z：
 if y>z:
     y,z=z,y
 print(x,y,z)
+
 #选做 第六题
 x=int(input("请输入x:"))
 def hs(x):
