@@ -53,4 +53,9 @@ if __name__ =="__main__":
     url1 = "http://www.emdy.cn"
     list1 = []
     item_list = []
+<<<<<<< HEAD
+    main(url) 
+    
+=======
     main(url)
+>>>>>>> d9cd4f688c12418e2d05315bb579676c58d44dec

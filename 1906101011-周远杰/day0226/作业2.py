@@ -3,13 +3,13 @@
 
 
 def zhou(n):
-    if 90<=n<=100:
-        return 'A'
-    elif n >= 80:
-        return 'B'
-    elif n >= 60:
-        return 'C'
-    else:
-        return 'D'
-n=int(input("请输入一个成绩："))
-print(zhou(n))
+    if n<60:
+        print("D")
+    elif 60<=n<80:
+        print("C")
+    elif 80<=n<90:
+        print("B")
+    elif 90<=n<=100:
+        print("A")
+n=int(input())
+zhou(n)
