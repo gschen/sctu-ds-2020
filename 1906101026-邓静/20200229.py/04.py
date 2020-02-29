@@ -1,0 +1,7 @@
+#4.	（使用循环和判断）有四个数字：1、2、3、4，能组成多少个互不相同且无重复数字的三位数？各是多少？
+list=[1,2,3,4]
+for i in list:
+    for a in list:
+        for b in list:
+            if i!=a and a!=b and i!=b:
+                print(i,a,b)
