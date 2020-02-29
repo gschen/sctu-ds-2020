@@ -1,4 +1,4 @@
-x,y,z=map(int,input(),split())
+x,y,z=map(int,input().split())
 if x>y>z:
     print(z,y,x)
 elif x>z>y:
