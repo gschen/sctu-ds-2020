@@ -13,3 +13,4 @@ def li(l):
     return res
 l = list(map(int,input().split()))
 print(li(l))
+

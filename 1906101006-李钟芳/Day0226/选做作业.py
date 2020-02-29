@@ -16,6 +16,7 @@ print(li(n,sum))
 # 样例输出
 # 4, 6, 3, 0
 
+
 # a,b,c,d = 0,0,0,0
 # str = input()
 # def li(str,a,b,c,d):

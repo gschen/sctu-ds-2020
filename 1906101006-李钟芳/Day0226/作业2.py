@@ -16,3 +16,4 @@ def lizhongfang(grade):
         return 'D'
 grade = int(input())
 print(lizhongfang(grade))
+
