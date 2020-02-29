@@ -11,7 +11,7 @@ B=set('aabbcce')#注意使用的是小括号，所有元素放在一起
 #集合的交
 #print(A&B)
 #不同时包含
-print(A^B)
+#print(A^B)
 
 
 #A.add('d')

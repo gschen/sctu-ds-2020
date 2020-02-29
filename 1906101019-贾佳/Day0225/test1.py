@@ -13,4 +13,7 @@ while (num1 != num2):
     elif num1 < num2:
         print("你输入的值大了")
 print("猜对了")"""
+<<<<<<< HEAD
 
+=======
+>>>>>>> d9cd4f688c12418e2d05315bb579676c58d44dec
