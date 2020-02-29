@@ -38,7 +38,7 @@ dic={'name':'张三','age':19,'school':'sctu'}
 #print(dic)
 
 #查找数据
-#dic.get('address')SSS
+#dic.get('address')
 #dic.setdefault('name')
 #dic.setdefault('address','成都')
 #print(dic)
