@@ -52,7 +52,6 @@ for i in range(1,5):
 print('')
 print('总计有'+str(sum)+'个数')
 
-
 #第五题
 x=int(input('请输入一个整数：'))
 y=int(input('请输入一个整数：'))
