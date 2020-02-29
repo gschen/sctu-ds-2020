@@ -3,7 +3,6 @@
  #   print(i)
 
 
-
 #str1 = 'abcdefg'
 #for j in str1:
  #   print(j)
