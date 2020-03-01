@@ -9,12 +9,6 @@ print(str1[0])
 print(str1[-1])
 print(str1[0:4])
 
-#重复字符
-str1='abcde'
-print(str1[0])
-print(str1[-1])
-print(str1[0:4])
-
 #格式化输出
 print('我的名字是%s'%('lrb'))
 print('我今年%d'%('18'))
