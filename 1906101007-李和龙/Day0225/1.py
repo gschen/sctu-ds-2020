@@ -8,4 +8,4 @@ def f(x):
 nums = [54,96,83,64,234,158,364]
 for i in nums:
     print("f(%s) = %s"%(i,f(i)))
-    
+

@@ -13,3 +13,4 @@ for a in num_list:
                 m+=1
 print("共有%d个"%m)
 
+

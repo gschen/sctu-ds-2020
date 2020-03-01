@@ -16,3 +16,4 @@ def new_list(lis):
     return list1
 print(new_list([1,2,3,4,5,6,7,1,2]))
 
+
