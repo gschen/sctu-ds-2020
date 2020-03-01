@@ -8,7 +8,6 @@
 # while():
 #     print("无限循环中！！")
 
-
 count = 0
 while count < 5:
     print(str(count),"<5")
