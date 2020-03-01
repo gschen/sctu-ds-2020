@@ -47,3 +47,4 @@ print(dict1)
 
 
 print(dict1.get("name"))
+

@@ -9,3 +9,4 @@ for i in range(3):
         if list1[i] > list1[m]:
             list1[i],list1[m] = list1[m],list1[i]
 print(list1)
+

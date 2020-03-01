@@ -18,3 +18,4 @@ def grades(n):
         return "D"
 n = int(input())
 print(grades(n))
+
