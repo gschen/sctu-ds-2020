@@ -6,5 +6,6 @@ def wu(l):
             if l[j]>l[j+1]:
                 l[j],l[j+1]=l[j+1],l[j]
     print(l)
+
 wu(l)
 
