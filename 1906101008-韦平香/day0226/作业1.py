@@ -51,9 +51,8 @@
 #print(x,y,z)
 
 #7.	（使用def函数完成）写函数，统计字符串中有几个字母，几个数字，几个空格，几个其他字符，并返回结果
-
-n=input('请输入：')
-for i in list:
+#n=input('请输入：')
+#for i in list:
     if i.isdigit():
         int_count += 1
     elif i.isalnum():
