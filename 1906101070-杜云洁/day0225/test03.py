@@ -30,6 +30,7 @@ def circle(r,pi):
 print(circle(6,3.14))
 print(circle(r=6,pi=3.14))
 
+
 #命名空间
 #全局变量：全局空间定义的变量
 # a=10

@@ -41,6 +41,7 @@ for i in range(3):
     a=list(range(3))
 print(a)
 
+
 #小练习
 #求列表中最大元素
 lis1=[1,2,3,2]
