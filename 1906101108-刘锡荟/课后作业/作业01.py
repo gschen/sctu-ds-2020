@@ -69,7 +69,7 @@ if n%2 == 0:
 else:
     print(ji(n))
 
-#7
+##7
 s = input('请输入一行字符串：')
 a = []
 b = []
