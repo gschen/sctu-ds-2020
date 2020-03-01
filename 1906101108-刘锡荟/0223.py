@@ -1,13 +1,15 @@
+
 #1求给定数的阶乘
 a=int(input('请输入一个整数:'))
 b=[1,10,20,30,40,50]
 c=1
 if a in b:
-    print(Flase)
+    print(False)
 else:
-    for i in range(1,a+1) :
+    for i in range(1,a+1):
         c=c*i
-        print('此整数的阶乘为：%d'%(d))   
+    print('此整数的阶乘为：%d'%(c))
+
 #2单利
 P,R,T=map(int,input("请依次输入P,R,T,并用", "隔开:").split(", "))  
 a=(P*R*T)/100
