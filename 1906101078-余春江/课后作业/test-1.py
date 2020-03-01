@@ -10,5 +10,3 @@ if n in nums:
     print(False)
 else:
     print(jiecheng(n))
-
-    

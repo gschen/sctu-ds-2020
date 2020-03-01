@@ -18,7 +18,6 @@ B=set("abcce")
 
 
 
-
 #字典
 #键必须唯一，值可以多样
 dic={"name":'张三'，"age":19,"school":"sctu"}
