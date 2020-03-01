@@ -8,4 +8,3 @@ def wu(l):
     print(l)
 
 wu(l)
-
