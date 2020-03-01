@@ -77,7 +77,7 @@
 
 
 
-# 7
+# 7、
 # def count_str_char(string):
 #     char_num, digit_num, space_num, other_num = 0, 0, 0, 0
 #     for c in string:
