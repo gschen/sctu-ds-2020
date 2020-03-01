@@ -121,4 +121,4 @@
 #        str_count += 1
 #else:
 #    other_count += 1
-#print('数字=%d,字母=%d,其它=%d'%(int_count,str_count,other_count))
+#print('数字=%d,字母=%d,其它=%d'%(int_count,str_count,other_count))#
