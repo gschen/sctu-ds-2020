@@ -8,3 +8,4 @@ for x in num:
                 n+=1
                 print(x,y,z)
 print('能组成%d个'%(n))
+
