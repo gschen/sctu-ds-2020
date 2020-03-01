@@ -13,6 +13,7 @@
 #不同时包含
 #print(A^B)
 
+
 #集合的增删
 #添加元素的两种方法
 #A.add('f')
@@ -181,7 +182,6 @@
 # result=hs(2,3)
 # print(result)
 
-
 #实例
 
 #传入一个参数半径r，计算圆的面积
@@ -191,7 +191,6 @@
 #     return s
 # s = area(3)
 # print(s)
-
 
 #形参和实参
 
@@ -211,11 +210,9 @@
 # print(abc(6,3.14))
 # print(abc(r=6,pi=3.14))
 
-
 #lambda函数
 # circle = lambda r,pi:r**2*pi
 # print(circle(3,3.14))
-
 
 #python传不可变对象实例
 # def chage(a):
@@ -230,7 +227,6 @@
 #     x.append([1,2,3])
 # chage2(c)
 # print(c)
-
 
 #不定长参数
 # def printinfo(x,*y):

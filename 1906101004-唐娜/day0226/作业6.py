@@ -12,7 +12,7 @@ def odd(n):
     return sum1
 def main():
     n = int(input("请输入一个数："))
-    if n % 2 == 0:
+    if n%2 == 0:
         sum = eve(n)
         print(sum)
     else:
