@@ -15,4 +15,5 @@ class Test():
 
 #实例变量
     def __init__(self):
-        self.x=[1,2,3]                            
+        self.x=[1,2,3]  
+                                  
