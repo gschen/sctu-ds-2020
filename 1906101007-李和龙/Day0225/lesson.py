@@ -41,11 +41,43 @@ print(B)
 
 
 
-#zidian
-
-dict1={"name:":"lihelong","age:":"19"}
-print(dict1)
 
 
-print(dict1.get("name"))
+#字典
+dic=({'name':'张三','age':19,'school':'sctu'})
+
+
+
+#修改数据
+dic['name']='李四'
+
+print(dic)
+#查找数据
+
+dic.get('name')
+dic.setdefault('address',default='成都')
+print(dic)
+
+
+
+
+# 增加数据
+dic['class']='1班'
+
+
+
+
+print(dic)
+
+
+
+#删除数据
+del dic['name']
+dic.pop('age')
+print(dic)
+
+
+
+dic.popitem()
+print(dic)
 
