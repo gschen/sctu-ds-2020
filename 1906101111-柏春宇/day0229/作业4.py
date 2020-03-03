@@ -1,4 +1,4 @@
-a_set=[1,2,3,4]
+a_set = [1,2,3,4]
 for i in a_set:
     for j in a_set:
         for k in a_set:
