@@ -5,7 +5,7 @@ def func(s):
     dic = {'数字':0,'字母':0,'空格':0,'其他字符':0}
     for i in s:
         if i.isdigit():
-            dic['数字']+=1
+            dic['数字'] +=1
         elif i.isalpha():
             dic['字母'] += 1
         elif i.isspace():
