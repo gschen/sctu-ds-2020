@@ -14,4 +14,4 @@ def chengji(x):
         return 'c'
     else:
         return 'D'
-    print(chengji(85))
+ print(chengji(85))
