@@ -6,5 +6,5 @@ def BCY(n):
        return 1/2
     else:
        return 1/n+BCY(n-2)
-n = int(input("请输入一个数 ："))
+n =  int(input("请输入一个数 ："))
 print(BCY(n))
