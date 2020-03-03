@@ -1,6 +1,5 @@
 class Test:
     def __init__(self):
-        self._x-1
         self.y=2
     def __f(self):
         print('这是密码')
