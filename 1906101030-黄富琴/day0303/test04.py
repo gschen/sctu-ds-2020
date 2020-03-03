@@ -15,5 +15,5 @@ print('Test01',a.x,b.x)
 #test02
 c=test2()
 d=test2()
-c.x.append('cde')
+c.x.append('cdef')
 print('test02',c.x,d.x)

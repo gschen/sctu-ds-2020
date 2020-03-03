@@ -1,9 +1,9 @@
 class Test():
     def original(self):
-        lis=[chr(i) for i in range(97,123)]
+        lis=[chr(j) for j in range(97,123)]
         print(''.join(lis))
     def overturn(self):
-        print(''.join([chr(i) for i in range(90,64,-1)]))
+        print(''.join([chr(j) for j in range(90,64,-1)]))
 
 a=Test()
 a.original()

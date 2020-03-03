@@ -1,6 +1,6 @@
 class Test1():
     def __init__(self):
-        self.t1='我是父亲'
+        self.t1='我是父类'
 
     def f(self):
         return '爸爸'

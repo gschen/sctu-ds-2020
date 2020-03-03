@@ -3,4 +3,4 @@ class myclass:
     def f(self,ostr):
         print(ostr)
 x=myclass()
-print(x.i,x.f('hello,world'))
+print(x.i,x.f('Hello,world'))

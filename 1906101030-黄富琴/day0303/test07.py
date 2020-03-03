@@ -4,7 +4,7 @@ class Test():
         self.y=2
     
     def __f(self):
-        print('hello')
+        print('Hello')
 
 a=Test()
 print(a.y)
