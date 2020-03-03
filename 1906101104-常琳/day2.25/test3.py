@@ -14,7 +14,8 @@ def f(x):
 m=f(s)
 print(len(s))
 print(m)
-    
 
 
-
+def g(x):
+    return x[::2]
+print(g([1,2,3,4,5]))

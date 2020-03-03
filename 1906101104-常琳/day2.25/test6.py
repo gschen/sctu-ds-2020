@@ -15,5 +15,4 @@ else:
         b=1/i
         sum+=b
 print(sum)
-        
-              
+

@@ -5,7 +5,7 @@ print(a+b)
 
 #重复
 c='hi'
-print(c*6)
+print(c*5)
 
 #索引
 d='python'
@@ -13,7 +13,7 @@ print(d[0])
 print(d[-1])
 print(d[2:])
 print(d[:2])
-
+print(d[1:3])
 
 #判断
 s='python'
@@ -41,8 +41,7 @@ print(list2.count(2))
 list2.insert(4,8)
 print(list2)
 k=[1,2,3]
-k.pop()
-#如果pop中没有给定数值，默认删除最后一个元素
+k.pop() #如果pop中没有给定数值，默认删除最后一个元素
 k.pop(1)
 print(k)
 

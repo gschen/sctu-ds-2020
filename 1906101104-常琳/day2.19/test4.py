@@ -14,4 +14,3 @@ for i in s:
         c=0
         break
     print(c)
-

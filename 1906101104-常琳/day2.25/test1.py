@@ -7,4 +7,3 @@ def f(x):
 for i in s:
     result=f(i)
     print(result)
-  

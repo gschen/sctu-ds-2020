@@ -16,3 +16,19 @@ def f(strs):
     print("字符串中，数字个数={}，字母个数={}，空格个数={}，其他个数={}".format(int_count,str_count,spa_count,other_count))
 strs=input("请输入字符串：")
 print(f(strs))
+
+
+#用ASCII码来解决
+def g(x):
+    y=[0]*4
+    for i in x:
+        if type(i)==int:
+            y[1]+=1
+        elif 65<=ord(i)<=122:
+            y[0]+=1
+        elif i==' ':
+            y[2]+=1
+        else:
+            y[3]+=1
+    return y
+print(g(['D','a','c',1,2,3,' ','@']))
