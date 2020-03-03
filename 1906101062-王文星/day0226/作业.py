@@ -20,14 +20,11 @@ l1=[1,2,3,4,5,6,7]
 print(l1[::2])
 
 #4
-l2=[]
-for a in [1,2,3,4]:
-    for b in [1, 2, 3, 4]:
-        for c in [1, 2, 3, 4]:
+for a in range(1,5):
+    for b in range(1,5):
+        for c in range(1,5):
             if a!=b and b!=c and c!=a:
-                l2.append(a*100+b*10+c)
-print(len(l2))
-print(l2)
+             print("{}{}{}".format(a,b,c))   
 
 #5
 x,y,z=map(int,input().split())
