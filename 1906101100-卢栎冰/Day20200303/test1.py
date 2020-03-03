@@ -1,3 +1,4 @@
+#类
 class Myclass:
     i=123456
     def f(self,ostr):

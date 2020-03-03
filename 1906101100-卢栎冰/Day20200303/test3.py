@@ -16,10 +16,10 @@ a=Test(10,20)
 
 class Test1():
     def __init__(self):
-        self.x=[1,2,3] #实例变量
+        self.x=[1,2,3] #实例变量(为每个实例所独有，不影响其他)
 
 class Test2():
-    x=[1,2,3]#类变量
+    x=[1,2,3]#类变量(为所有实例共享)
 # test01
 a=Test1()
 b=Test1()
