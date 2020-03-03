@@ -64,6 +64,13 @@ L1 = [1, 2, 3, 4, 5, 6, 7]
 print(f(L1))
 
 
+#法2
+def f(L1):
+    return L1[::2]   #切片，从第一位到最后一位，中间步数为2
+
+
+L1 = [1, 2, 3, 4, 5, 6, 7]
+print(f(L1))
 
 
 
@@ -80,8 +87,8 @@ for i in range(1, 5):
     for j in range(1, 5):
         for k in range(1, 5):
             if (i != j)and (j != k)and (k != i):
-                num += 1
-                print(i, j, k)
+                num += 1  # print("{}{}{}".format(i,j,k))
+                print(i, j, k) 
 
 
 
@@ -105,6 +112,12 @@ if z < y:
 
 print(x, y, z)
 
+#法2
+x,y,z = map(int,input().split())   #split分隔，括号为空则以空格分隔。split(',')代表以逗号分隔
+ls = [x,y,z]
+ls.sort()
+print(ls)
+
 
 
 
@@ -120,6 +133,17 @@ print(x, y, z)
 '''
 选做
 6.	（使用def函数完成）编写一个函数，输入n为偶数时，调用函数求1/2+1/4+...+1/n,当输入n为奇数时，调用函数1/1+1/3+...+1/n
+
+
+
+
+
+
+
+
+
+
+
 7.	（使用def函数完成）写函数，统计字符串中有几个字母，几个数字，几个空格，几个其他字符，并返回结果
 样例输入
 D,a, ,s,1,3,2, ,a,2,d,a
