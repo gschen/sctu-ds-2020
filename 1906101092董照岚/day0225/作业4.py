@@ -7,5 +7,6 @@ for i in range(1,5):
             if i !=j and i !=k and j!=k:
                 print("{}{}{}".format(i,j,k),end=" ")#相当于占位符，一个大括号代表一个占位符
                 x +=1
+                
 print("")
 print("共{}种组合".format(x))
