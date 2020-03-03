@@ -10,5 +10,4 @@ print(a.y)
 print(a.x,a.__y)
 a.f()
 a.__f()
-
 #私有，无法查看
