@@ -40,4 +40,3 @@ def main (x,*y):
     print(x)
     print(y)
 main(1,11,12,13,14)
-

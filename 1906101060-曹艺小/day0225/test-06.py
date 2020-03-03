@@ -8,7 +8,6 @@ def circle(r):
     return r**2*3.14
 print(circle(5))
 
-
 a=2
 def main():
     b=3

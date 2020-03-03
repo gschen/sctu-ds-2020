@@ -4,7 +4,6 @@
 # else:
 #     print("你是未成年")
 
-
 num1 = 25
 num2 = 1
 while(num1 != num2):
