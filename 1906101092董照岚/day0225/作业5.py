@@ -11,5 +11,8 @@ if y > z:
 print(x,y,z)
 
 
-
-    
+#方法二
+x,y,z=map(int,input().split())#split分隔作用
+list=[x,y,z]
+list.sort()
+print(list)
