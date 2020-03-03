@@ -1,45 +1,61 @@
 #集合
-A={"a","b","c"}
-B=set("aabbcce")
-print(A-B)
-print(A&B)
-print(A^B)#不同时包含
-print(A|B)#并集
+#构建集合两种方法
 
 
-#集合的增添
-A.add("n")
-B.update({1,3},[2,4],{"e"})
+A={'a','b','c','d',1}#然后每个元素用逗号隔开，字符串类型的数据需要加定界符
+
+B=set("aabbcce")#注意使用的是小括号，所有元素放在一起
+#print(A,b)
 
 
-#删除元素
-A.remove("a")#如果没有的话会报错
-A.discard("f")#如果没有的话不会报错
-A.pop()#随机删除
+#集合的差(补)
+#print(A-B)
+#集合并运算
+#print(A|B)
+#集合交运算
+#print(A&B)
+#不同时包含
+#print(A^B)
+
+#集合的增删
+#添加元素的两种方法
+#A.add("a")
+#B.update({1,3},[4,2],"e")
+#print(A)
+#print(B)
+
+
+#删除元素的三种方法
+
+#A.remove("a")
+#A.remove("f")
+#A.discard("f")
+
+#A.pop()
+#print(A)
 
 
 #字典
-dic={'name':'lz','age':19,'school':'sctu'}
 
+dic={"name":"张三","age":19,"school":"sctu"}
 
+#print(dic)
 #修改数据
-dic['name']='李'
-print(dic)
-
-
+#dic["name"]="李四"
+#print(dic)
 #查找数据
-dic.get('name')
-dic.setdefault('name')
-
-
+#dic.get("address")
+#dic.setdefault("name")
+#dic.setdefault("adderss","成都")
+#print(dic)
 #增加数据
-dic['class']='1班'
-print(dic)
-
+#dic["class"]="1班"
+#print(dic)
 
 #删除数据
-del dic['name']
-dic.pop('name')
-dic.popitem('class')
-print(dic)
-print
+#del dic["name"]
+#print(dic)
+#dic.pop("age")
+#print(dic)
+#dic.popitem()
+#print(dic)

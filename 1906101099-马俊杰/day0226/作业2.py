@@ -3,7 +3,6 @@
 #85
 #样例输出
 #B
-
 def num(x):
     if 90<=x<=100:
         return 'A'
@@ -14,4 +13,4 @@ def num(x):
     if x<60:
         return 'D'  
 x=int(input('输入你的成绩:'))
-print(num(x))
+print(num(x)) 

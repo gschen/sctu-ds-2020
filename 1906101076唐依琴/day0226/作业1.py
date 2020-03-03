@@ -1,3 +1,4 @@
+
 #1
 def f(*x):
     for i in x:
@@ -51,7 +52,6 @@ for i in range(1,5):
                     sum=sum+1
 print('')
 print('总计有'+str(sum)+'个数')
-
 
 
 #5
