@@ -14,3 +14,5 @@ class Test2():
 a=Test1()
 b=Test2()
 b.f(a)
+
+

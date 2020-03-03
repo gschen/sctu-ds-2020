@@ -11,3 +11,4 @@ class child(parent):
 a=child()
 a.t()
 a.f()
+

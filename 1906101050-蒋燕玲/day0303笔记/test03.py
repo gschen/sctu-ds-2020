@@ -33,3 +33,5 @@ c=Test2()
 d=Test2()
 c.x.append('abc')
 print("test02",c.x,d.x)
+
+
