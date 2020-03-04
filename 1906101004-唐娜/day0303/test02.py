@@ -1,4 +1,4 @@
-#1.
+#
 class Test(): #类名要大写
     def original(self):
         lis=[chr(i) for i in range(97,123)]
@@ -6,7 +6,7 @@ class Test(): #类名要大写
 a=Test()
 a.original()
 
-#2.
+#
 class Test():
     def original(self):
         lis=[chr(i) for i in range(97,123)]
@@ -16,7 +16,7 @@ class Test():
 a=Test()
 a.original()
 
-#3.
+#
 class Test():
     def original(self):
         lis=[chr(i) for i in range(97,123)]
