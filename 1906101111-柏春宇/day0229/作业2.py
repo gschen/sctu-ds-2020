@@ -11,3 +11,4 @@ def DJ(x):
         elif x <=60:
             print('D')
 DJ(85)
+DJ(87)
