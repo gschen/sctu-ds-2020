@@ -12,7 +12,7 @@ print("Myclass类的方法f输出为：",x.f())
 #original方法从a到z打印26个小写英文字母
 class Test():
     def original(self):
-        lis=[chr(i) for i in range(97,123)]:
+        lis=[chr(i) for i in range(97,123)]
         print(''.join(lis))
     def overturn(self):
         print(''.join([chr(i) for i in range(90,64,-1)]))
