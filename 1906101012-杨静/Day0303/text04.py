@@ -29,5 +29,5 @@ class Test2():
     def f(self,object):
         print(object.f())
 a=Test1()
-b=Test2()
+b=Test2()   
 b.f(a)    

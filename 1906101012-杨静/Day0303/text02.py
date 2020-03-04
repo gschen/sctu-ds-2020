@@ -7,7 +7,7 @@ class Myclass():
         #self.xxx......
         #也可以写一些在实例化时便要执行的操作
 
-    #定义函数往后
+    #定义函数往后   
     def f1(self):
         #如果要调用实例变量
         c=self.x+self.y
