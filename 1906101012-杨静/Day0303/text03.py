@@ -18,7 +18,6 @@
 # a.f()
 
 #覆盖调用
-
 class parent():
     def __init__(self):
         self.p="我是父类"

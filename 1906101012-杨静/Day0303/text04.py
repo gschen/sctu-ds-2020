@@ -12,7 +12,6 @@ print(a.y)
 a.f()
 a.__f()
 
-
 #类作参数
 
 class Test1():

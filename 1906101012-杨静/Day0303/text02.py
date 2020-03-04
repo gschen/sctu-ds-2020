@@ -1,4 +1,5 @@
 #类的标准写法
+
 class Myclass():
     def __init__(self,a,b):#势力化时传入参数在这
         #定义变量在此处!!!

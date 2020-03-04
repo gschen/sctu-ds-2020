@@ -1,6 +1,5 @@
 #类（代码和函数的封装体）
 
-
 # class Test():
 #     def original(self):
 #         lis=[chr(i) for i in range(97,123)]
@@ -8,9 +7,8 @@
 #     def overturn(self):
 #         print("".join([chr(i) for i in range(98,64,-1)]))
 # a=Test()
-# a.original()
+# a.original()   
 # a.overturn()   
-
 
 # class Test():
 #     def __init__(self,a,b):
