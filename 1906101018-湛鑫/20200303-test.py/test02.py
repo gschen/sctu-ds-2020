@@ -1,18 +1,37 @@
-# 类 Test1（）：
-#     def  __init__（self）：
-#         自我。X = [ 1，2，3 ] ＃实例变量
+# 类的继承
 
+# class parent():
+#     def __init__(self):
+#         self.p="我是父类"
 
-# 类 Test2（）：
-#     X = [ 1，2，3 ] ＃类变量
-# ＃test01
-# a = Test1（）
-# b = Test1（）
-# 一个。X。追加（“ abc”）
-# 打印（“TEST01” ，一个。X，b。X）
+#     def f(self):
+#         print("财产1w")
 
-# ＃test02
-# c = Test2（）
-# d = Test2（）
-# c。X。追加（“ cde”）
-# 打印（“test02” ，Ç。X，d。X）
+# class child(parent):
+#     def __init__(self):
+#         self.c="我是子类"
+#     def t(self):
+#         print(self.c,"我要继承")
+
+# a=child()
+# a.t()
+# a.f()
+
+#覆盖调用
+
+class parent():
+    def __init__(self):
+        self.p="我是父类"
+
+    def f(self):
+        print("财产1w")
+
+class child(parent):
+    def __init__(self):
+        self.c="我是子类"
+    def t(self):
+        print(self.c,"我要继承")
+
+a=child()
+a.f()
+super(child,a).f()
