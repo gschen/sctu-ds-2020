@@ -9,7 +9,7 @@ class Person():
 a=Person('张三',20,'男')
 a.personInfo()
 
-#第二题
+#第二题 
 class Person():
     def __init__(self,name,age,sex):
         self.name = name
