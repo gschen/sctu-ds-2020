@@ -3,6 +3,6 @@
 
 x = int(input('请输入一个数：'))
 def tang(x):
-    p=3*x**4-9*x**2+x/2
+    p = 3*x**4-9*x**2+x/2
     return p
 print(tang(x))

@@ -4,7 +4,6 @@
  #   if i > a:
   #      a = i
 #print(a)
-
 #list2 = [1,2,3,4,'a',1]
 #sum = 0
 #for i in list2:
