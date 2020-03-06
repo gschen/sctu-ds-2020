@@ -76,18 +76,18 @@
 # a.f()
 # a._f()
 
-# #对象做参数传入
-# class Test1():    
-#     def __init__(self):
-#         self.x=4      
-#     def f(self):
-#         print('541616')
-# class Test2():
-#     def __init__(self):
-#         self.x=4       
-#     def k(self,object):
-#         print(object.f())
-# a=Test1()
-# b=Test2()
-# b.k(a)
+#对象做参数传入
+class Test1():    
+    def __init__(self):
+        self.x=4      
+    def f(self):
+        print('541616')
+class Test2():
+    def __init__(self):
+        self.x=4       
+    def k(self,object):
+        print(object.f())
+a=Test1()
+b=Test2()
+b.k(a)
 
