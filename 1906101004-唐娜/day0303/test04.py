@@ -5,7 +5,7 @@ class Myclass():
         self.x=a
         self.y=b
         #self.xxx.....
-        #也可以写一些在实例化时便要执行的操作
+        #也可以写一些在实例化时便于执行的操作
 
     #定义函数往后
     def f1(self):
