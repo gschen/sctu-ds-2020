@@ -1,4 +1,4 @@
-class Person(object):
+class Person():
     def __init__(self,name,age,sex):
         self.name=name
         self.age=age
@@ -12,8 +12,7 @@ class Teacher(Person):
         self.professional=professional
     def personInfo(self):
         super().personInfo()
-        print('college',self.college)
-        print('professional',self.professional)
+        print(("college:%s,professional:%s")%(self.college,self.professional))
     def teachObj(self):
         print('今天讲了：面向对象设计程序')
 yi=Teacher('Lee',27,'男','信息与工程学院','信息管理与信息系统')
