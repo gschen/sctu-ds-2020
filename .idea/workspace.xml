@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5b0022d-1022-454c-ba73-d694d0543b5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1906101005-吴雨桓/0303作业/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1906101005-吴雨桓/20200225-test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +34,6 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/1906101005-吴雨桓" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\vscode文件夹\sctu-ds-2020\1906101005-吴雨桓" />
-    </key>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -52,17 +46,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1 (1)">
-    <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.5">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sctu-ds-2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\wuyuhuan7\PycharmProjects\untitled2\venv\Scripts\python.exe" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\wuyuhuan7\AppData\Local\Programs\Python\Python37-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1906101005-吴雨桓/0303作业/1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1906101005-吴雨桓/0226作业2/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,9 +135,6 @@
       <module name="sctu-ds-2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="C:\Users\wuyuhuan7\AppData\Local\Programs\Python\Python37-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
       <option name="IS_MODULE_SDK" value="true" />
@@ -178,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1 (1)" />
         <item itemvalue="Python.5" />
         <item itemvalue="Python.4" />
         <item itemvalue="Python.3" />
         <item itemvalue="Python.2" />
+        <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
   </component>
@@ -358,28 +352,7 @@
       <option name="project" value="LOCAL" />
       <updated>1583058716777</updated>
     </task>
-    <task id="LOCAL-00024" summary="1">
-      <created>1583059007638</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1583059007638</updated>
-    </task>
-    <task id="LOCAL-00025" summary="1">
-      <created>1583059172747</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1583059172747</updated>
-    </task>
-    <task id="LOCAL-00026" summary="1">
-      <created>1583059223890</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1583059223890</updated>
-    </task>
-    <option name="localTasksCounter" value="27" />
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -406,23 +379,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="3" />
     <MESSAGE value="4" />
     <MESSAGE value="5" />
     <MESSAGE value="第五题" />
-    <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/1906101005-吴雨桓/0226作业2/4.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="第五题" />
   </component>
 </project>

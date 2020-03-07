@@ -1,5 +1,5 @@
 def a3(arg):
-    ret = [ ]
+    ret =  [ ]
     for i in range(len(arg)):
         if i % 2 == 0:
             ret.append(arg[i])
