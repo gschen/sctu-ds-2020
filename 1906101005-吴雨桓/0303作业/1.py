@@ -1,8 +1,18 @@
-class person:
-    def __init__(self,name,gender,age):
-        self.n=name
-        self.g=gender
-        self.a=age
+class Person():
+    def __init__(self,name,age,sex):
+        self.name = '吴雨桓'
+        self.age = 19
+        self.sex = '男'
 
-x = person('姓名：吴雨桓','性别：男','年龄:19')
-print(x.n,x.g,x.a)
+    def personInfo(self):
+        print('%s,年龄：%d，性别：%s'%(self.name,self.age,self.sex))
+
+student=[]
+a=Person('张三','18','男')
+a.personInfo()
+
+
+
+
+
+
