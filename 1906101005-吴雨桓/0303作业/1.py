@@ -8,7 +8,7 @@ class Person():
         print('%s,年龄：%d，性别：%s'%(self.name,self.age,self.sex))
 
 student=[]
-a=Person('张三','18','男')
+a=Person('吴雨桓','19','男')
 a.personInfo()
 
 
