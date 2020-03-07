@@ -18,15 +18,15 @@ class Teacher(Person):
     def teachObj(self):
          print('今天讲了：面向对象设计程序')
 class Student(Person):
-    def __init__(self,name,age,sex,college,clas):
+    def __init__(self,name,age,sex,collage,clas):
         super().__init__(name,age,sex)
-        self.college = college
+        self.collage = collage
         self.clas = clas
-    def personInfo2(self):
-        super().personInfo()
-        print(self.college,self.clas)
+    def personinfo(self):
+        super().personinfo()
+        print(self.collage,self.clas)
     def student(self):
         print("老师{}，我终于学会了！".format(Teacher.teachObj(self)))
 a=Student('李世威',19,'男','信息与工程学院','19信管01')
 a.personinfo()
-a.study()
+a.student()
