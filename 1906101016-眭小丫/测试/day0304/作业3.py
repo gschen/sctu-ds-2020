@@ -35,3 +35,4 @@ class Student(Person):
         print('老师%s,我终于学会了！'%Teacher.teachobj(self))
     def _str_(self):
         return ('%s是%s%s的一位%d岁的%s同学'%(self.name,self.college,self.banji,self.age,self.gender))
+
