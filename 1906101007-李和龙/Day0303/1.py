@@ -54,6 +54,7 @@ class Test1():
         self.t1='我是父类'
 
     def f(self):
+
         return '父'
 
 class Test2():
