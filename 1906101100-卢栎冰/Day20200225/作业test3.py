@@ -18,4 +18,7 @@ def f(x):
     return list
 print(f([1,2,3,4,5,6,7,8,9]))
 
-    
+def f(x):
+    list=[]
+    for i in range(len(x)):
+        if i%2==1:
