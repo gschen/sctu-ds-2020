@@ -6,3 +6,6 @@ a=Test()
 b=Test()
 a.x.append(['abc'])
 print(a.x,b.x)
+
+
+#。。

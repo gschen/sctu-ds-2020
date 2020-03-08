@@ -24,3 +24,6 @@ class Student(Person):
         print('我叫%s,年龄%s，性别%s，学院%s，班级%s'%(self.name,self.age,self.sex,self.collage,self.banji))
     def learn(self,teacher):
         print('我是%s，老师%s，我终于学会了'%(self.name,teacher.teach()))
+
+
+#。。。
