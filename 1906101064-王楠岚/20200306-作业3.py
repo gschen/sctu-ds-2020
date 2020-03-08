@@ -12,7 +12,6 @@ student=[]
 a=Person('王楠岚','19','女')
 a.personInfo()
 
-
 #第二题
 class Teacher(Person):
     def __init__(self,name,age,sex,college,professional):
