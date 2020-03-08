@@ -1,0 +1,75 @@
+#def f(x):
+   x=int(input(输入x的值))
+   return 3*x**4-9*x**2+x/2
+二.
+def f(x):
+    int(input(输入x的值))
+    if x>90:
+       return A
+    elif x>80:
+       return B
+    elif x>60:
+       return C
+    else:
+       return D
+三.
+def a3(arg):
+    ret = [ ]
+    for i in range(len(arg)):
+        if i % 2 == 1:
+            ret.append(arg[i])
+        else:
+            pass
+    return ret
+li = [1,2,3,4,5,6,7]
+r = a3(li)
+print(li)
+print(r)
+四.x=0
+for i in range(1,5):
+    for j in range(1,5):
+        for k in range(1,5):
+            if((i!=j)and(j!=k)and(k!=i)):
+                print(i,j,k)
+                x+=1
+                print(x)
+五.
+x =int(input(shuru:))
+y =int(input(shuru:))
+z =int(input(shuru:))
+if x>y:
+   x,y=y,x
+if x > z:
+   x,z=z,x
+if y > Z:
+   y,z=z,y
+print(x,y,z)
+六.
+ 2 # 定义一个n为偶数的函数
+ 3 def even(n):
+ 4     sum1 = 0.0
+ 5     for i in range(2,n + 1,2):
+ 6         sum1 += 1/i
+ 7     return sum1
+ 8 
+ 9 # 定义一个n为奇数的函数
+10 def odd(n):
+11     sum1 = 0.0
+12     for i in range(1, n + 1, 2):
+13         sum1 += 1 / i
+14     return sum1
+15 # 主程序
+16 def main():
+17     n = int(input("请输入一个数"))
+18     if n % 2 == 0:
+19         sum = even(n)
+20         print(sum)
+21     else:
+22         sum = odd(n)
+23         print(sum)
+24 main()
+
+
+
+
+
