@@ -18,7 +18,7 @@ a = Student()
 print(super(Student,a).personInfo())
 
 #第二种方法
-class Person():
+class Person1():
     def __init__(self):
         self.name = "肖文星"
         self.age = 19
@@ -27,11 +27,11 @@ class Person():
         self.college = "信息与工程学院"
     def personInfo(self):
         return self.name,self.age,self.gender,self.class_,self.college
-class Student(Person):
+class Student1(Person1):
     def another(self):
-        return Person.personInfo(self)
+        return Person1.personInfo(self)
         
-b = Student()
+b = Student1()
 print(b.another())
 
 class Teacher():
