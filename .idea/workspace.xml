@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5b0022d-1022-454c-ba73-d694d0543b5c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1906101005-吴雨桓/0303作业/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101005-吴雨桓/0303作业/1.py" afterDir="false" />
+    <list default="true" id="317acbdb-a4b9-43e4-8c1b-a757b50da8af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/1906101078-余春江/Day0304/作业1.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101078-余春江/Day0304/作业1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1906101078-余春江/Day0304/作业2.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101078-余春江/Day0304/作业2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1906101078-余春江/Day0304/作业3.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101078-余春江/Day0304/作业3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +28,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1YA0XmTfoFa1GG4PfIXqYiXe6qV" />
   <component name="ProjectLevelVcsManager">
@@ -396,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583593393571</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="课堂">
+      <created>1583671476431</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1583671476432</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
