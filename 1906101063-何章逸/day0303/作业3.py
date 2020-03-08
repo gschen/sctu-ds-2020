@@ -25,7 +25,7 @@ class Student(Person):
     def personInfo(self):
         print("sctu")
     def study(self,object):
-        print("老师,%s，我终于学会了！" % object.self)
+        print("老师,%s，我终于学会了！" % object)
 y=Teacher()
 x=Student()
 x.study(y)
