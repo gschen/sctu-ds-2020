@@ -2,7 +2,6 @@ class Test1():
     def __init__(self):
         self.x=[1,2,3]#实列变量
 
-
 class Test2():
     x=[1,2,3]#类变量
 
