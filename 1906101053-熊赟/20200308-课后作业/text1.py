@@ -9,3 +9,4 @@ class Person():
         print('性别',self.sex)
 Bob=Person('Bob',18,'男')
 Bob.personinfo()
+

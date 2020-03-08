@@ -32,3 +32,5 @@ class Student(Person):
 a=Student('Bob',18,'男','信息与工程学院','19信管2班')
 a.personinfo()
 a.study()
+
+

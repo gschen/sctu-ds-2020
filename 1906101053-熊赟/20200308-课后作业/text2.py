@@ -21,3 +21,5 @@ class Teacher(Person):
 Bob=Teacher('Bob',28,'男','信息与工程学院','信息管理与信息系统')
 Bob.personinfo()
 Bob.teachObj()
+
+
