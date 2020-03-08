@@ -68,3 +68,4 @@ b=Test2()
 
 def main(object):
     print(object.f())#把一个对象作为参数传到函数里
+
