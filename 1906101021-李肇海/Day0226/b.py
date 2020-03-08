@@ -16,3 +16,6 @@ def chengji(n):
     elif n < 60:
         return 'D'
 print(chengji(int(input())))
+
+
+print("h")
