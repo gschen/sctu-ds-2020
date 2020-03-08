@@ -1,0 +1,78 @@
+#求值54,96,83。。。。
+def f(x):
+    for i in x:
+        s = 3*i**4-9*i**2+i/2
+        print(s)
+f(54,96,83,64,234,158,364)
+
+
+#成绩的等级
+def f(n):
+    if n >= 90 and n <= 100:
+        return 'A'
+    elif n >= 80:
+        return 'B'
+    elif n >= 60:
+        return 'C'
+    else:
+        return 'D'
+
+
+#奇数位
+def sb(lis):
+    lis1 = []
+    le = len(lis)
+    for i in range(0,le,2):
+        lis1.append(lis[i])
+    return list
+
+print(sb(eval(input())))
+
+#四个数字1234
+n = 0
+lis = ['1','2','3','4']
+for i in range(123,433):
+    i = str(i)
+    if len(set(i)) == 3 and max(i) < '5' and min(i) > '0':
+        n += 1
+        print(i)
+print('一哈有{}个'.format(n))
+
+
+#三个整数x,y,z
+x,y,z = map(int,input().split())
+l = [x,y,z]
+m = n =len(l)-1
+for i in range(m):
+    for j in range(n):
+        if l[j] > l[j + 1]；
+            l[j],l[i+1] = l[j+1],l[j]
+    n -= 1
+print(l)
+
+#奇偶
+def f(n):
+    s = 0
+    if n%2 == 0:
+        for i in range(2,n+1,2):
+            s = s+1/if
+    else:
+        for i in range(1,n+1,2):
+            s = s+1/i
+    return s
+print(f(4))
+
+#isalpha
+def f(m):
+    a = b = c = d = 0
+    for i in m:
+        if i.isalpha():
+            a += 1
+        elif i.isdigit():
+            b += 1
+        elif i.isspace():
+            c += 1
+        else:
+            d += 1
+    return a,b,c,d
+print(f('Da s132 a2da')) 
