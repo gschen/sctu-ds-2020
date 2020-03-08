@@ -1,26 +1,15 @@
-#函数
-
-
-# def Aplus(a,b):
-#     return a+b
-# result=Aplus(1,2)
-# print(result)
-# print(Aplus(8,9))
-
-
-# def zhou(r):
+#python函数
+# def syuan(r):
 #     return r**2*3.14
-# a=int(input("请输入一个半径："))
-# print(zhou(a))
+# print(syuan(3))
 
+# def syuan(r,pi):
+#     area=r**2*pi
+#     return area
+# print(syuan(4,3.14))
+# print(syuan(pi=3.14,r=4))
 
-#传入参数顺序：形参在实参之前
-# def zhou(r,pi):
-#     return r**2*pi
-# a=int(input("请输入一个半径："))
-# print(zhou(a,3.14))
-
-
+#命名空间
 # a=2
 # def main():
 #     b=3
@@ -28,28 +17,21 @@
 # main()
 # print(b)
 
+#不可变对象
+def dl(a):
+    a=10
+b=2
+dl(b)
+print(b)
 
-# circle=lambda r,pi:r**2*pi
-# print(circle(4,3.14))
-
-#str,tuple和numbers为不可更改对象
-#list，dic为可更改对象
-
-
-# def change(a):
-#     a=10
-# b=2
-# change(b)
-# print(b)
-
-
+#可更改对象
 # c=[1,2,3]
-# def change2(x):
+# def dl(x):
 #     x.append([1,2,3])
-# change2(c)
+# dl(c)
 # print(c)
 
-
+#关键字参数
 # def main(x,*y):
 #     print(x)
 #     for i in y:
