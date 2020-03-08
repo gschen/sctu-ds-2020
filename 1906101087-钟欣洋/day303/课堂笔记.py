@@ -84,7 +84,7 @@ class parent():
         self.p="我是父类"
     def f(self):
         print("财产1w")
-class child(parent1,parent2,……):
+class child(parent1,parent2,):
     def __init__(self):
         self.c="我是子类"
     def t(self):
