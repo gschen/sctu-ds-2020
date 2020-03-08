@@ -66,3 +66,89 @@ c=Test2()
 d=Test2()
 c.x.append('cde')
 print('test01,c,x,d,x')
+
+class Myclass():
+    def __init__(self,a,b):#势力化时传入参数在这
+        self.x=a
+        self.y=b
+        #self.xxx......
+        #也可以写一些在实例化时便要执行的操作
+
+    #定义函数往后
+    def f1(self):
+        #如果要调用实例变量
+        c=self.x+self.y
+        return c
+    def __f2(self):
+        pass
+
+    
+#类的继承
+
+class parent():
+    def __init__(self):
+        self.p="我是父类"
+
+    def f(self):
+        print("财产1w")
+
+class child(parent):
+    def __init__(self):
+        self.c="我是子类"
+    def t(self):
+        print(self.c,"我要继承")
+
+a=child()
+a.t()
+a.f()
+
+class parent():
+    def __init__(self):
+        self.p="我是父类"
+
+    def f(self):
+        print("财产1w")
+
+class child(parent):
+    def __init__(self):
+        self.c="我是子类"
+    def t(self):
+        print(self.c,"我要继承")
+
+a=child()
+a.f()
+super(child,a).f()
+
+#私有公有
+
+class Test():
+    def __init__(self):
+        self.__x=1
+        self.y=2
+    def __f(self):
+        print("这是密码")
+a=Test()
+print(a.y)
+
+a.f()
+a.__f()
+
+
+#类作参数
+
+class Test1():
+    def __init__(self):
+        self.t1="我是父类"
+
+    def f(self):
+        return "爸爸"
+
+class Test2():
+    def __init__(self):
+        self.t2="我是子类"
+
+    def f(self,object):
+        print(object.f())
+a=Test1()
+b=Test2()
+b.f(a)
