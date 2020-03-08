@@ -31,6 +31,6 @@ class Student(Person):
         print('班级',self.banji)
     def study(self):
         print('老师%s，我终于学会了!'%Teacher.teachObj(self))
-a=Student('王麻子',20,'男','信息与工程学院','19信管01班')
+a=Student('代恒',18,'男','信息与工程学院','19信管01班')
 a.personinfo()
 a.study()
