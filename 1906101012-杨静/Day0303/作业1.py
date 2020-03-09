@@ -9,4 +9,4 @@ class Person():
     def personInfo(self):
             print(a.name,a.age,a.gender)
 a=Person("李四","18岁","男")
-a.personInfo()     
+a.personInfo()        
