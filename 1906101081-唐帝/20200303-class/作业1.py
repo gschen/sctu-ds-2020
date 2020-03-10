@@ -5,6 +5,8 @@ class Person:
         self.sex=sex
     def personInfo(self):
         print('我叫%s,年龄:%s,性别%s' % (self.name,self.age,self.sex))
+xiaoming=Person('唐帝',19,'男')
+xiaoming.personInfo
 class Teacher(Person):
     def __init__(self,name,age,sex,college,professional):
         super().__init__(name,age,sex)
