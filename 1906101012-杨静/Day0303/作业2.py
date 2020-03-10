@@ -8,11 +8,7 @@ class Techer(Person):
         self.gender=gender
         self.college=college
         self.professional=professional
-    def personInfo(self):
+    def personInfo(self):  
         print('我叫%s,年龄:%s,性别:%s,我是来自%s的一名%s老师'%(self.name,self.age,self.gender，self.college,self.professional))
-
-laoC=Teacher('王老师',40,'男','信工学院','信息管理与信息系统')
-laoC.personInfo()
-
-    def teachObj(self):
-        return'今天讲了：面向对象设计程序'
+    def teach(self):  
+        return'今天讲了：面向对象设计程序'    
