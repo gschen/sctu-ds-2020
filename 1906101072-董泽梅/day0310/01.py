@@ -4,6 +4,7 @@ class Student():
         self.age=age
         self.score=score
 
+
     def get_name(self):
         print(self.name)
     def get_age(self):
