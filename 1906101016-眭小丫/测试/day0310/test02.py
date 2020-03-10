@@ -37,3 +37,4 @@ class Game():
 
 one=Game(600,'小明','小红')
 one.playGame()
+
