@@ -82,9 +82,7 @@ def s(n):
 s=input('请输入一行字符串:')
 英文字符=[]
 数字=[]
-空格=[]
-其他字符=[]
-for i in iter(s):
+r i in iter(s):
     if i.isalpha():
         英文字符.append(i)
     elif i.isdigit():
@@ -98,6 +96,8 @@ print('''
 	数字:{},个数:{}
 	空格:{},个数:{}
 	其他字符:{},个数:{}'''\
-	.format(英文字符,len(英文字符),	数字,len(数字),空格,len(空格),其他字符,len(其他字符)))	
+	.format(英文字符,len(英文字符),	数字,len(数字),空格,len(空格),其他字符,len(其他字符)))	空格=[]
+其他字符=[]
+fo
 
  

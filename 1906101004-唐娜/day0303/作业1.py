@@ -5,5 +5,9 @@ class Person():
         self.age=age
         self.gender=gender
     def personInfo(self):
+        #print(self.name,self.age,self.gender)
         print('我叫%s,年龄:%s,性别:%s'%(self.name,self.age,self.gender))
         #print('name=%s,age=%s,gender=%s'%(self.name,self.age,self.gender))
+
+wang=Person('王二',20,'男')
+wang.personInfo()
