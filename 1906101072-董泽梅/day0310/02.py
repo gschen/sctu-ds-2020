@@ -1,5 +1,4 @@
 #猜拳游戏
-
 import random
 class Person():
     def __init__(self,name):
