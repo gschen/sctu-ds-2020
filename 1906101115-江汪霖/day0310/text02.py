@@ -17,7 +17,7 @@ class Game():
         self.b=Person(bname)
 
     def playGame(self):
-        for i in range(self.number):
+        for _ in range(self.number):
             a_out=self.a.fingerplay()
             b_out=self.b.fingerplay()
             if a_out==b_out:
