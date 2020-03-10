@@ -6,27 +6,31 @@
 
 class Person():
     def __init__(self,name,age,gender):
-        self.name="张三"
-        self.age="18岁"
-        self.gender="男"
+        self.name=name
+        self.age=age
+        self.gender=gender
     def personInfo(self):
-            print("学生是张三，18岁，男")
-            print("老师是%s,%s"%(self.college,self.class1))
+            print(self.name,self.age,self.gender)
 class Teacher(Person):
-    def __init__(self):
-        self.m="sctu"
-        self.n="信息管理与信息系统"
-    def teachObj(self,object):
+    def __init__(self,name,age,gender,college,professional):
+        self.college=college
+        self.professional=professional
+        super().__init__(name,age,gender)
+    def teachObj(self):
         print("今天讲了：面向对象设计程序")
-class Student(Person):
-    def __init__(self):
-        self.college="信息与工程学院"
-        self.class1="19信管01"
     def personInfo(self):
-            print("sctu")
+            print(self.name,self.age,self.gender,self.college,self.professional)
+m=Teacher("陈老师",32,"男","信工学院","信息管理与信息系统")
+class Student(Person):
+    def __init__(self,name,age,gender,college,classzhou):
+        super().__init__(name,age,gender)
+        self.college=college
+        self.classzhou=classzhou
+    def personInfo(self):
+        def personInfo(self):
+            print(self.name,self.age,self.gender,self.college,self.classzhou)
     def study(self,object):
-            print("老师%s，我终于学会了！"% (object.teachObj))
-y=Teacher()
-x=Student()
-x.study(y)
-super(Student,x).personInfo()
+        recept=object.teachObj()
+        print("老师{}，我终于学会了！".format(recept))
+n=Student("林以信",20,"男","信工学院",3)
+n.study(m)

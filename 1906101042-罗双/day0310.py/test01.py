@@ -1,5 +1,3 @@
-#课堂检测
-
 class Student():
     def __init__(self,name,age,score):
         self.name=name
@@ -11,7 +9,8 @@ class Student():
         print(self.age)
     def get_course(self):
         print(max(self.score))
-m=Student("林以信",20,[98,95,100])
-m.get_name()
-m.get_age()
-m.get_course()
+A=Student('张三','18',[80,90,85])
+A.get_age()
+A.get_name()
+A.get_course()
+

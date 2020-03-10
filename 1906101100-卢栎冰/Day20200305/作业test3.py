@@ -17,13 +17,10 @@ class Teach(Person):
         self.professional=professional
         return self.name,self.age,self.sex,self.college,self.professional
 class Student(Person):
-    def personInfo(self,name,age,sex,college,classroom):
-        self.name=name
-        self.age=age
-        self.sex=sex
+    def personInfo(self,college,classroom):
         self.college=college
         self.classroom=classroom
-        return self.name,self.age,self.sex,self.college,self.classroom
+        return self.college,self.classroom
     def study(self):
         return '老师xxx,我终于学会了！'
 # a=Student
