@@ -13,3 +13,4 @@ s=Student('huahua',18,[99,97,98])
 print("姓名:%s"%(s.get_name()))
 print("年龄:%s"%(s.get_age()))
 print("最高分:%s"%(s.get_course()))
+
