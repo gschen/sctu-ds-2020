@@ -35,4 +35,4 @@ class Game():
         else:
             print("双方平局，不分胜负")
 one=Game(600,"杨静","宿涵")
-one.playGame()
+one.playGame()   

@@ -12,4 +12,4 @@ class Student():
 m=Student("杨静",19,[98,95,99])
 m.get_name()
 m.get_age()
-m.get_course()
+m.get_course()    
