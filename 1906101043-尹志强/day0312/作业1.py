@@ -229,7 +229,7 @@ class Game():
                 if a.name=='压缩':
                     print('{}使出了须佐能乎挡住了攻击'.format(a.name))
                     print ("\n"*2)
-                if name=='塞拉斯':
+                if a.name=='塞拉斯':
                     print('{}使出了五重罗生门挡住了攻击'.format(a.name))
                     print ("\n"*2)
                 if a.name=='vn':
@@ -386,7 +386,7 @@ if w=='a':
     c=input('请输入第一个选的你的名字：')
     a=Role('压缩',200,30,0.4,0.1)
 if w=='b':
-    c=input('请输入你的名字：')
+    c=input('请输入第一个选的你的名字：')
     a=Role('塞拉斯',250,20,0.2,0.3)
 
 elif w=='c':
