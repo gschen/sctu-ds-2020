@@ -65,7 +65,7 @@ class Game():
                         print('{}使出了一招{}，对{}造成了{}点伤害！'.format(self.a.name,a_out[1],self.b.name,(a_out[0]+1)*self.a.Aggressivity))
                         self.b.Blood_volume-=(a_out[0]+1)*self.a.Aggressivity
             if m=='2':
-                self.a.Evade+=0.4
+                self.a.Evade+=0.5
 
             if self.a.Evade>=random.random():
                 if m=='2':
@@ -81,7 +81,7 @@ class Game():
                     print('{}使出了一招{}，对{}造成了{}点伤害！'.format(self.b.name,b_out[1],self.a.name,((b_out[0]+1)*self.b.Aggressivity)/2))
                     self.a.Blood_volume-=((b_out[0]+1)*self.b.Aggressivity)
             if m=='2':
-                self.a.Evade-=0.4
+                self.a.Evade-=0.5
 
             if self.b.Blood_volume<=0:
                 print('-'*60)
