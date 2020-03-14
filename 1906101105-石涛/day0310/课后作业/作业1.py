@@ -70,16 +70,16 @@ class Game():
             if self.a.Evade>=random.random():
                 if m=='2':
                     print('{}使出了一招{}，但{}身形一闪，躲避了{}，并且回身一击对{}造成800点伤害！！！'.format(self.b.name,b_out[1],self.a.name,b_out[1],self.b.name))
-                    self.b.Blood_volume-=200
+                    self.b.Blood_volume-=800
                 else:
                     print('{}使出了一招{}，但{}身形一闪，躲避了{}！！！'.format(self.b.name,b_out[1],self.a.name,b_out[1]))
             else:
                 if self.a.Critical_hit_rate>=random.random():
                     print('{}使出了一招{}，击中了{}的要害，造成{}点伤害！！！'.format(self.b.name,b_out[1],self.a.name,(b_out[0]+1)*self.a.Aggressivity))
-                    self.a.Blood_volume-=((b_out[0]+1)*self.b.Aggressivity)
+                    self.a.Blood_volume-=((b_out[0]+1)*self.b.Aggressivity)*2
                 else:
                     print('{}使出了一招{}，对{}造成了{}点伤害！'.format(self.b.name,b_out[1],self.a.name,((b_out[0]+1)*self.b.Aggressivity)/2))
-                    self.a.Blood_volume-=((b_out[0]+1)*self.b.Aggressivity)/2
+                    self.a.Blood_volume-=((b_out[0]+1)*self.b.Aggressivity)
             if m=='2':
                 self.a.Evade-=0.4
 
