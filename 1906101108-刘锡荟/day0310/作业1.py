@@ -55,3 +55,4 @@ class Fight:
             print('因此，{}获得胜利'.format(self.a.name))
         else:
             print('双方同时倒下')
+            
