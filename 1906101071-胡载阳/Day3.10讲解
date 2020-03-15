@@ -1,0 +1,68 @@
+class Person():
+    def __init__(self,name,age,sex):
+        self.name=name
+        self.age=age
+        self.sex=sex
+
+    def peronInfo(self):
+        print(self.name,self.age,self.sex)
+
+xiaoM=Person('王小明',20,'男')
+xiaoM.peronInfo()
+
+class Teacher(Person):
+    def __init__(self,name,age,sex,collage,professional):
+        self.name=name
+        self.age=age
+        self.sex=sex
+        self.collage=collage
+        self.professional=professional
+
+    def peronInfo(self):
+        print(...........)
+
+laoC=Teacher(......)
+
+class Student(object):
+    def __init__(self,name,age,score):
+        self.name=name 
+        self.age=age
+        self.score=score
+    def get_name_and_age(self):
+        print(self.name,self.age)
+    def get_score(self):
+        print(max(self.score))
+
+xiaoM=Student('王小明',20,[100,99,98])
+xiaoM.get_name_and_age()
+xiaoM.get_score()
+
+class Person():
+    def __init__(self,name):
+        self.name=name
+
+        def fingerPlay(self)：
+            game=['石头','剪刀','布']
+            index=random.randint(0,2)
+            random.choice(game)
+            return game[index]
+
+
+class Game():
+    def __init__(self,number):
+        self.number=number
+        self.a=Person()
+        self.b=Person()
+
+    def playGame(self):
+        for i in range(self.number):
+            a_out=self.a.fingerPlay()
+            b_out=self.b.fingerPlay()
+            if a_out=b_out:
+                print('双方平局,出的是{}'.format(a_out))
+            elif (a_out='石头'and b_out='剪刀') or (a_out'布' and b_out='石头') or (a_out='剪刀' and b_out='布')：
+                print('{}获得胜利,出的是{},{}出的是{}'.format(self.b.name,b_out,self.a.name,a_out))
+            else:
+                print('{}获得胜利,{}出的是{}'。format(self.b.name,b_out,self.a.name,a_out))
+
+one=Game(5) 
