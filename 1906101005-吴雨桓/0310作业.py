@@ -8,7 +8,6 @@ class A():
         self.crit=crit
         self.dodge=dodge
 
-
     def attack_B(self,B):
         if random.random() <= self.dodge:
             print('孙悟空攻击被闪避')
