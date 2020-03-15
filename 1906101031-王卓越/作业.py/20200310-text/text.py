@@ -37,9 +37,9 @@ class Game:
             self.num+=1
             print('这是第{}轮游戏，{}的血量还剩{}，{}的血量还剩{}'.format(self.num,self.a.name,self.a.blood,self.b.name,self.b.blood))
             if self.a.blood<=0:
-                print('最终{}胜利'.format(self.a.name))
-            if self.b.blood<=0:
                 print('最终{}胜利'.format(self.b.name))
+            if self.b.blood<=0:
+                print('最终{}胜利'.format(self.a.name))
 f=Game(('张三',80,5,0.3,0.2),('李四',90,6,0.1,0.1))
 f.playGame()
 
