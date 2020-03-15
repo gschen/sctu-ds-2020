@@ -54,6 +54,6 @@ class Game():
 
 
 
-one=Game(5,'念念','年年')
+one=Game(5,'岁岁','年年')
 
 one.playGame()
