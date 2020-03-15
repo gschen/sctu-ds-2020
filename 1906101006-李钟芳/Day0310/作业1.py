@@ -74,4 +74,3 @@ a=Gameperson('妲己',1000,100,0.4,0.6)
 b=Gameperson('安琪拉',2000,50,0.1,0.1)
 c=Jia()
 c.playGame()
-
