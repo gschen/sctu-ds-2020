@@ -11,7 +11,6 @@ class Person():
     def personInfo(self):
         print('我是%s,年龄:%d,性别:%s' % (self.name, self.age, self.sex))
 
-
 class Teacher(Person):
     def __init__(self, name, age, sex, college, professional):
         super().__init__(name, age, sex)
@@ -24,7 +23,6 @@ class Teacher(Person):
 
     def teachObj(self):
         return ('今天讲了：面向对象设计程序')
-
 
 class Student(Person):
     def __init__(self, name, age, sex, college, myclass):
@@ -41,7 +39,6 @@ class Student(Person):
 
     def __str__(self):
         return '我是一名叫做%s的学生,年龄:%d,性别:%s' % (self.name, self.age, self.sex)
-
 
 stu1 = Student('张三', 19, '男', '信息与工程学院', '信息管理与信息系统')
 stu1.personInfo()

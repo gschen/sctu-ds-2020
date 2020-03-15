@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a16ee1fc-2a8a-4ae0-a256-68bd6d467afd" name="Default Changelist" comment="Day0303">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1906101007-李和龙/Day0310/text1.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101007-李和龙/Day0310/text1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1906101007-李和龙/Day0310/猜拳.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101007-李和龙/Day0310/猜拳.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1906101038-江来洪/day0304/test_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101038-江来洪/day0304/test_01.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,84 +15,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1906101038-江来洪/day0310/test_01.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1906101038-江来洪/day0311/test_01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1906101038-江来洪/day0311/test_02.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1906101007-李和龙/Day0310/text1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1906101007-李和龙/Day0303/作业.py">
+        <entry file="file://$PROJECT_DIR$/1906101007-李和龙/Day0310/猜拳.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-299">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1906101031-王卓越/作业.py/20200306-text/text.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="11" selection-start-line="11" selection-end-line="21" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1906101006-李钟芳/Day0303/test03.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1906101006-李钟芳/Day0303/test04.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1906101006-李钟芳/Day0303/作业3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1906101038-江来洪/day0304/test_01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="33" selection-start-line="33" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1906101001-周茂林/day0306/3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1906101011-周远杰/day0303/作业3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1906101006-李钟芳/Day0303/作业1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1906101006-李钟芳/Day0303/作业2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="77" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="77" />
+            <state relative-caret-position="541">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -121,6 +78,9 @@
         <option value="$PROJECT_DIR$/1906101007-李和龙/Day0303/1.py" />
         <option value="$PROJECT_DIR$/1906101038-江来洪/day0304/test_01.py" />
         <option value="$PROJECT_DIR$/1906101007-李和龙/Day0303/作业.py" />
+        <option value="$PROJECT_DIR$/1906101038-江来洪/day0310/test_01.py" />
+        <option value="$PROJECT_DIR$/1906101007-李和龙/Day0310/text1.py" />
+        <option value="$PROJECT_DIR$/1906101007-李和龙/Day0310/猜拳.py" />
       </list>
     </option>
   </component>
@@ -148,59 +108,13 @@
             <path>
               <item name="sctu-ds-2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="sctu-ds-2020" type="462c0819:PsiDirectoryNode" />
-              <item name="1906101001-周茂林" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sctu-ds-2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sctu-ds-2020" type="462c0819:PsiDirectoryNode" />
-              <item name="1906101001-周茂林" type="462c0819:PsiDirectoryNode" />
-              <item name="day0306" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sctu-ds-2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sctu-ds-2020" type="462c0819:PsiDirectoryNode" />
-              <item name="1906101006-李钟芳" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sctu-ds-2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sctu-ds-2020" type="462c0819:PsiDirectoryNode" />
-              <item name="1906101006-李钟芳" type="462c0819:PsiDirectoryNode" />
-              <item name="Day0303" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sctu-ds-2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sctu-ds-2020" type="462c0819:PsiDirectoryNode" />
               <item name="1906101007-李和龙" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sctu-ds-2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="sctu-ds-2020" type="462c0819:PsiDirectoryNode" />
               <item name="1906101007-李和龙" type="462c0819:PsiDirectoryNode" />
-              <item name="Day0303" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sctu-ds-2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sctu-ds-2020" type="462c0819:PsiDirectoryNode" />
-              <item name="1906101031-王卓越" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sctu-ds-2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sctu-ds-2020" type="462c0819:PsiDirectoryNode" />
-              <item name="1906101031-王卓越" type="462c0819:PsiDirectoryNode" />
-              <item name="作业.py" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sctu-ds-2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sctu-ds-2020" type="462c0819:PsiDirectoryNode" />
-              <item name="1906101031-王卓越" type="462c0819:PsiDirectoryNode" />
-              <item name="作业.py" type="462c0819:PsiDirectoryNode" />
-              <item name="20200306-text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sctu-ds-2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sctu-ds-2020" type="462c0819:PsiDirectoryNode" />
-              <item name="1906101031-王卓越" type="462c0819:PsiDirectoryNode" />
-              <item name="课堂笔记" type="462c0819:PsiDirectoryNode" />
+              <item name="Day0310" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sctu-ds-2020" type="b2602c69:ProjectViewProjectNode" />
@@ -211,7 +125,13 @@
               <item name="sctu-ds-2020" type="b2602c69:ProjectViewProjectNode" />
               <item name="sctu-ds-2020" type="462c0819:PsiDirectoryNode" />
               <item name="1906101038-江来洪" type="462c0819:PsiDirectoryNode" />
-              <item name="day0304" type="462c0819:PsiDirectoryNode" />
+              <item name="day0310" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sctu-ds-2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sctu-ds-2020" type="462c0819:PsiDirectoryNode" />
+              <item name="1906101038-江来洪" type="462c0819:PsiDirectoryNode" />
+              <item name="day0311" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.作业">
+  <component name="RunManager" selected="Python.猜拳">
     <configuration name="作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sctu-ds-2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,6 +170,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1906101007-李和龙/Day0303/作业.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="猜拳" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sctu-ds-2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1906101007-李和龙/Day0310" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1906101007-李和龙/Day0310/猜拳.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -338,6 +279,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.猜拳" />
         <item itemvalue="Python.作业" />
         <item itemvalue="Python tests.pytest in test_01.py" />
         <item itemvalue="Python.作业3 (1)" />
@@ -377,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583677153035</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day0310上课笔记">
+      <created>1584269084110</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584269084110</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -404,21 +353,22 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.32914045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005208" side_tool="true" weight="0.32914045" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -428,54 +378,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day0226" />
     <MESSAGE value="Day0303" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day0303" />
+    <MESSAGE value="Day0310上课笔记" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day0310上课笔记" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1906101007-李和龙/Day0225/lesson2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1906101002 --夏先苗/课后作业1/1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1906101002 --夏先苗/课后作业/1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1906101002-夏先苗/day0225.py/test01.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1906101002-夏先苗/day0225.py/test03.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1906101002-夏先苗/day0226/作业1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1906101002-夏先苗/day0226/作业2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1906101002-夏先苗/day0226/作业3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1906101002-夏先苗/day0226/作业4.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1906101002-夏先苗/day0226/作业5.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1906101002-夏先苗/day0226/作业6.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1906101002-夏先苗/day0226/作业7.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1906101010-欧雪/day0225/作业1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1449" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1906101010-欧雪/two.py" />
     <entry file="file://$PROJECT_DIR$/1906101010-欧雪/one.py" />
     <entry file="file://$PROJECT_DIR$/1906101002-夏先苗/day0225.py/tset02.py">
@@ -576,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1906101007-李和龙/Day0303/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        <state relative-caret-position="1288">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
@@ -655,8 +561,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1906101007-李和龙/Day0303/作业.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="598">
+          <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1906101032-邹婷/day0303/test03.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1906101032-邹婷/day0303/test04.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1906101032-邹婷/day0303/test05.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1906101032-邹婷/day0303/test06.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1906101032-邹婷/day0303/test07.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1906101038-江来洪/day0310/test_01.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1906101038-江来洪/day0310/test_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1906101001-周茂林/day3010/text2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="15" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1906101038-江来洪/day0311/test_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1906101007-李和龙/Day0310/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1906101038-江来洪/day0311/test_02.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1906101007-李和龙/Day0310/text1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1906101007-李和龙/Day0310/猜拳.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
