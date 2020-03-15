@@ -56,4 +56,3 @@ a=Person('A家',500,500,0.2,0.4)
 b=Person('B家',600,600,0.3,0.6)
 c=Game()
 c.playGame()
-
