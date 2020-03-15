@@ -8,8 +8,7 @@ class Gameperson():
         self.dodge=dodge
     def information(self):
         print('玩家名称:%s\n血量:%s\n攻击力:%s\n暴击率:%s\n闪避率:%s' % (self.name,self.blood,self.attack,self.violence,self.dodge))
-
-class Wzry():
+class Jia():
     def __init__(self):
         self.player1=a
         self.player2=b
@@ -43,13 +42,13 @@ class Wzry():
             if self.player2.blood<=0:
                 self.player2.blood=0
             print('第%d轮攻击:' % count)
-            print('David:剩余血量: %d' % self.player1.blood)
+            print('Bob:剩余血量: %d' % self.player1.blood)
             print('BOSS:剩余血量: %d' % self.player2.blood)
         if self.player1.blood == 0:
-            print('经过%d轮攻击，BOSS成功击杀David，成为本局胜利者!' % count)
+            print('经过%d轮攻击，BOSS成功击杀Bob，成为本局胜利者!' % count)
         else:
-            print('经过%d轮攻击，David成功击杀BOSS，成为本局胜利者!' % count)
-a=Gameperson('David',300000,1000,0.4,0.2)
-b=Gameperson('BOSS',400000,800,0.2,0.1)
-c=Wzry()
+            print('经过%d轮攻击，Bob成功击杀BOSS，成为本局胜利者!' % count)
+a=Gameperson('Bob',10000,1000,0.4,0.3)
+b=Gameperson('BOSS',20000,800,0.2,0.1)
+c=Jia()
 c.playGame()
