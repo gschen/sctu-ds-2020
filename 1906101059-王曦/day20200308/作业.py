@@ -19,8 +19,8 @@ class Teacher(Person):
         print(self.professional)
 
     def teachojb(self):
-        return ('今天讲了：面向对象设计程序')
+        print('今天讲了：面向对象设计程序')
 
- def study(self,teacher):
+    def study(self,teacher):
         print('我是%s,老师%s,我终于学会了！')
 
