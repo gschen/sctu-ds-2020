@@ -1,0 +1,44 @@
+#1、求给定数的阶乘
+#所求阶乘的数不可以是这几个数[1,10,20,30,40,50]。
+list=[1,10,20,30,40,50]
+a=int(input('请输入一个数:'))
+def li(a):
+    if a==0:
+        return 1
+    else:
+        return a*li(a-1)
+if a in list:
+    print('此数不符合')
+else:
+    print(li(a))
+   
+    #2、单利公式为单利=（P x T x R）/ 100其中，P是本金T是时间，R是利率
+
+#要求:P、T、R都是input输入的，不能固定。
+P=int(input('本金:'))
+T=int(input('时间:'))
+R=int(input('利率:'))
+print('单利=',(P*T*R)/100)
+
+#3查找数组中的最大元素[14,25,98,75,23,1,4,56,59]。
+list=[14,25,98,75,23,1,4,56,59]
+print(max(list))
+
+#4、求数组中的前n个数的平方和[14,25,98,75,23,1,4,56,59]
+#n需要是input输入，且小于数组长度，不能固定。
+list=[14,25,98,75,23,1,4,56,59]
+n=int(input('请输入一个数：'))
+sum=0
+if 1<=n<=9:
+    for x in list[:n]:
+        sum=sum+x**2
+    print(sum)
+else:
+    print('输入错误')
+
+    #5、交换列表中的任意两个元素[14,25,98,75,23,1,4,56,59]
+#被置换的两个位置需要input输入。
+list=[14,25,98,75,23,1,4,56,59]
+x,y=map(int,input().split())
+list[x],list[y]=list[y],list[x]
+print(list)

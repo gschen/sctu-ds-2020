@@ -36,3 +36,16 @@ class Student(Person):
     def _str_(self):
         return ('%s是%s%s的一位%d岁的%s同学'%(self.name,self.college,self.banji,self.age,self.gender))
 
+a=Student('小明',22,'男','sctu','一年一班')
+a.personInfo()
+a.study()
+b=Student('小红',20,'女','sctu','一年一班')
+b.personInfo()
+a.study()
+c=Student('小智',21,'男','sctu','一年一班')
+c.personInfo()
+a.study()
+d=Teacher('王老师',40,'女','sctu','信息系')
+d.personInfo()
+for i in Student.data_student:
+    print(i)
