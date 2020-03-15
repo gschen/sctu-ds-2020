@@ -13,7 +13,7 @@ class Player():
 		self.name = name
 		self.blood = blood
 		self.attack = attack
-		self.crit = crit
+		self.crit = crit   
 		self.DOD = DOD
 
 	def role(self):    
