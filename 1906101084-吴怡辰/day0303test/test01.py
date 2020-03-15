@@ -80,9 +80,9 @@
 #     def t(self):
 #         print(self.c,'我要继承')
 # a=child()
-# a.t()
-# a.f()
-# # super(child,a).f()
+# # a.t()
+# # a.f()
+# super(child,a).f()
 
 
 
