@@ -22,7 +22,7 @@ class Fight:
         n = 1
         while self.a.HP > 0 and self.b.HP > 0:
             c = input('输入任意内容即可开始一次相互伤害：')
-            print('第{}回合开始'.format(n))
+            print('第{}回合开始'.format(n)) 
             a = 1
             b = 1
             while a == 1:
