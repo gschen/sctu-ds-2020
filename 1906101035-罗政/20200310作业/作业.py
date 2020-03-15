@@ -45,4 +45,4 @@ class Tank(Player):
         temp = random.randint(-10, self.Defend + self.__recovery)
         if temp > 0:
             return True
-11
+111
