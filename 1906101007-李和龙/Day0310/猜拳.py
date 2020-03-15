@@ -41,3 +41,4 @@ class Game():
 
 one = Game(5, '小明', '小红')
 one.playgame()
+
