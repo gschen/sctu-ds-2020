@@ -51,3 +51,6 @@ class Game():
             print('双方平局,不分胜负')
 one = Game(600,'张三','李四')
 one.playGame()
+
+
+。
