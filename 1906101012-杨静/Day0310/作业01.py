@@ -16,7 +16,7 @@ class Player():
 		self.crit = crit
 		self.DOD = DOD
 
-	def role(self):
+	def role(self):    
 		print('玩家名称:%s\n血量:%s\n攻击力:%s\n暴击率:%s\n闪避率:%s' % (self.name,self.blood,self.attack,self.crit,self.DOD))
 a=Player('拳击手',1000,100,0.3,0.6)
 b=Player('BOSS',2000,150,0.4,0.1)
