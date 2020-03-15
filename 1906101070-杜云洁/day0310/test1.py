@@ -1,3 +1,4 @@
+
 class Student(object):
     def __init__(self,name,age,score):
         self.name=name

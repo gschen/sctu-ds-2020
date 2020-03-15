@@ -17,6 +17,7 @@ class Game():
         self.a=Person(aname)
         self.b=Person(bname)
     
+    
     def playGame(self):
         for i in range(self.number):
             a_out=self.a.fingerPlay()

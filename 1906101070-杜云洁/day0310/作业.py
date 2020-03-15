@@ -22,6 +22,7 @@ class Game():
     def __init__(self):
         self.player1=a
         self.player2=b
+     
         
     def play(self):
         s=0
