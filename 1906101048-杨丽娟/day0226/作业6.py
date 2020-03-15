@@ -3,15 +3,30 @@
 def math(n):
     sum=0
     if n%2==0:
-        for i in range(1,n+1):
-            a=1/(2*i)
-            sum=sum+a
+        for i in range(1,n+1,2):
+           sum=sum+(1/i)
         return sum
     else:
-        for m in range(1,n+1):
-            b=1/(m-1)
-            sum=sum+b
+        for i in range(1,n+1,2):
+            sum=sum+(1/i)
         return sum
-print(math(5))
 print(math(6))
+
+
+
+
+
+def sum_num(num):
+    if num%2==0:
+        if num==2:
+            return 1/2
+        else:
+            return 1/(num)+sum_num(num-2)
+    else:
+        if num==1:
+            return 1
+        else:
+            return 1/(num)+sum_num(num-2)
+print(sum_num(6))
+
 

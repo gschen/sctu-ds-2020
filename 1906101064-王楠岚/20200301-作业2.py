@@ -45,13 +45,13 @@ def la():
 la()
 
 #第五题
-x=input('请输入第一个数:')
-y=input('请输入第二个数:')
-z=input('请输入第三个数:')
-if x>y:
-    x,y=y,x
-if x>z:
-    x,z=z,x
-if y>z:
-    y,z=z,y
-print(x,y,z)
+x,y,z=map(int,input().split())
+n=[x,y,z]
+def la(n):
+    for i in range(3):
+        for j in range(2):
+            if n[j]>n[j+1]:
+                n[j],n[j+1]=n[j+1],n[j]
+    print(n)
+
+la(n）
