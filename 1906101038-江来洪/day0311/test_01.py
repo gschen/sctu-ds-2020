@@ -10,4 +10,4 @@ class Gameperson():
 a = Gameperson('八里公路',5000,1000,0.5,0.5)
 b = Gameperson('大魔王',10000,500,0.2,0.2)
 a.information()
-b.information()
+b.information() 

@@ -13,7 +13,7 @@ class Chuanqi():
         self.player1 = a
         self.player2 = b
     def playGame(self):
-        global xx1
+        global xx1 
         global xx2
         global yy1
         global yy2

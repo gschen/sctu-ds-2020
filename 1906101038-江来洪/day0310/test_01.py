@@ -14,4 +14,4 @@ class Student():
 a=Student("张三",20,[50,60,70])
 a.get_name()
 a.get_age()
-a.get_course()
+a.get_course() 

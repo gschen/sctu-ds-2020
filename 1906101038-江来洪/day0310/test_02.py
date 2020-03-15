@@ -12,7 +12,7 @@ class Person():
         game = ['石头', '剪刀', '布']
         index = random.randint(0, 2)
         # random.choice(game)
-        return game[index]
+        return game[index] 
 
 
 class Game():
