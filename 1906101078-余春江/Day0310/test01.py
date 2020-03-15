@@ -37,6 +37,5 @@ class Game():
         else:
             print('双方平局，不分胜负')
 
-
 one=Game(5,'余春江','侯旭')
 one.playGame()
