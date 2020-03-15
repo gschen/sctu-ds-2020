@@ -9,7 +9,7 @@ class student(object):
         return self.__age
     def get__(self):
         return max(self.__scores)
-stu = student('张三'，19，[82,84,86])
+stu = student('张三',19,[82,84,86])
 print('姓名：%s'%(stu.get__name()))       
 print('年龄：%s'%(stu.get__age()))
 print('最高分：%s'%(stu.get__course()))
