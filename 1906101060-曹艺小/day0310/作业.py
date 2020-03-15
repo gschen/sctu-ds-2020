@@ -8,6 +8,7 @@ class Gameperson():
         self.dodge=dodge
     def information(self):
         print('玩家名称:%s\n血量:%s\n攻击力:%s\n暴击率:%s\n闪避率:%s' % (self.name,self.blood,self.attack,self.violence,self.dodge))
+
 class Wzry():
     def __init__(self):
         self.player1=a
