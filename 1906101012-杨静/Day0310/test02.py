@@ -34,5 +34,5 @@ class Game():
             print("恭喜%s获得游戏胜利,得分%d" % (self.b.name,self.b.score))
         else:
             print("双方平局，不分胜负")
-one=Game(600,"杨静","宿涵")
+one=Game(600,"杨静","宿涵")   
 one.playGame()   
