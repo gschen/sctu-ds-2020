@@ -50,7 +50,7 @@ class Game():
 
             else:
 
-                print('{}获得胜利，出的是{},{}出的是{}'.format(self.b.name,b_out,self.a.name,a_out))
+                print('{}胜利，出的是{},{}出的是{}'.format(self.b.name,b_out,self.a.name,a_out))
 
 
 
