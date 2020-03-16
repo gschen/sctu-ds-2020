@@ -14,5 +14,9 @@ class Student(Person):
     def personInfo(self):
         print('我叫%s,年龄:%s,性别:%s,我是%s的%s班的学生'%(self.name,self.age,self.gender，self.college,self.班级))
 
-    def study(self,teacher):
-        print('我是%s,老师%s,我终于学会了！'%(self.name,self.age,self.gender，self.college,self.班级))
+    def study(self,object):
+        recept=object.teachObj()
+        print('老师{},我终于学会了！'.format(recept))
+
+laoF=Student('王二',20,'男','信工学院',1)
+laoF.study(laoC)
