@@ -25,3 +25,5 @@ x=Student()
 x.study(y)
 super(Student,x).personInfo()
 
+
+

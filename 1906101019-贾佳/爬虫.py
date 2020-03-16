@@ -48,60 +48,63 @@ hd = {
 #获取主页源码
 
 def get_start_links(url):
-    r = requests.get(url,timeout=30)
+    r = requests.get(url, timeout=30)
     r.status_code
     r.raise_for_status
     html = r.text
-    soup = BeautifulSoup(html,"html.parser")
+    soup = BeautifulSoup(html, "html.parser")
     soup.prettify()
     links = soup.find_all(class_="b-n-sublist")
     for i in links[1]:
         for s in i.contents:
             list1.append(s.get("href"))
-    return(list1[1:29])
+    return (list1[1:29])
 
-def get_detail_id(url,headers=hd):
-    r = requests.get(url,headers=hd)
+
+def get_detail_id(url, headers=hd):
+    r = requests.get(url, headers=hd)
     r.status_code
     r.raise_for_status
     html = r.text
-    html = BeautifulSoup(html,"html.parser")
+    html = BeautifulSoup(html, "html.parser")
     pp1 = r'"poiId":\d{2,20}'
     reg = re.compile(pp1)
-    list1 = re.findall(reg,html.decode('utf-8'))
+    list1 = re.findall(reg, html.decode('utf-8'))
     str1 = ",".join(list1)
     pp3 = r'\d{1,12}'
     pp2 = re.compile(pp3)
-    pp4 = re.findall(pp2,str1)
+    pp4 = re.findall(pp2, str1)
     return pp4
-def get_item_info(url,headers=hd):
-    html = requests.get(url,headers=hd).text
-    soup = BeautifulSoup(html,"html.parser")
+
+
+def get_item_info(url, headers=hd):
+    html = requests.get(url, headers=hd).text
+    soup = BeautifulSoup(html, "html.parser")
     pp1 = '"avgScore":\d.\d|"avgScore":\d'
     r1 = re.compile(pp1)
-    list1 = re.findall(r1,soup.decode('utf-8'))
+    list1 = re.findall(r1, soup.decode('utf-8'))
     list1 = str(list1)
-    list1c = list1.replace("avgScore","评分")
+    list1c = list1.replace("avgScore", "评分")
 
     pp2 = '"phone":"0\d{2,3}-\d{1,10}/\d{11}|0\d{2,3}-\d{1,10}|\d{11}"'
     r2 = re.compile(pp2)
-    list2 = re.findall(r2,soup.decode('utf-8'))
+    list2 = re.findall(r2, soup.decode('utf-8'))
     list2 = str(list2)
-    list2c = list2.replace("phone","电话")
+    list2c = list2.replace("phone", "电话")
 
     pp3 = '"name":"\w{1,100}.\w{2,10}."|"name":\w{1,100}"'
     r3 = re.compile(pp3)
-    list3 = re.findall(r3,soup.decode('utf-8'))
+    list3 = re.findall(r3, soup.decode('utf-8'))
     str3 = "".join(list3[0])
     str3 = str(str3)
-    list3c = str3.replace("name","店铺名")
+    list3c = str3.replace("name", "店铺名")
 
     pp4 = '"address":"\w{1,30}'
     r4 = re.compile(pp4)
-    list4 = re.findall(r4,soup.decode('utf-8'))
+    list4 = re.findall(r4, soup.decode('utf-8'))
     str4 = "".join(list4)
     str4 = str(str4)
-    list4c = str4.replace("address","地址")
+    list4c = str4.replace("address", "地址")
     fb.write(list3c)
     fb.write(list2c)
     fb.write(list1c)

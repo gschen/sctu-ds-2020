@@ -1,0 +1,58 @@
+#类
+class Student(object):
+    count=0
+    def __init__(self,name,age,English,math,Chinese):
+        self.name = name
+        self.age = age
+        self.English = English
+        self.math = math
+        self.Chinese = Chinese
+        Student.count+=1
+sb=Student('Peter',18,90,100,100)
+sb=Student('Bob',18,10,100,50)
+sb=Student('Tracy',19,120,100,100)
+
+print(sb.name,sb.age,sb.English,sb.math,sb.Chinese)
+print('all:{}'.format(sb.English+sb.math+sb.Chinese))
+print('average:{:.0f}'.format((sb.English+sb.math+sb.Chinese)/3))
+print(sb.count)
+
+
+def get_name(self):
+    print('名字:',self.name)
+
+
+
+
+
+#猜拳
+class Person():
+    def__init__(self,nmae):
+        self.name = name
+        self.score = 0
+
+    def fingerPlay(self)：
+        game = ['石头','剪刀','布']
+        index = random.randint(0,2)
+        #random.choice(game)
+        return game[index]
+
+class Game():
+    def__init__(self,number,aname,bname):
+        self.number = number
+        self.a = person()
+        self.b = person()
+
+    def playGame(self):
+        for i in range(self.number):
+            a_out = self.a.fingerPlay()
+            b_out = self.b.fingerPlay()
+            if a_out == b_out:
+                print('平局，出的是{}'.format(a_out))
+            elif (a_out == '石头' and b_out == '剪刀')or(a_out == '布' and b_out == '石头')or(a_out == '剪刀' and b_out == '布'):
+                print('{}获胜,出的是{},{}出的是{}'.format(self.a.name,a_out,self.b.name,b_out))
+            else:
+                print('{}获胜,出的是{},{}出的是{}'.format(self.b.name,b_out,self.a.name,a_out))
+one = Game(5,'张三','李四')
+one.playGame()
+        
