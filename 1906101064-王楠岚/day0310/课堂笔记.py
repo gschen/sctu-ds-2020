@@ -56,3 +56,4 @@ class Game():
 
 start = Game(300,'傻逼一号','傻逼二号')
 start.playgame()
+

@@ -54,4 +54,4 @@ def la(n):
                 n[j],n[j+1]=n[j+1],n[j]
     print(n)
 
-la(n）
+
