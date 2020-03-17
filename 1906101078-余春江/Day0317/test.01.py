@@ -41,6 +41,7 @@ class SigleLink():
                 cur=cur.next
             cur.next=node
 
+
 if __name__=='__main__':#运行次页面，会直接该行代码之后的代码
     sl=SigleLink()
     print(sl.is_empty())
