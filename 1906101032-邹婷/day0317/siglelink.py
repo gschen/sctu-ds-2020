@@ -35,6 +35,7 @@ class SigleLink():
                 cur=cur.next
             cur.next=node
     #链表节点遍历
+    
     def travel(self):
         cur=self.__head
         while cur!=None:
