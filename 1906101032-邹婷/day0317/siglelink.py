@@ -41,7 +41,6 @@ class SigleLink():
             print(cur.elem,end=' ')
             cur=cur.next
         print('')#换行
-
     #头插法
     def add_top(self,val):
         node=Node(val)
