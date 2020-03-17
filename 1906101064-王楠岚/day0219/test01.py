@@ -30,5 +30,3 @@ print(lis2)
 tup=('s',100,[1,2])
 print(tup)
 t=tup[1]
-
-
