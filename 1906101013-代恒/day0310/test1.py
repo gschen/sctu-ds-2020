@@ -17,3 +17,4 @@ a = Student('代恒',18,[105,104,123])
 a.get_name()
 a.get_age()
 a.get_course()
+
