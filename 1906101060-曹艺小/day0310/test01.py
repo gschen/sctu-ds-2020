@@ -10,6 +10,7 @@ class Student():
     def get_course(self):
         a = max(self.score)
         return a
+
 bb=Student('Bob',18,[70,80,90])
 print(bb.get_name())
 print(bb.get_age())
