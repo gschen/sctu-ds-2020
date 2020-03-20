@@ -91,10 +91,10 @@ class SigleLink():
         while cur!=None:
             if cur.elem==val:
                 return True
-        cur=cur.next
+            cur=cur.next
         return False
             
-if __name__=='__main__': #运行此页面，会直接运行该代码之后的代码
+if __name__=='__main__':   #运行此页面，会直接运行该代码之后的代码
     sl=SigleLink()
     print(sl.is_empty())
     print(sl.length())
