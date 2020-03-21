@@ -31,7 +31,7 @@ class SigleLink():
 
         #先判断再加值
         while cur!=None:
-            
+
             count+=1
 
             #将cur替换为下一个节点
@@ -48,6 +48,7 @@ class SigleLink():
             while cur.next!=None:
                 cur=cur.next
             cur.next=node
+
     #链表节点遍历
     def travel(self):
         cur=self.__head
