@@ -12,7 +12,7 @@ class siglelink():
     def is_empty(self):
         # if self.__head = None:
         #     return True
-        # else:
+        # else:   
         #     return False
         
         return self.__head == None
