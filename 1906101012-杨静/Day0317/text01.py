@@ -8,7 +8,7 @@ class siglelink():
     def __init__(self,node=None):
         self.__head=node
     
-    #判断链表是否为空
+    #判断链表是否为空    
     def is_empty(self):
         # if self.__head = None:
         #     return True
