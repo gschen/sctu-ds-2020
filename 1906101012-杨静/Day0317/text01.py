@@ -5,7 +5,7 @@ class Node():
         self.next = None
 #单链表类
 class siglelink():
-    def __init__(self,node=None):
+    def __init__(self,node=None):    
         self.__head=node
     
     #判断链表是否为空    
