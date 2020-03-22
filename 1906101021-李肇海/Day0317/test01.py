@@ -95,6 +95,8 @@ class SigleLink():
                 return True
             cur=cur.next
         return False
+
+        
     
 
 
@@ -118,5 +120,3 @@ if __name__=='__main__': #运行此页面，会直接运行该行代码之后的
     print(s1.search(10))
     print(s1.search(50))
 
-
-    
