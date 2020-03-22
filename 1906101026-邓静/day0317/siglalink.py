@@ -100,7 +100,6 @@ class SigleLink():
             cur=cur.next
         return False
 
-
 if __name__=='__main__':#运行此页面，会直接该行代码之后的代码
     s1=SigleLink()
     print(s1.is_empty())
@@ -118,5 +117,6 @@ if __name__=='__main__':#运行此页面，会直接该行代码之后的代码
     print(s1.find(2))
     print(s1.search(10))
     print(s1.search(200))
+
 
 
