@@ -1,4 +1,4 @@
-# 1、创建Person类，属性有姓名、年龄、性别，创建方法personInfo,打印这个人的信息
+# 1.创建Person类，属性有姓名、年龄、性别，创建方法personInfo,打印这个人的信息
 class Person():
     def __init__(self, name, age, sex):
         self.name = name

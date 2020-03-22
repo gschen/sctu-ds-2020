@@ -1,3 +1,4 @@
+
 import random
 class Person():
     def __init__(self,name,blood,attack,crit,dodge):
