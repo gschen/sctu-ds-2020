@@ -1,3 +1,4 @@
+"""
 import random
 import threading
 import time
@@ -45,4 +46,35 @@ class Tank(Player):
         temp = random.randint(-10, self.Defend + self.__recovery)
         if temp > 0:
             return True
-11
+111
+"""
+import random
+class Person():
+    def __init__(self,name,blood,power,crit,avoid):
+        self.name=name
+        self.blood=blood
+        self.power=power
+        self.crit=crit
+        self.avoid=avoid
+def attack(self,object):
+    if random.random() >=object.avoid:
+        if random.random() <=self.crit:
+            object.blood-=self.power*2
+        else:
+            object.blood-=self.power
+
+class Game():
+    def __init__(self,one,two):
+        self.one=one
+        self.two=two
+def solo(self):
+    while Ture:
+       self. one.attack(two)
+            if self.two.blood<=0:
+            print("{}活到了最后".format(self.one))
+            break
+           self. two.attack(one)
+            if self.one.blood<=0:
+            print(print("{}活到了最后".format(self.one)))
+lz=Person("lz",470,47,2,2)
+xx=Person("xx",460,60,0,3)
