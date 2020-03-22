@@ -17,7 +17,7 @@ class SigleLink():
         '''
         return self.__head==None
 
-    #获取链表的长度
+     #获取链表的长度
     def length(self):
         #cur游标，表示当前操作的节点
         cur=self.__head
