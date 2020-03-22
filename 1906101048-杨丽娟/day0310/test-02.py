@@ -37,7 +37,3 @@ class Game():
             print('双方平局，不分胜负')
 one=Game(500,'Lee','Bob')
 one.playGame()
-
-
-    
-

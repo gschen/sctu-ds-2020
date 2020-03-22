@@ -10,7 +10,7 @@ class Student():
     def getMaxScore(self):
         print(max(self.score))
 
-n = Student('wuyichen',18,[85,88,92])
+n = Student('lishiwei',19,[85,88,92])
 n.getName()
 n.getAge()
 n.getMaxScore()
