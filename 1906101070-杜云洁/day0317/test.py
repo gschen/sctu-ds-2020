@@ -96,8 +96,7 @@ class SigleLink():
                 return True
             cur=cur.next
         return False
-                    
-           
+                              
 if __name__=='__main__':#运行此页面，会直接该行 代码之后的代码
     sl=SigleLink()
     print(sl.is_empty)
