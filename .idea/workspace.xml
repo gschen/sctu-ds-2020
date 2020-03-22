@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5b0022d-1022-454c-ba73-d694d0543b5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1906101005-吴雨桓/test.py" afterDir="false" />
+    <list default="true" id="d5b0022d-1022-454c-ba73-d694d0543b5c" name="Default Changelist" comment="zuoye">
+      <change afterPath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/day0317/test01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/day0317/test02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1906101005-吴雨桓/0303作业/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101005-吴雨桓/0310作业.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +31,11 @@
   </component>
   <component name="ProjectId" id="1YA0XmTfoFa1GG4PfIXqYiXe6qV" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/1906101005-吴雨桓" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/1906101005-吴雨桓/课堂" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
