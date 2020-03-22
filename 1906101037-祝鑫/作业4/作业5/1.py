@@ -123,8 +123,8 @@ if __name__=="__main__":  #运行此页面，会直接该行代码之后的代�
     sl.travel()
     print(sl.find(2))
     print(sl.search(10))
-    print(sl.search(100))
-
+     print(sl.search(100))
+ 
     
 
         
