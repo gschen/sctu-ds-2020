@@ -1,4 +1,4 @@
-# #创建Student类，继承Person类，属性有学院college，班级class，重写父类personInfo方法，调用父类方法打印个人信息外，将学生的
+# 3.创建Student类，继承Person类，属性有学院college，班级class，重写父类personInfo方法，调用父类方法打印个人信息外，将学生的
 # 学院、班级信息也打印出来，创建方法study参数为Teacher对象，调用Teacher类的teachObj方法，接收老师教授的知识点，然后打印
 # ‘老师xxx,我终于学会了！’xxx为老师的teach方法返回的信息。
 # 1、创建Person类，属性有姓名、年龄、性别，创建方法personInfo,打印这个人的信息

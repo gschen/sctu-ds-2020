@@ -48,13 +48,3 @@ lis1=[14,25,98,75,23,1,4,56,59]
 a,b=map(int,input("输入需要交换的位置：").split())
 lis1[a],lis1[b]=lis1[b],lis1[a]
 print(lis1)
-
-
-
-
-
-
-
-
-
-
