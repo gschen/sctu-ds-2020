@@ -7,7 +7,6 @@ class List:
     def _init_(self):
         self.head=Node(-1)
 
-
 #使用前插法创建单链列表
     def insert_before(self,data):
         for i in data:
@@ -18,7 +17,6 @@ class List:
             else:
                 node.next=self.head.next#将头节点的下一个节点加入当前节点的next
                 self.head.next=node
-
 
 
 #尾插法

@@ -7,7 +7,6 @@ def clear_repetition(self):
         cur=cur.next
 
 
-
 #在第i个节点前插入value的节点
 def list_element_add(self,i,value):
     node_new=Node(value)#创建新节点
