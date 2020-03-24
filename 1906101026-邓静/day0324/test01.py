@@ -27,3 +27,4 @@ class List:
             else:
                 tail.next=node
                 tail=node
+                
