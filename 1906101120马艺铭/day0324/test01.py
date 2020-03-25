@@ -23,7 +23,7 @@ def insert_tail(self.data):
         else:
             tail.next = node
             tail = node
-
+#
 def clear_repetition(self):
     cur=self.head
     while cur:
