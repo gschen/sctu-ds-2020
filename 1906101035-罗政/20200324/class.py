@@ -43,3 +43,18 @@ def clear_repetition(self):
 
 
 
+#第i个节点前插入值为value的节点
+def list_element_add(self,i,value):
+    node_new=Node(value)创建节点
+    index=0
+    node=self.head.next
+    while node:#找位置
+        index==i+1
+        if index==i-1
+        break
+        node=node.next
+    if node is Node:
+        return False
+    node_new.next=node.next#插入节点
+    node.next=node_new
+1
