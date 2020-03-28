@@ -1,7 +1,7 @@
 class Node:
-    sef __init__(self,)
-    self.value=value
-    self.next=None
+    def __init__(self,value,*next):
+        self.value=value
+        self.next=None
 class List:
     def __init__(self):
         self.head=Node(-1)
@@ -26,7 +26,7 @@ class List:
 
     #尾插
     def insert__tail(self,date):
-        tail=self.heaad.next
+        tail=self.head.next
         for i in date:
             node=Node(i)
             if tail is Node:
