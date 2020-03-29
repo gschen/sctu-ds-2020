@@ -60,7 +60,7 @@ class DD():
         print(list[N:])
 
 
-        
+
 if __name__=="__main__":  #运行此页面，会直接该行代码之后的代码
     mm=DD()
     mm.add_tail(1)
@@ -68,4 +68,4 @@ if __name__=="__main__":  #运行此页面，会直接该行代码之后的代�
     mm.add_tail(3)
     mm.add_tail(4)
     mm.add_tail(5)
-    mm.ss()
+    mm.ss() 

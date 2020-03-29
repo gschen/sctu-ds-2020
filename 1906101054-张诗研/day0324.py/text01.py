@@ -60,5 +60,5 @@ class List:
             return False
         
         node_new.next=node.next
-        node.next=node_new
+        node.next=node_new 
         
