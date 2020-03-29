@@ -58,8 +58,3 @@ if __name__=="__main__":
     n.add_tail(4)
     n.add_tail(5)
     n.sol()
-            
-
-
-    
-
