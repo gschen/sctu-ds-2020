@@ -1,7 +1,0 @@
-n=int(input('请输入一个数：'))
-m=int(input('请输入一个数：'))
-test=[14,25,98,75,23,1,4,56,59]
-temp=test[n]
-test[n]=test[m]
-test[m]=temp
-print(test)

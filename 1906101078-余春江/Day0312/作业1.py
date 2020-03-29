@@ -27,15 +27,17 @@ class Game():
         self.B=B
     def solo(self):
         while True:
-            (A.attack(B))
-            if B.blood <= 0:
+            self.A.attack(self.B)
+            if self.B.blood <= 0:
                 print("{}活到了最后".format(self.A.name))
                 break
-            (B.attack(A))
-            if A.blood <= 0:
+            self.B.attack(self.A)
+            if self.A.blood <= 0:
                 print('{}活到了最后'.format(self.B.name))
                 break
 
 
 mr=Person("鸣人",500,50,0.3,0.1)
 zz=Person("佐助",500,45,0.4,0.1)
+sl=Game(mr,zz)
+sl.solo()
