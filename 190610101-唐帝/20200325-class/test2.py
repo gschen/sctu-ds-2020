@@ -16,7 +16,7 @@ def clear_repetition(self):
 
 def list_element_add(self,i,value):
     
-    node_new_Node(value)#创建新节点
+    #node_new_Node(value)#创建新节点
 
     index=0
 
@@ -34,5 +34,4 @@ def list_element_add(self,i,value):
         return False
 
     node_new.next=node.next#插入节点
-    node.next=node_new_Node
     #
