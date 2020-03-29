@@ -35,3 +35,4 @@ def list_element_add(self,i,value):
 
     node_new.next=node.next#插入节点
     node.next=node_new
+    #
