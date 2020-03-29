@@ -35,3 +35,4 @@ return False
 node_ new. next=node. next插入节点
 白
 node. next=node. new
+
