@@ -3,6 +3,7 @@ class Node():
         self.elem=val
         self.next=None
 
+
 class List():
     def __init__(self):
         #头结点
@@ -18,6 +19,7 @@ class List():
                 node.next=self.head.next#将头结点的下一个结点加入到当前结点的next
                 self.head.next=node
 
+
     #从尾部插入元素    
     def insert_tail(self,data):
         #尾结点
@@ -32,6 +34,8 @@ class List():
             else:
                 tail.next=node#将新结点加入到尾结点的next
                 tail=node
+
+
     #删除链表中重复元素
     def clear_repetition(self):
         #头结点
@@ -40,6 +44,7 @@ class List():
             while cur.next and cur.value==cur.next.value:#当前结点下一个结点不为空并且头结点的值与next的值是否相等
                 cur.next=cur.next.next#将当前结点链接到当前结点的next.next
             cur=cur.next
+
 
     #第i个结点前插入值为value的结点
     def list_element_add(self,i,value):
