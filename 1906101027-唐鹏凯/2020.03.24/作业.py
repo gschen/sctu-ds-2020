@@ -32,10 +32,7 @@ class List():
         if self.count%2 != 0:
             x = int((self.count-1)/2)
             return (l[x:])
-
-
-
-
+            
 if __name__ == "__main__":
     sl=List()
     sl.add(20)
