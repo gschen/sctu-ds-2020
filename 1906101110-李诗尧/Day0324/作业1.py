@@ -19,6 +19,6 @@ class SigleLink():
         else:
             ans=ans[s+1::]
         return ans
-sl=SigleLink()
+sl=SigleLink() 
 
 print(sl.travel(6))
