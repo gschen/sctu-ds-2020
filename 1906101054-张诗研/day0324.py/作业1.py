@@ -1,19 +1,22 @@
-
-作业：
-
 class Node():
     def __init__(self,val):
         self.elem=val
         self.next=None
+
+
 class DD():
     def __init__(self,node=None):
         self.head=node
+
+
     def is_empty(self):
         if self.head==None:
             return True
         else:
             return False
-        return self.head==None   
+        return self.head==None 
+
+
     def add_tail(self,val):
         node=Node(val)
         if self.is_empty():
@@ -23,6 +26,8 @@ class DD():
             while cur.next!=None:
                 cur=cur.next
             cur.next=node
+
+
     def Length(self):
         cur=self.head
         count=0
@@ -30,6 +35,8 @@ class DD():
             count+=1
             cur=cur.next
         return count
+
+
     def find(self,pos):
         if pos<0 or pos>self.Length()-1:
             return "error:index out of list"
@@ -40,7 +47,9 @@ class DD():
                 return count
             else:
                 count+=1
-                cur=cur.next   
+                cur=cur.next 
+
+
     def ss(self):
         cur=self.head
         list=[]
@@ -49,6 +58,9 @@ class DD():
             cur=cur.next
         N=mm.find(2)
         print(list[N:])
+
+
+
 if __name__=="__main__":  #运行此页面，会直接该行代码之后的代码
     mm=DD()
     mm.add_tail(1)
@@ -56,4 +68,4 @@ if __name__=="__main__":  #运行此页面，会直接该行代码之后的代�
     mm.add_tail(3)
     mm.add_tail(4)
     mm.add_tail(5)
-    mm.ss()
+    mm.ss() 
