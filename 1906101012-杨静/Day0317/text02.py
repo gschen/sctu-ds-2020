@@ -29,7 +29,7 @@ class Game():
         while True:
             self.one.attack(two)      
             if two.blook<=0:    
-                print("{}活到了最后".format(self.one.name))
+                print("{}活到了最后".format(self.one.name))    
                 break     
             self.two.attack(one)    
             if oneblook<=0:     
