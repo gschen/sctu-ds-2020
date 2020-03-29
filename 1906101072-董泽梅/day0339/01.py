@@ -3,6 +3,7 @@ class ListNode:
         self.value = m
         self.next = None
 
+
 class Solution:
     def middleNode(self, head):
         cur = head
