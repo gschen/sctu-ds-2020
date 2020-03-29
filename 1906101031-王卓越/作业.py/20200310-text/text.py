@@ -42,7 +42,7 @@ class Game:
                 print('最终{}胜利,血量还剩{},{}失败血量{}'.format(self.a.name,self.a.blood,self.b.name,self.b.blood))
                 break
             print('这是第{}轮游戏，{}的血量还剩{}，{}的血量还剩{}'.format(self.num,self.a.name,self.a.blood,self.b.name,self.b.blood))
-f=Game(('张三',80,5,0.3,0.2),('李四',90,6,0.1,0.1))
+f=Game(('张三',80,5,0.3,0.2),('李四',90,6,0.2,0.2))
 f.playGame()
 
 

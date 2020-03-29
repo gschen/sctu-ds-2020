@@ -67,9 +67,9 @@ class Jia():
 			print('妲己:剩余血量: %d' % self.player1.blood)
 			print('安琪拉:剩余血量: %d' % self.player2.blood)
 		if self.player1.blood == 0:
-			print('经过%d轮攻击,安琪拉成功击杀大头,成为本局胜利者.' % count)
+			print('经过%d轮攻击,安琪拉成功击杀妲己,成为本局胜利者.' % count)
 		else:
-			print('经过%d轮攻击,妲己成功击杀BOSS,成为本剧胜利者.' % count)
+			print('经过%d轮攻击,妲己成功击杀安琪拉,成为本剧胜利者.' % count)
 a=Gameperson('妲己',1000,100,0.4,0.6)
 b=Gameperson('安琪拉',2000,50,0.1,0.1)
 c=Jia()
