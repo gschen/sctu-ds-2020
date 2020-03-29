@@ -2,7 +2,7 @@ class Node():
     def __init__(self,val):
         self.elem=val
         self.next=None
-class Zhou():
+class h():
     def __init__(self,node=None):
         self.head=node
     def is_empty(self):
@@ -38,19 +38,19 @@ class Zhou():
             else:
                 count+=1
                 cur=cur.next   
-    def yuan(self):
+    def l(self):
         cur=self.head
         list=[]
         while cur!=None:
             list.append(cur.elem)
             cur=cur.next
-        N=mm.find(2)
+        N=ss.find(2)
         print(list[N:])
 if __name__=="__main__":  #运行此页面，会直接该行代码之后的代码
-    mm=Zhou()
-    mm.add_tail(1)
-    mm.add_tail(2)
-    mm.add_tail(3)
-    mm.add_tail(4)
-    mm.add_tail(5)
-    mm.yuan()
+    ss=h()
+    ss.add_tail(1)
+    ss.add_tail(2)
+    ss.add_tail(3)
+    ss.add_tail(4)
+    ss.add_tail(5)
+    ss.l()
