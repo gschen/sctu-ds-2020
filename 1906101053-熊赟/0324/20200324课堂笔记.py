@@ -19,6 +19,8 @@ tai l=node
 
 
 
+
+
 def list element. add(selfaduvalue);
 node_ new-Node (value)创建新节点
 index=0

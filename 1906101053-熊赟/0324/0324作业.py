@@ -20,3 +20,4 @@ class Solution:
             cur=cur.next
             a=a-1
         return cur
+        
