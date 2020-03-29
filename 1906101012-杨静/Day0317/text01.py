@@ -13,7 +13,7 @@ class siglelink():
         # if self.__head = None:    
         #     return True
         # else:   
-        #     return False
+        #     return False   
         
         return self.__head == None
     #获取链表的长度
