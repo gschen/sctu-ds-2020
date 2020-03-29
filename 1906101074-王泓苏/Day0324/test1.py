@@ -50,7 +50,7 @@ def list_element_add(self,i,value):
     node_new=Node(value) #创建新节点
     index = 0
     node = self.head.next #向后挪一位，避开之前创建的头节点-1
-    while node:#找位置
+    while node: #找位置
         index = index + 1
         if index == i - 1: #在第i个节点前插入，要先找到第i-1个节点
             break

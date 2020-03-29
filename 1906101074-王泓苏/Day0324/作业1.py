@@ -6,6 +6,7 @@ class Node():
     def __init__(self,val):
         self.elem = val
         self.next = None
+
 class Wang():
     def __init__(self,node=None):
         self.head=node
