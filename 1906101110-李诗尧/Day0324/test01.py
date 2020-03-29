@@ -52,3 +52,4 @@ class List:
             return False
         node_new.next=node.next#插入节点
         node.next=node_new
+        
