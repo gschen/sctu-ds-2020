@@ -46,7 +46,7 @@ class Zhou():
             cur=cur.next
         N=mm.find(2)
         print(list[N:])
-if __name__=="__main__":  #运行此页面，会直接该行代码之后的代码
+if __name__=="__main__": 
     mm=Zhou()
     mm.add_tail(1)
     mm.add_tail(2)
