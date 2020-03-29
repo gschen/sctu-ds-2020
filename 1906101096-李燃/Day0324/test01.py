@@ -49,10 +49,10 @@ def list_print(self):
     while node:
         print(node.value,' ',end='')
         node=node.next
-    prinit('')
+    print('')
 
 #删除链表中重复的元素
- def clear_reperition(self):
+def clear_reperition(self):
         cur=self.head
         while cur:#循环遍历
             while cur.next and cur.value==cur.next.value:#判断头节点的值与下一节点的值是否相同
@@ -62,7 +62,7 @@ def list_print(self):
     
     
     # 第i个节点前插入值为value的节点
-    def list_element_add(self, i, value):
+def list_element_add(self, i, value):
         node_new = Node(value)#创建新节点
         index = 0
         node=self.head.next
