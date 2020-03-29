@@ -22,6 +22,8 @@ class SingleLink():
             for i in (count/2+1):
                 cur = cur.next
             node.next = cur
+
+            
                 
 
 
