@@ -44,3 +44,6 @@ if __name__=='__main__':
     s1.insert_before('2')
     s1.insert_before('1')
     print(s1.length())
+
+    
+    
