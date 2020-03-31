@@ -1,11 +1,8 @@
-
-作业：
-
 class Node():
     def __init__(self,val):
         self.elem=val
         self.next=None
-class DD():
+class xiao():
     def __init__(self,node=None):
         self.head=node
     def is_empty(self):
@@ -41,7 +38,7 @@ class DD():
             else:
                 count+=1
                 cur=cur.next   
-    def ss(self):
+    def mi(self):
         cur=self.head
         list=[]
         while cur!=None:
@@ -49,11 +46,11 @@ class DD():
             cur=cur.next
         N=mm.find(2)
         print(list[N:])
-if __name__=="__main__":  #运行此页面，会直接该行代码之后的代码
-    mm=DD()
+if __name__=="__main__": 
+    mm=xiao()
     mm.add_tail(1)
     mm.add_tail(2)
     mm.add_tail(3)
     mm.add_tail(4)
     mm.add_tail(5)
-    mm.ss()
+    mm.mi()

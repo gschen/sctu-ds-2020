@@ -1,6 +1,3 @@
-
-作业：
-
 class Node():
     def __init__(self,val):
         self.elem=val
@@ -57,3 +54,4 @@ if __name__=="__main__":  #运行此页面，会直接该行代码之后的代�
     mm.add_tail(4)
     mm.add_tail(5)
     mm.ss()
+

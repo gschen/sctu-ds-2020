@@ -1,6 +1,3 @@
-
-作业：
-
 class Node():
     def __init__(self,val):
         self.elem=val
