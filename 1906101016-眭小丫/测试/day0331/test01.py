@@ -32,5 +32,3 @@ print(stack.is_empty())
 print(stack.top())
 print(stack.pop())
 print(stack.top())
-
-
