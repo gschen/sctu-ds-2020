@@ -47,3 +47,4 @@ s.pop()
 print(s.is_empty())
 print(get_size())
 s.pop()
+xin
