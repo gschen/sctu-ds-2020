@@ -45,3 +45,4 @@ s.pop()
 print(s.is_empty())
 print(s.get_size())
 print(s.top())
+
