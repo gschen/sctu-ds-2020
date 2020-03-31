@@ -54,6 +54,7 @@ class SigleLink():
         node.next=self.__head
         self.__head=node
 
+
 #向列表中任意位置插入节点
     def insert(self,pos,val):
         if pos<=0:
