@@ -22,7 +22,7 @@ class Stack(object):
 
     stack = Stack()
     print(stack.size())
-
+    
     stack.push(1)
     stack.push(2)
     stack.push(3)

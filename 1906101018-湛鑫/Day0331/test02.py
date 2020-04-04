@@ -33,7 +33,7 @@ class Stack(object):
         else:
             print("栈为空")
 
-s = Staack()
+s = Stack()
 s.push(1)
 s.push(2)
 s.push(3)
