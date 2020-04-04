@@ -33,13 +33,13 @@ s.push(1)
 s.push(2)
 s.push(3)
 print(s.is_empty())
-print(s.top())
+print(s.pop())
 s.pop()
 s.pop()
 s.pop()
 print(s.is_empty())
 print(s.get_size())
-print(s.top())
+print(s.pop())
 
 
 
