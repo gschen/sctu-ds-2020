@@ -23,19 +23,14 @@
 第5轮：你可以得到5 + 10 = 15分。总数是：30。
 '''
 x=eval(input())
-n=0
 l=[]
 for i in x:
     if ord(i)!=67 and ord(i)!=68 and ord(i)!=43:
         l.append(int(i))
-        n=sum(l)
     elif i=="C":
         l.pop()
-        n=sum(l)
     elif i=="D":
-        l.append(2*n)
-        n=sum(l)
+        l.append(2*sum(l))
     elif i=="+":
         l.append(l[-1]+l[-2])
-        n=sum(l)
-print(n)
+print(sum(l))
