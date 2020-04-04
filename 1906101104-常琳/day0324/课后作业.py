@@ -34,3 +34,25 @@ a.next=b
 b.next=c
 print(node_print(a))
 print(node_print(search(a)))
+
+#法二：
+class Node():
+    def __init__(self,head):
+        self.head=head
+    def middlenode(cur):
+        cur=head
+        num=0
+        while cur:
+            num+=1
+            cur=cur.next
+        mid=num//2
+        new_head=head
+        for i in range(mid):
+            new_head=new_head.next 
+        return new_head
+a=Node(1)
+b=Node(2)
+c=Node(3)
+a.next=b
+b.next=c
+print(middlenode(a))
