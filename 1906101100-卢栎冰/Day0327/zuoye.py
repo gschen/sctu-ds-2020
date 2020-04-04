@@ -2,23 +2,23 @@
 # 例如：[1，2，3，4，5]
 # 输出：[3，4，5]
 
+
 # 思路1：先找到链表的长度，然后找到中间位置，最后将链表的头节点指向中间位置的节点
 # 还可以使用其他思路，可跟据自己的需求编写代码
-
-class ListNode:
-    def __init__(self,x):
-        self.val=x
+class Node():
+    def __init__(self,val):
+        self.elem=val
         self.next=None
-
-class Solution:
-    def middleNode(self, head: ListNode) -> ListNode:
-        cur=head
-        num=0
-        while cur :
-            num=num+1
-            cur=cur.next
-        mid=num//2
-        new_head=head
-        for i in range(mid):
-            new_head=new_head.next
-        return new_head
+def search_middle(head):
+    cur=head
+    count=0
+    while cur!=None:
+        count+=1
+        cur=cur.next
+        
+    p=head
+    n=count//2
+    while n>0:
+        p=p.next
+        n-=1
+    return p
