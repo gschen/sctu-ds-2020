@@ -1,15 +1,11 @@
-rating = [2,5,3,4,1]
-long=len(rating)
-nums=max(rating)
+s="1111011110000011100000110001011011110010111001010111110001"
+nums=int(s,2)
 n=0
-for m in range(2):
-    if m==1:
-        rating.reverse()
-    for i in range(long-2):
-        if rating[i]>nums-2:
-            continue
-        for j in range(i+1,long):
-            for k in range(j+1,long):
-                if rating[i]<rating[j]<rating[k]:
-                    n+=1
+while nums!=1:
+    if nums%2==0:
+        nums=nums/2
+        n+=1
+    else:
+        nums+=1
+        n+=1
 print(n)

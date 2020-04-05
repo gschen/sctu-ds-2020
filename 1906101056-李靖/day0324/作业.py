@@ -54,3 +54,4 @@ if __name__=="__main__":
     a.add_tail(4)
     a.add_tail(5)
     a.mu()
+    
