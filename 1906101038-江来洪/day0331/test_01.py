@@ -11,9 +11,9 @@ class Stack(object):
             self.stack.append(date)
     def pop(self):
         if self.stack:
-            return self.stack.pop()
+            return self.stack.pop() 
         else:
-            print('空栈不能被弹出')
+            print('空栈不能被弹出') 
     def top(self):
         if self.stack:
             return self.stack[-1]

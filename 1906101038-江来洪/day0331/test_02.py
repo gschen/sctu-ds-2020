@@ -18,7 +18,7 @@ class Stack(object):
         self.size += 1
     def pop(self):
         if not self.is_empty():
-            current_node = self.head.next
+            current_node = self.head.next 
             if self.get_size() == 1:
                 self.head.next = None
                 self.size -= 1

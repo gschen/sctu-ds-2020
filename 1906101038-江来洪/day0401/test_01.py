@@ -12,7 +12,7 @@ class Stack(object):          #定义一个栈
 s = Stack()   #初始化栈为s
 score_list = list(map(str,input().split()))  #格式输入得分情况表，如：5 2 C D +
 for i in score_list:  #遍历得分情况表的每一个元素
-    score = 0    #开始每一次循环时，当局得分(socre)都为0
+    score = 0    #开始每一次循环时，当局得分(socre)都为0 
     if i == "+":    #如果得分情况为+
         score_1 = s.pop()   #用score_1表示第前一轮得分
         score_2 = s.pop()   #用score_2表示第前两轮的得分
