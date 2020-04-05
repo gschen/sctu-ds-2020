@@ -9,4 +9,4 @@ for i in l :
         stack.append(stack[-1]*2)
     if i == '+':
         stack.append(stack[-1]+stack[-2])
-print(sum(stack))
+print(sum(stack))  
