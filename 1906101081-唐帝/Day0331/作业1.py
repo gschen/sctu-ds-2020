@@ -11,3 +11,5 @@ class Solution:
             else:
                 last.append(int(i))
         return sum(last)
+
+#
