@@ -16,10 +16,11 @@
 # 第4轮：你可以得到10分（第2轮的数据已被删除）。总数是：15。
 # 第5轮：你可以得到5 + 10 = 15分。总数是：30。
 
-class Zhou():
-    def yuan(self,jie):
+
+class huang():
+    def Cao(self,Mao):
         result=[]
-        for i in jie:
+        for i in Mao:
             s=len(result)
             if i=="+":
                 result.append(result[s-1]+result[s-2])
@@ -30,5 +31,5 @@ class Zhou():
             else:
                 result.append(int(i))
         return sum(result)
-a=Zhou()
-print(a.yuan(["5","2","C","D","+"]))
+a=huang()
+print(a.Cao(["5","2","C","D","+"]))

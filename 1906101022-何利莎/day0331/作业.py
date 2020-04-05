@@ -16,19 +16,20 @@
 # 第4轮：你可以得到10分（第2轮的数据已被删除）。总数是：15。
 # 第5轮：你可以得到5 + 10 = 15分。总数是：30。
 
-class Zhou():
-    def yuan(self,jie):
+
+class H():
+    def l(self,s):
         result=[]
-        for i in jie:
-            s=len(result)
+        for i in s:
+            p=len(result)
             if i=="+":
-                result.append(result[s-1]+result[s-2])
+                result.append(result[p-1]+result[p-2])
             elif i=="C":
                 result.pop()
             elif i=="D":
-                result.append(result[s-1]*2)
+                result.append(result[p-1]*2)
             else:
                 result.append(int(i))
         return sum(result)
-a=Zhou()
-print(a.yuan(["5","2","C","D","+"]))
+a=H()
+print(a.l(["5","2","C","D","+"]))
