@@ -12,7 +12,7 @@ class Solution(object):
             elif i=="D":
                 result.append(result[s-1]*2)
             else:
-                result.append(int(i))
+                result.append(int(i))  
         return sum(result)
 a=Solution()
 print(a.calPoints(["5","2","C","D","+"]))  
