@@ -10,3 +10,6 @@ for i in l :
     if i == '+':
         stack.append(stack[-1]+stack[-2])
 print(sum(stack))  
+
+
+
