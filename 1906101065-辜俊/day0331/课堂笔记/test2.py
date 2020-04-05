@@ -18,29 +18,17 @@ class Stack(object):
         self.size+=1
     def pop(self):
         if not self.is_empty():
-            current_node=self.head.next #保存栈顶元素
+            current_node=self.head.next
             if self.get_size()==1:
                 self.head.next=None
-                self.size-=1
             else:
-                self.head.next=self.head.next.next #将头节点指向栈顶的下一个节点
+                self.head.next=self.head.next.next
                 self.size-=1
                 return current_node.data
         else:
             print('栈为空')
-s=Stack()
-s.push(1)
-s.push(2)
-s.push(3)
-print(s.is_empty())
-print(s.pop())
-s.pop()
-s.pop()
-s.pop()
-print(s.is_empty())
-print(s.get_size())
-print(s.pop())
-
-
-
-
+    def top(self):
+        if not not self.is_empty():
+            return self.head.next.data
+        else:
+            print('栈为空')
