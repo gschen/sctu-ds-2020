@@ -37,3 +37,6 @@ class Stack(object):
 A=Stack()
 A.score_sum(["5","2","C","D","+"])
 print(A.result())
+
+
+
