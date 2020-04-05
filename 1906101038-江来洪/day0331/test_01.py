@@ -32,3 +32,4 @@ print(stack.pop())
 print(stack.pop())
 print(stack.pop())
 print(stack.pop())
+
