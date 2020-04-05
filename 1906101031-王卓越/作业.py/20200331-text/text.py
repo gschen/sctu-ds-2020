@@ -1,47 +1,34 @@
-class Node(object):
-    def __init__(self,data):
-        self.data = data
-        self.next = None
-class Stack(object):
-    def __init__(self):
-        self.node = Node(None)
-        self.head = self.node
-        self.size = 0
-    def is_empty(self):
-        return self.size == 0
-    def get_size(self):
-        return self.size
-    def push(self,data):
-        node = Node(data)
-        node.next = self.head.next
-        self.head.next = node
-        self.size += 1
-    def pop(self):
-        if not self.is_empty():#判断是否为空
-            current_node = self.head.next#保存栈顶元素
-            if self.get_size() == 1:
-                self.head.next = None
-                self.size -= 1
+# 你现在是网球比赛记录员。
+# 给定一个字符串列表，每个字符串可以是以下四种类型之一：
+# 1.整数：您在本轮中获得的积分数。
+# 2. "+"：表示本轮获得的得分是前两轮有效 回合得分的总和。
+# 3. "D"：表示本轮获得的得分是前一轮有效 回合得分的两倍。
+# 4. "C"：表示您获得的最后一个有效 回合的分数是无效的，应该被移除。
+# 每一轮的操作都是永久性的，可能会对前一轮和后一轮产生影响。
+# 你需要返回你在所有回合中得分的总和。
+# 示例 1:
+# 输入: ["5","2","C","D","+"]
+# 输出: 30
+# 解释: 
+# 第1轮：你可以得到5分。目前总分是：5。
+# 第2轮：你可以得到2分。目前总分是：7。
+# 第3轮：第2轮的数据无效。目前总分是：5。
+# 第4轮：你可以得到10分（第2轮的数据已被删除）。总数是：15。
+# 第5轮：你可以得到5 + 10 = 15分。总数是：30。
+
+class Zhou():
+    def yuan(self,jie):
+        result=[]
+        for i in jie:
+            s=len(result)
+            if i=="+":
+                result.append(result[s-1]+result[s-2])
+            elif i=="C":
+                result.pop()
+            elif i=="D":
+                result.append(result[s-1]*2)
             else:
-                self.head.next = self.head.next.next#将头结点指向栈顶得下一个结点
-                self.size -= 1
-                return current_node.data
-        else:
-            print("栈为空")
-    def top(self):
-        if not self.is_empty():
-            return self.head.next.data
-        else:
-            print("栈为空")
-s = Stack()
-s.push(1)
-s.push(2)
-s.push(3)
-print(s.is_empty())
-print(s.top())
-s.pop()
-s.pop()
-s.pop()
-print(s.is_empty())
-print(s.get_size())
-print(s.top())
+                result.append(int(i))
+        return sum(result)
+a=Zhou()
+print(a.yuan(["5","2","C","D","+"]))
