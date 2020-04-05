@@ -18,6 +18,7 @@ class List:
             else:
                 node.next = self.head.next#将头节点的下一个节点加入到当前节点的next
                 self.head.next = node
+
 #尾插法创建单链表
     def insert_tail(self,data):
         tail = self.head.next
