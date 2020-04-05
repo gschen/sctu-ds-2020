@@ -7,6 +7,7 @@
 # 每一轮的操作都是永久性的，可能会对前一轮和后一轮产生影响。
 # 你需要返回你在所有回合中得分的总和。
 
+
 class Solution(object):
     def score(self,range):
         stack = []
