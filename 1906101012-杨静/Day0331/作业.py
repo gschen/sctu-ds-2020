@@ -28,7 +28,7 @@ class Yang():
                 result.pop()
             elif i=="D":
                 result.append(result[s-1]*2)
-            else:
+            else:   
                 result.append(int(i))
         return sum(result)
 a=Yang()  
