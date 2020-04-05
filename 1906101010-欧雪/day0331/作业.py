@@ -1,7 +1,7 @@
 class Asd():
     def Sdf(self,zxc):
         result=[]
-        for i in jie:
+        for i in zxc:
             s=len(result)
             if i=="+":
                 result.append(result[s-1]+result[s-2])
