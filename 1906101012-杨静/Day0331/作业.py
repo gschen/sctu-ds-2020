@@ -31,5 +31,5 @@ class Yang():
             else:
                 result.append(int(i))
         return sum(result)
-a=Yang()
+a=Yang()  
 print(a.shu(["5","2","C","D","+"]))
