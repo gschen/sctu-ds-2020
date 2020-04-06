@@ -32,7 +32,7 @@ class List:
                 tail=node
             else:
                 tail.next=node
-                tail=node
+                tail=node   
 
 
 

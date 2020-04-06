@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d5b0022d-1022-454c-ba73-d694d0543b5c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/0331/test01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/0310课堂.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/0310/0310课堂.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/0324.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/0324/0324.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/day0310test.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/0310/day0310test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/day0310test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/0310/day0310test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/0324/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/0324/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/0324/test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1906101005-吴雨桓/0403/作业.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101005-吴雨桓/0403/作业.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/0331/test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/0331/test02.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +56,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.0324作业">
+  <component name="RunManager" selected="Python.小游戏">
+    <configuration name="小游戏" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sctu-ds-2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\wuyuhuan7\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1906101103-王自强/day0310/小游戏.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="0310作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sctu-ds-2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,9 +100,6 @@
       <module name="sctu-ds-2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="C:\Users\wuyuhuan7\AppData\Local\Programs\Python\Python37-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
       <option name="IS_MODULE_SDK" value="true" />
@@ -188,6 +197,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.小游戏" />
         <item itemvalue="Python.0324作业" />
         <item itemvalue="Python.0310作业" />
         <item itemvalue="Python.1 (1)" />
