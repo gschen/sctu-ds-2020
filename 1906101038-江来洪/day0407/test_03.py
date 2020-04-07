@@ -41,7 +41,7 @@ print(queue.is_empty())
 queue.enqueue(1)
 queue.enqueue(2) 
 print(queue.is_empty())
-print(queue.depueue())
+print(queue.depueue()) 
 print(queue.depueue()) 
 print(queue.size)
 

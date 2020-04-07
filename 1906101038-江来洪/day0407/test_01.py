@@ -57,4 +57,4 @@ class Test():
         return True
 
 test = Test()
-print(test.BracketMatch("()()()()){{{{"))
+print(test.BracketMatch("()()()()){{{{")) 

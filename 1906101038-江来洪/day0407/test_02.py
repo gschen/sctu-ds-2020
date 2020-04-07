@@ -32,7 +32,7 @@ class Queue:
 
 
 queue = Queue()  
-queue.enqueue(2)
+queue.enqueue(2) 
 queue.dequeue()
 print(queue.is_empty())
 print(queue.size)
