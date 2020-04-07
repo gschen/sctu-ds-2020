@@ -22,7 +22,7 @@ class Queue:
     #删除队列元素
     def dequeue(self):
         if self.size==0:
-            print('没东西,不能删')
+            print('没东西,不能够删')
             return 
         else:
             self.size-=1

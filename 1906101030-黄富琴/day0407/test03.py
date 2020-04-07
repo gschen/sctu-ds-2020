@@ -37,7 +37,7 @@ class Queue_:
     def dequeue(self):
         #判断队列是否为空
         if self.head is None:
-            print('空')
+            print('空的')
             return 
         else:
             self.size-=1
