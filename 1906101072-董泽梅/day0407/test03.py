@@ -34,6 +34,7 @@ class Queue_:
             self.end = que  # 将尾节点指针指向新节点（第二步）
 
         #删除队列元素
+
     def dequeue(self):
         #判断队列是否为空
         if self.head is None:
