@@ -31,7 +31,7 @@ class Queue:
             self.que.pop(0)
 
 
-queue = Queue()
+queue = Queue() 
 queue.enqueue(2)
 queue.dequeue()
 print(queue.is_empty())

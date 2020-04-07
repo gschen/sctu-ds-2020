@@ -15,7 +15,7 @@ class Stack(object):
     def push(self,data):
         node = Node(data)
         node.next = self.head.next
-        self.head.next = node
+        self.head.next = node 
         self.size += 1
     def pop(self):
         if not self.is_empty():
