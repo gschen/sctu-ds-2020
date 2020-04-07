@@ -13,6 +13,7 @@ class Queue:
         return self.size
 #列表添加元素
 
+
     def enqueue(self,value):
         self.size += 1
         self.que.append(value)
