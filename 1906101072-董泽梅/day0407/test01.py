@@ -52,6 +52,7 @@ class Test():
             if ls.get_size() != 0:
                 return False
             return True
+
 test = Test()
 print(test.BracketMatch("()()()()){{{{"))
 

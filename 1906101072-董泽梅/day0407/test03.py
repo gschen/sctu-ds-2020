@@ -1,4 +1,5 @@
 #用链表的方式实现队列
+
 class Node:
     #初始化，value为当前节点的值
     def __init__(self,value):
@@ -20,6 +21,7 @@ class Queue_:
 
     def que_size(self):
         return self.size
+
 
         # 列表添加元素
     def enqueue(self, value):
