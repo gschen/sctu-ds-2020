@@ -1,57 +1,41 @@
- 
-class Node():
-    def __init__(self,val):
-        self.elem=val
-        self.next=None
-class Zhou():
-    def __init__(self,node=None):
-        self.head=node
-    def is_empty(self):
-        if self.head==None:
-            return True
-        else:
-            return False
-        return self.head==None   
-    def add_tail(self,val):
-        node=Node(val)
-        if self.is_empty():
-            self.head=node
-        else:
-            cur=self.head
-            while cur.next!=None:
-                cur=cur.next
-            cur.next=node
-    def Length(self):
-        cur=self.head
-        count=0
-        while cur.next!=None:
-            count+=1
-            cur=cur.next
-        return count
-    def find(self,pos):
-        if pos<0 or pos>self.Length()-1:
-            return "error:index out of list"
-        cur=self.head
-        count=0
-        while cur!=None:
-            if count==pos:
-                return count
+import random
+class Person():
+    def __init__(self,name,blood,power,crid,avoid):
+        self.name=name
+        self.blood=blood
+        self.power=power
+        self.crid=crid
+        self.avoid=avoid
+        #攻击
+    def attack(self,object):
+        print(self.name,"开始攻击")
+        #对方是否闪避本次攻击
+        #表示我方命中
+        if random.random() >= object.avoid:
+            #判断是否暴击
+            if random.random() <= self.crid:
+                print("-------造成双倍伤害")
+                object.blood-=self.power*2
             else:
-                count+=1
-                cur=cur.next   
-    def yuan(self):
-        cur=self.head
-        list=[]
-        while cur!=None:
-            list.append(cur.elem)
-            cur=cur.next
-        N=mm.find(2)
-        print(list[N:])
-if __name__=="__main__":  #运行此页面，会直接该行代码之后的代码
-    mm=Zhou()
-    mm.add_tail(1)
-    mm.add_tail(2)
-    mm.add_tail(3)
-    mm.add_tail(4)
-    mm.add_tail(5)
-    mm.yuan()
+                object.blood-=self.power
+            else:
+                print("-------miss")
+class Game():
+    def __init__(self,one,two):
+        #导入solo双方
+        self.one=one
+        self.two=two
+    def solo(self):
+        while True:
+            self.one.attack(two)
+            if two.blook<=0:
+                print("{}活到了最后".format(self.one.name))
+                break
+            self.two.attack(one)
+            if oneblook<=0:
+                print("{}活到了最后".format(self.two.name))
+                break
+lg=Person()
+jj=Person()
+sl=Game(lg,jj)
+sl.solo()

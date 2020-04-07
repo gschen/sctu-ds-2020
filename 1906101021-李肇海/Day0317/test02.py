@@ -40,4 +40,3 @@ jj=Person()
 sl=Game(lg,jj)
 sl.solo()
 
-
