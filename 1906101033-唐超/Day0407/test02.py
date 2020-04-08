@@ -28,4 +28,5 @@ class Queue:
             self.size -= 1
             self.que.pop(0)
 
+
 queue = Queue()

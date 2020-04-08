@@ -29,6 +29,7 @@ class Stack(object):
                 return current_node.data
         else:
             print("栈为空！")
+            
     def top(self):
         if not self.is_empty():
             return self.head.next.data
