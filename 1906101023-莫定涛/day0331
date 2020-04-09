@@ -63,7 +63,7 @@ class Stack(object):
                 return current_node.data
         else:
             print('栈为空')
-    s = stack
+    
 
 
 
