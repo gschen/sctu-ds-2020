@@ -22,22 +22,15 @@
 第4轮：你可以得到10分（第2轮的数据已被删除）。总数是：15。
 第5轮：你可以得到5 + 10 = 15分。总数是：30。
 '''
-class Solution:
-    def calPoints(self, ops):
-        l=[]
-        for i in ops:
-            if len(i)>=2:
-                l.append(int(i))
-            elif ord(i)!=67 and ord(i)!=68 and ord(i)!=43:
-                l.append(int(i))
-            elif i=="C":
-                l.pop()
-            elif i=="D":
-                l.append(2*l[-1])
-            elif i=="+":
-                l.append(l[-1]+l[-2])
-        # print(l)
-        return sum(l)
-
-a=Solution()
-print(a.calPoints(["5","2","C","D","+"]))
+x=eval(input())
+l=[]
+for i in x:
+    if ord(i)!=67 and ord(i)!=68 and ord(i)!=43:
+        l.append(int(i))
+    elif i=="C":
+        l.pop()
+    elif i=="D":
+        l.append(2*sum(l))
+    elif i=="+":
+        l.append(l[-1]+l[-2])
+print(sum(l))
