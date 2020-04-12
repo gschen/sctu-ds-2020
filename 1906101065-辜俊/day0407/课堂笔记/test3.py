@@ -33,3 +33,4 @@ class Queue_:
             self.head=self.head.next
             if self.head is None:
                 self.end=None
+                
