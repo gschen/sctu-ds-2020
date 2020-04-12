@@ -8,6 +8,10 @@ class Node():
         self.elem=val
         self.next=None
 
+# a=Node(10)
+# b=Node(20)
+# a.next=b
+
 # 单链表类
 class SigleLink():
     def __init__(self,node=None):

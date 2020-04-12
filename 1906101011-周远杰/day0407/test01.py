@@ -28,28 +28,28 @@ class Stack(object):
                 self.size -= 1
                 return current_node.data
         else:
-            print("栈为空!")
+            print("栈为空！")
     def top(self):
         if not self.is_empty():
             return self.head.next.data
         else:
-            print("栈为空!")
+            print("栈为空！")
 
-#括号匹配
+
 class Test():
-    def BrackeMatch(self,str1):
+    def BracketMatch(self,str1):
         ls = Stack()
         i = 0
         while i < len(str1):
             if str1[i] == "(" or str1[i] == "[" or str1[i] == "{":
                 ls.push(str1[i])
-                i+=1
+                i += 1
                 continue
             elif ls.get_size == 0:
                 return False
-            if (str1[i] == ")" and ls.top() == "(") or (str1[i] == "]" and ls.top() == "[") or (str1[i] == "}" and ls.top() == "{"):
+            if (str1[i] == ")" and ls.top() == "(") or (str1[i] =="[") or (str1[i] == "}" and ls.top() == "{"):
                 ls.pop()
-                i+=1
+                i += 1
             else:
                 return False
         if ls.get_size() != 0:
@@ -57,4 +57,4 @@ class Test():
         return True
 
 test = Test()
-print(test.BrackeMatch("()()()())"))
+print(test.BracketMatch("()()()()){{{{"))
