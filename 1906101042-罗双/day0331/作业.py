@@ -17,5 +17,3 @@ class Stack(object):
 S=Stack()
 S.grade(["5","2","C","D","+"])
 print(S.sum_grade())
-
-
