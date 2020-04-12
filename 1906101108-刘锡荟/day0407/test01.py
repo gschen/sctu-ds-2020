@@ -1,4 +1,3 @@
-lxh 2020/4/12 18:37:30
 class Node(object):
     def __init__(self,data):
         self.data=data
@@ -56,7 +55,6 @@ class Test():
 test = Test()
 print(test.BracktMatch("()()()()"))
 
-lxh 2020/4/12 18:40:19
 #链表的方式实现队列
 class Node:
     #初始化,value为当前节点的值
@@ -107,7 +105,6 @@ queue.enqueue(4)
 queue.enqueue(5)
 print(queue.que_size())
 
-lxh 2020/4/12 18:40:19
 class Queue:
     #初始化队列
     def __init__(self):
