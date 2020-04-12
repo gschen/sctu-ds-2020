@@ -28,7 +28,7 @@ class SigleLink():
         while cur!=None:
             count+=1
 
-        #将cur替换为下一个节点
+            #将cur替换为下一个节点
             cur=cur.next
         return count
     #从尾部插入元素

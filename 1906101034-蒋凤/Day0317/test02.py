@@ -18,7 +18,8 @@ class Person():
                 object.blood-=self.power*2
             else:
                 object.blood-=self.power
-            print("-------miss")
+            else:
+                print("-------miss")
 class Game():
     def __init__(self,one,two):
         #导入solo双方
@@ -31,7 +32,7 @@ class Game():
                 print("{}活到了最后".format(self.one.name))
                 break
             self.two.attack(one)
-            if one.blook < = 0:
+            if oneblook<=0:
                 print("{}活到了最后".format(self.two.name))
                 break
 lg=Person()
