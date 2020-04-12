@@ -54,5 +54,6 @@ class Test():
         if ls.get_size() != 0:
             return False
         return Ture
+
 test = Test()
 print(test.BracketMatch("()()()()(){}{}")) 

@@ -25,6 +25,7 @@ class Queue:
         else:
             self.size-=1
             self.qur.pop(0)
+
 queue=Queue()
 queue.enqueue("x")
 queue.enqueue("y")
