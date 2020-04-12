@@ -54,4 +54,3 @@ class Test():
             return True
 test=Test()
 print(test.BracketMatch("()()()()){{{{"))
-
