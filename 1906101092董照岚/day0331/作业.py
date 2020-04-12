@@ -14,8 +14,7 @@ class Stack(object):
             elif date=='+':
                 self.stack.append(sum(self.stack[-2:]))
     def result(self):
-        return sum(self.stack)
-        
+        return sum(self.stack)        
 A=Stack()
 A.push(["5","2","C","D","+"])
 print(A.result())
