@@ -30,6 +30,7 @@ class Queue_:
             self.end.next=que#将新节点放在尾节点后面(第一步)
             self.end=que#将尾节点指向新节点(第二步)
 
+
     #删除队列元素
     def dequeue(self):
        #判断队列是否为空
