@@ -33,4 +33,4 @@ class Stack(object):
         return sum(self.stack)
 A=Stack()
 A.sum_he(["5","2","C","D","+"])
-print(A.result())
+print(A.result())                
