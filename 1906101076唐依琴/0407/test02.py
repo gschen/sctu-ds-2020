@@ -43,3 +43,5 @@ class Queue_():
             self.head=self.head.next#删除元素，是头指针指向下一个元素
             if self.head is None:#如果删除元素后，队列没有元素，head此时为None，end此时也为None
                 self.end=None
+
+
