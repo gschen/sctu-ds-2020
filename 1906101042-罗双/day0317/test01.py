@@ -94,7 +94,7 @@ class SigleLink():
         while cur!=None:
             if cur.elem==val:
                 return True
-                cur=cur.next
+            cur=cur.next
         return False    
 
 
@@ -113,7 +113,7 @@ if __name__=='__main__':  #运行此页面，会直接运行该代码之后的�
     sl.travel()
     sl.insert(2,100)
     sl.travel()
-    print(sl.find(2))
+    
     print(sl.search(10))
     print(sl.search(200))
 

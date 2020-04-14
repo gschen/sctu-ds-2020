@@ -20,6 +20,7 @@ class Stack(object):
     def size(self):
         return len(self.stack)
 
+
 stack = Stack()
 print(stack.size())
 stack.push(1)

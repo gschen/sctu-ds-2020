@@ -1,0 +1,56 @@
+class Node(object):
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+class Stack(object):
+    def __init__(self):
+        self.node=Node(None)
+        self.head=self.node
+        self.size=0
+    def is_empty(self):
+        return self.size==0
+    def get_size(self):
+        return self.size
+    def push(self,data):
+        node=Node(data)
+        node.next=self.head.next
+        self.head.next=node
+        self.size+=1
+    def pop(self):
+        if self.is_empty():#判断是否为空
+            current_node=self.head.next#保存栈顶元素
+            if self.get_size()==1:
+                self.head.next=Node
+            else:
+                self.head.next=self.head.next.next#讲头节点指向栈顶的下一个节点
+                self.size-=1
+                return current_node.data
+        else:
+            print('栈为空')
+    def top(self):
+        if not self.is_empty():
+            return self.head.next.data
+        else:
+            print('栈为空')
+
+class Test():
+    def BracketMatch(self,str1):
+        Is=Stack()
+        i=0
+        while i < len(str1):
+            if str1[i]=='('or str1[i]=='['or str1[i]=='{':
+                Is.push(str1[i])
+                i+=1
+                continue
+            elif Is.get_size==0:
+                return False
+            if (str1[i]==')'and Is.top() == '(') or (str1[i] == ']' and Is.top() == '[') or (srt1[i] == '}' and Is.top() == '{'):
+                Is.pop()
+                i+=1
+            else:
+                return False
+            if Is.get_size() !=0:
+                return False
+            return True
+test=Test()
+print(test.BracketMatch('()()()()){{{{'))
