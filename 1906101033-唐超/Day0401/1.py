@@ -34,6 +34,7 @@ class Stack(object):
                 self.stack=self.stack[:-1]
     def result(self):
         return sum(self.stack)
+    
       
 A=Stack()
 A.score_sum(["5","2","C","D","+"])
