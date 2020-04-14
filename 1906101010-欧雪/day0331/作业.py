@@ -13,4 +13,4 @@ class Asd():
                 result.append(int(i))
         return sum(result)
 a=Asd()
-print(a.Sdf(["5","2","C","D","+"])
+print(a.Sdf(["5","2","C","D","+"])   
