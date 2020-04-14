@@ -1,22 +1,27 @@
 class Node(object):
-    def __init__(self,data):
+    def __init__(self, data):
         self.data = data
         self.next = None
+
 
 class Stack(object):
     def __init__(self):
         self.node = Node(None)
         self.head = self.node
         self.size = 0
+
     def is_empty(self):
         return self.size == 0
+
     def get_size(self):
         return self.size
-    def push(self,data):
+
+    def push(self, data):
         node = Node(data)
         node.next = self.head.next
         self.head.next = node
         self.size += 1
+
     def pop(self):
         if not self.is_empty():
             current_node = self.head.next
@@ -29,6 +34,7 @@ class Stack(object):
                 return current_node.data
         else:
             print("栈为空！")
+
     def top(self):
         if not self.is_empty():
             return self.head.next.data
@@ -37,7 +43,7 @@ class Stack(object):
 
 
 class Test():
-    def BracketMatch(self,str1):
+    def BracketMatch(self, str1):
         ls = Stack()
         i = 0
         while i < len(str1):
@@ -56,7 +62,7 @@ class Test():
             return False
         return True
 
+
+
 test = Test()
-print(test.BracketMatch("()()()()){{{{"))
-
-
+print(test.BracketMatch("()()()((())){{{{"))
