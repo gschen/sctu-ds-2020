@@ -1,14 +1,19 @@
-#节点类
+# coding=utf-8
+
+'''链表'''
+
+# 节点类
 class Node():
     def __init__(self,val):
         self.elem=val
         self.next=None
-#单链表类
+
+# 单链表类
 class SigleLink():
-    def __init__(self,node=Node):
+    def __init__(self,node=None):
         self.__head=node
     
-    #判断链表是否为空
+    # 判断链表是否为空
     def is_empty(self):
         '''
         if self.__head==None:
@@ -17,54 +22,50 @@ class SigleLink():
             return False
         '''
         return self.__head==None
-
-    #获取链表的长度
+    
+    # 获取链表的长度
     def length(self):
-        #cur游标，表示当前操作的节点
+        # cur游标，表示当前操作的前节点
         cur=self.__head
-
-        #统计有多少节点
+        # count统计有多少节点
         count=0
-
-        #先判断再加值
-        while cur.next!=None:
+        while cur!=None:
             count+=1
-
-            #将cur替代为下一个节点
+            # 将cur替换为下一个节点
             cur=cur.next
         return count
-    #从尾部插入元素
+
+    # 从尾部插入元素
     def add_tail(self,val):
         node=Node(val)
-        #分别处理链表为空和不为空的情况
-        if self.is_empty:
+        # 分别处理表为空和不为空的情况
+        if self.is_empty():
             self.__head=node
         else:
             cur=self.__head
             while cur.next!=None:
                 cur=cur.next
-            cur.next=node 
-    #链表节点遍历
+            cur.next=node
+
+    # 链表节点的遍历
     def travel(self):
         cur=self.__head
         while cur!=None:
             print(cur.elem,end=' ')
             cur=cur.next
 
-        print('')#换行
-
-    #头插法
+    # 链表的头部插入元素
     def add_top(self,val):
         node=Node(val)
         node.next=self.__head
         self.__head=node
 
-    #向列表中任意位置插入节点
+    # 向链表任意位置插入元素
     def insert(self,pos,val):
         if pos<=0:
-            self.add_top(val)
+            self.add.__top(self.val)
         elif pos>self.length()-1:
-            self.add_tail(val)
+            self.add_tail()
         else:
             node=Node(val)
             cur=self.__head
@@ -75,8 +76,8 @@ class SigleLink():
             node.next=cur.next
             cur.next=node
 
-    #根据下标查找结点
-    def find(self,pos,val):
+    # 根据下标查找节点
+    def find(self,pos):
         if pos<0 or pos>self.length()-1:
             return 'error:index out of list'
         cur=self.__head
@@ -88,18 +89,17 @@ class SigleLink():
                 count+=1
                 cur=cur.next
 
-    #查找节点是否存在
+    # 查找节点是否存在
     def search(self,val):
         cur=self.__head
         while cur!=None:
             if cur.elem==val:
                 return True
             cur=cur.next
-        return False    
+        return False
 
 
-
-if __name__=='__main__':  #运行此页面，会直接运行该代码之后的代码
+if __name__=='__main__':
     sl=SigleLink()
     print(sl.is_empty())
     print(sl.length())
@@ -109,15 +109,12 @@ if __name__=='__main__':  #运行此页面，会直接运行该代码之后的�
     print(sl.is_empty())
     print(sl.length())
     sl.travel()
+    print()
     sl.add_top(40)
     sl.travel()
-    sl.insert(2,100)
+    sl.insert(3,100)
+    print()
     sl.travel()
-    
-    print(sl.search(10))
-    print(sl.search(200))
-
-
-
-
-
+    print()
+    print(sl.find(4))
+    print(sl.search(100))

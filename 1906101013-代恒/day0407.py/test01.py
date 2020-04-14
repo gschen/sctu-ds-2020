@@ -1,6 +1,6 @@
 class Node(object):
     def __init__(self,data):
-        self.data = data 
+        self.data = data
         self.next = None
 
 class Stack(object):
@@ -15,7 +15,7 @@ class Stack(object):
     def push(self,data):
         node = Node(data)
         node.next = self.head.next
-        self.head.next = node 
+        self.head.next = node
         self.size += 1
     def pop(self):
         if not self.is_empty():
@@ -57,4 +57,4 @@ class Test():
         return True
 
 test = Test()
-print(test.BracketMatch("()()()()){{{{")) 
+print(test.BracketMatch("()()()()){{{{"))
