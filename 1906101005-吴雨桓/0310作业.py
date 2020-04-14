@@ -24,7 +24,7 @@ class A():
         print("%s 攻击%s 暴击伤害值:%d 奥特曼剩余生命值:%d" % (self.name, B.name, (self.damage)*2, B.hp))
     def attack1_B(self,B):
         B.hp -= (self.damage)
-        print("%s 攻击%s 伤害值:%d 奥特曼剩余生命值:%d" % (self.name, B.name, (self.damage), B.hp))
+        print("%sDay0407 攻击%s 伤害值:%d 奥特曼剩余生命值:%d" % (self.name, B.name, (self.damage), B.hp))
 
 
 class B():

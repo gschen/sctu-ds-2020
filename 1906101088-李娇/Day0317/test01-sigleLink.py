@@ -24,7 +24,7 @@ class SigleLink():
 
     #获取链表的长度
     def length(self):
-        #cur游标，表示当前的操作的节点
+        #cur游标，表示w当前的操作的节点
         cur=self.__head
         #统计有多少节点
         count=0

@@ -19,13 +19,17 @@ def getHtml(url):
         "wrong"
 def getID(url):
     try:
+        list1 = []
         r = requests.get(url)
         r.status_code
         r.raise_for_status
+        r.encoding = 'utf-8'
         html = r.text
         soup = BeautifulSoup(html,"html.parser")
         links = soup.find(class_="content-img-list")
         links1 = links.find_all("a")
+        if list1 != []:
+            list1 = []
         for i in links1:
             list1.append(i.get("href"))
         return list1[0:12]
@@ -36,6 +40,7 @@ def get_movie_details(url):
         r = requests.get(url)
         r.status_code
         r.raise_for_status
+        r.encoding = 'utf-8'
         html = r.text
         soup = BeautifulSoup(html,"html.parser")
         soup.prettify()
@@ -51,9 +56,8 @@ def main(url):
     for i in range(1,233):
         category = start_url+"&page={}".format(i)
         movie = getID(category)
-        
         for ids in movie:
-            items = get_movie_details(url+"{}".format(ids))
+            items = get_movie_details(url+'{}'.format(ids))
             item_list.append(ids)
         
 
@@ -61,6 +65,5 @@ def main(url):
 
 if __name__ =="__main__":
     url = "http://www.emdy.cn/"
-    list1 = []
     item_list = []
     main(url)
