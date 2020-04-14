@@ -73,10 +73,3 @@ class tree():
             tra(node.left)
             tra(node.right)
         tra(self.root)
-
-s=tree()
-s.add_left(3)
-s.add_left(2)
-s.add_right(4)
-s.add_right(1)
-s.travel()
