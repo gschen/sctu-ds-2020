@@ -27,6 +27,10 @@ class Queue:
 queue=Queue()
 queue.enqueue(1)
 queue.enqueue(2)
+<<<<<<< HEAD
+print(queue.is_empty())
+=======
 queue.enqueue(3)
 print(queue.is_empty())
 
+>>>>>>> 42f7e6696cd46b332b07cf06f9f1dddc2e18ce48

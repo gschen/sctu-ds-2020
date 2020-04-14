@@ -33,6 +33,7 @@ class Siglelink():
         node=Node(val)
         #分别处理链表为空和不为空的情况
         if self.is_empty():
+
             self.__head=node
         else:
             cur=self.__head
@@ -48,7 +49,7 @@ class Siglelink():
         print('')#换行
     #头插法
     def add_top(self,val):
-        node=None(val)
+        node=Node(val)
         node.next=self.__head
         self.__head=node
 
