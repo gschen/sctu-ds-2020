@@ -29,3 +29,4 @@ t.add_left(30)
 t.add_right(40)
 t.add_left(50)
 t.travel()
+

@@ -40,3 +40,4 @@ class SingleLink():
         tra(self._head)
 a=SingleLink()
 a.add_tail(10)
+
