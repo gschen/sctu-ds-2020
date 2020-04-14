@@ -25,7 +25,7 @@ class Queue:
         if self.head is None:#判断头结点是否为空
             self.head=self.end=que
         else:
-            self.enfd.next=que
+            self.end.next=que
             self.end=que
 #删除队列元素
     def dequeue(self):
