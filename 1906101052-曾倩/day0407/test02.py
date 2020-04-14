@@ -3,7 +3,7 @@ class Queue:
     def Linit_(self):
         self.que=[]
         self.size=0#列表的长度
-    
+
     #判断队列是否为空
     def is_empty(self):
         if self.size==0:

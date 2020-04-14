@@ -28,7 +28,7 @@ class Queue_:
         else：
             self.end.next=que
             self.end=que
-    #删除队列元素
+#删除队列元素
     def dequeue(self):
         if self.head is None:
             print("没东西，不能删")
