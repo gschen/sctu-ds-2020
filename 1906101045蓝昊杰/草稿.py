@@ -1,15 +1,10 @@
-rating = [2,5,3,4,1]
-long=len(rating)
-nums=max(rating)
-n=0
-for m in range(2):
-    if m==1:
-        rating.reverse()
-    for i in range(long-2):
-        if rating[i]>nums-2:
-            continue
-        for j in range(i+1,long):
-            for k in range(j+1,long):
-                if rating[i]<rating[j]<rating[k]:
-                    n+=1
-print(n)
+l=[1]
+for i in range(6,10000):
+	for j in range(2,int(i**0.5)+1):
+		if i%j==0:
+			l.append(j)
+			l.append(i/j)
+	s=sum(l)
+	l=[1]
+	if s==i:
+		print(i)
