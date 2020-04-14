@@ -60,6 +60,10 @@ class Text():
 
 test=Text()
 print(test.BracketMatch("()()()()({{{{"))
+<<<<<<< HEAD
+=======
+
+>>>>>>> 42f7e6696cd46b332b07cf06f9f1dddc2e18ce48
         
 
             
