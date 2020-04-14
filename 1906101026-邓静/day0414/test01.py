@@ -9,3 +9,30 @@ def fib(n):
         retrun 1
     retrun fib(n-1)+fib(n-2)
 print(fib(5))
+
+class Node():
+    def __init__(self,val=None):
+        self.val=val
+        self.next=None
+class SingleLink():
+    def __init__(self):
+        self._head=None
+    def add_tail(self,val):
+        node=None(val)
+        if self._head==Node:
+            self._gead=node
+        else:
+            cur=self._head
+            while  cur.next!=None:
+                cur=cur.next
+            cur.next=node
+    def travel(self):
+        cur=self._head
+        while cur!=None:
+            print(cur.val)
+            cur=cur.next
+    def f_tar(self):
+        def tra(node):
+            if node==None:
+                return 
+            tra(node.next)
