@@ -34,7 +34,6 @@ ls=[66,99,88,77,[11,22,33]]
 ls.append(55)
 ls.extend([666,888])
 ls.remove(66)  
-ls.sqrt
 ls.pop
 ls
 
