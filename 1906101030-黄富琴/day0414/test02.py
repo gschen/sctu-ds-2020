@@ -31,6 +31,7 @@ class Tree():
             tra(node.left)
             tra(node.right)
         tra(self.root)
+        
 tree=Tree()
 tree.add_left(10)
 tree.add_right(20)

@@ -9,7 +9,7 @@ def back_index(s):
             k=lis[k]
         lis.append(k)
     return lis
-print(back_index('ababa'))
+print(back_index('ababaca'))
 def kmp(s1,s2):#s1是母串,s2是子串
     s2_lis=back_index(s2)
     k=-1#代表的是相同的序列长度
