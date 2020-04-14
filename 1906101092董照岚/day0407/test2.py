@@ -34,6 +34,7 @@ class Stack(object):
         else:
             print('栈为空')
 
+
 class Test():
     def BKM(self,str1):
         Is=Stack()
