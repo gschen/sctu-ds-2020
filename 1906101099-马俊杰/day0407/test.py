@@ -58,6 +58,7 @@ class Test():
 test = Test()
 print(test.BracketMatch("()()()()){{{{"))
 '''
+
 '''
 #队列
 class Queue:#初始化队列  
@@ -86,11 +87,6 @@ class Queue:#初始化队列
             self.que.pop(0)
 
 queue=Queue()
-queue.enqueue(12)
-queue.enqueue(13)
-queue.enqueue(14)
-queue.dequeue()
-print(queue.que)
 '''
 '''
 #链表的方式实现队列
@@ -116,7 +112,7 @@ class Queue_:#初始化队列
     def enqueue(self,value):
         self.size+=1
         que=Node(value)#创建节点
-        if self.head=None:#判断是否存在头节点
+        if self.head is None:#判断是否存在头节点
             self.head=self.end=que
         else:#如果存在头节点
             self.end.next=que#将新节点放在尾节点后（第一步）
@@ -130,5 +126,11 @@ class Queue_:#初始化队列
             self.size-=1
             self.head=self.head.next#删除元素，使头指针指向下一个元素
             if self.head is None:#如果删除元素后，队列没有元素，#head此时为None，end此时也为None
-                self.end=None 
-'''
+                self.end=None
+queue=Queue_()  
+print(queue.is_empty())
+queue.enqueue(1)
+queue.enqueue(2)
+queue.dequeue()
+print(queue.que_size()) 
+'''              

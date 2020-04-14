@@ -12,15 +12,14 @@ class SigleLink():
 
     #判断链表是否为空
     def is_empty(self):
-        
+        return self.__head==None
         '''
         if self.__head==None:
             return True
         else:
-            return False
-        '''    
-        return self.__head==None  
-
+            return
+        ''' 
+            
     #获取链表长度
     def length(self):
 

@@ -131,3 +131,16 @@ def is_ empty(self):
             self .head=self.head.next#删除元素，使头指针指向下一个元素
             if self.head is None:#如果删除元素后，队列没有元素，head此时为None, end此时也应该
                 self.end=None
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -15,6 +15,7 @@ class LinkNode():
             else:
                 tail.next = node#头节点的下一个结点不为空，在最后一个结点的下一个结点加入node
                 tail = node
+
 #创建一个链表
 a = LinkNode()
 l = list(map(int,input().split()))
