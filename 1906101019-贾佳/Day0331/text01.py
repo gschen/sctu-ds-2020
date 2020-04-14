@@ -18,7 +18,7 @@ class stack(object):
 
     def top(self):
         if self.stack:
-            return slef.stack[-1]
+            return self.stack[-1]
 
     def size(self):
         return len(self.stack)

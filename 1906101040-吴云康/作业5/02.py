@@ -1,70 +1,126 @@
+#链表
+
 class Node():
     def __init__(self,val):
         self.elem=val
         self.next=None
 
+#单链表类
+class SigleLink():
+    def __init__(self,node=None):
+        self.__head=node
 
-class List():
-    def __init__(self):
-        #头结点
-        self.head=Node(-1)
-    #头插法创建单链表
-    def insert_before(self,data):
-        for i in data:
-            node=Node(i)#创建新结点
-            #判断头结点的下一个结点是否为空
-            if self.head.next is None:#如果为空，则将新结点加入到next
-                self.head.next=node
-            else:
-                node.next=self.head.next#将头结点的下一个结点加入到当前结点的next
-                self.head.next=node
+    #判断链表是否为空
+    def is_empty(self):
+        '''
+        if self.__head==None:
+            return True
+        else:
+            return False
+        '''
+        return self.__head==None
 
+    #获取链表的长度
+    def Length(self):
+        #cur游标。表示当前操作的节点
+        cur=self.__head
+        
+        #统计有多少节点
+        count=0
+
+        while cur!=None:
+
+            count+=1
+
+            #将cur替换为下一个节点
+            cur=cur.next
+        return count
 
     #从尾部插入元素    
-    def insert_tail(self,data):
-        #尾结点
-        tail=self.head.next
+    def add_tail(self,val):
+        node=Node(val)
+        #分别处理链表为空和不为空的情况
+        if self.is_empty():
 
-        for i in data:
-            node=Node(i)#创建新结点
-            #判断尾结点是否为空
-            if tail is None:#如果为空，则将新结点加入到next
-                self.head.next=node
-                tail=node
-            else:
-                tail.next=node#将新结点加入到尾结点的next
-                tail=node
+            self.__head=node
 
+        else:
+            cur=self.__head
+            while cur.next!=None:
+                cur=cur.next
+            cur.next=node
 
-    #删除链表中重复元素
-    def clear_repetition(self):
-        #头结点
-        cur=self.head
-        while cur:
-            while cur.next and cur.value==cur.next.value:#当前结点下一个结点不为空并且头结点的值与next的值是否相等
-                cur.next=cur.next.next#将当前结点链接到当前结点的next.next
+    #链表节点遍历
+    def travel(self):
+        cur=self.__head
+        while cur!=None:
+            print(cur.elem,end=" ")
             cur=cur.next
 
+        print(" ")#换行
+    
+    #头插法
+    def add_top(self,val):
+        node=Node(val)
+        node.next=self.__head
+        self.__head==node
 
-    #第i个结点前插入值为value的结点
-    def list_element_add(self,i,value):
+    #向链表任意位置插入元素
+    def insert(self,pos,val):
+        if pos<=0:
+            self.add_top(val)
+        elif pos>self.Length()-1:
+            self.add_tail(val)       
+        else:
 
-        node_new=Node(value)#创建新结点
+            node=Node(val)
+            cur=self.__head
+            count=0
+            while count<pos-1:
+                count+=1
+                cur=cur.next
+            node.next=cur.next
+            cur.next=node
+    #根据下标查找节点
+    def find(self,pos):
+        if pos<0 or pos>self.Length()-1:
+            return "error:index out of list"
+        cur=self.__head
+        count=0
+        while cur!=None:
+            if count==pos:
+                return cur.elem
+            else:
+                count+=1
+                cur=cur.next
 
-        index=0
+    #查找节点是否存在
+    def search(self,val):
+        cur=self.__head
+        while cur!=None:
+            if cur.elem==val:
+                return True
+            cur=cur.next
+        return False
 
-        node=self.head.next
 
-        while node:#找位置
-            index=index+1
 
-            if index==i-1:
-                break
 
-            node=node.next
 
-        if node is Node:
-            return False
-
-        node_new.next=node.next#插入结点
-        node.next=node_new
+if __name__=="__main__":  #运行此页面，会直接该行代码之后的代码
+    sl=SigleLink()
+    print(sl.is_empty())
+    print(sl.Length())
+    sl.add_tail(10)
+    sl.add_tail(20)
+    sl.add_tail(30)
+    print(sl.is_empty())
+    print(sl.Length())
+    sl.travel()
+    sl.add_top(40)
+    sl.travel()
+    sl.insert(2,100)
+    sl.travel()
+    print(sl.find(2))
+    print(sl.search(10))
+    print(sl.search(100))
