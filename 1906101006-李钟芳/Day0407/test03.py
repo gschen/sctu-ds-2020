@@ -49,4 +49,3 @@ queue.enqueue(1)
 queue.enqueue(2)
 queue.dequeue()
 print(queue.que_size())
-
