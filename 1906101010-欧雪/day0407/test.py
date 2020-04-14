@@ -141,7 +141,7 @@ class Queue_:#加_的原因：同一目录下类不能重复
 
 queue=Queue_()
 print(queue.is_empty())
-queue.enqueue(1)
-queue.enqueue(2)
-queue.dequeue()
+queue.enqueue("1")
+queue.enqueue("2")
+queue.enqueue("3")
 print(queue.que_size())
