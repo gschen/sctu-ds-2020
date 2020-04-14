@@ -55,6 +55,3 @@ class Test():
 test=Test()
 print(test.BracketMatch("()()()()){{{{"))
 
-
-
-© 2020 GitHub, Inc.
