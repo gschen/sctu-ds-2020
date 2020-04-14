@@ -52,6 +52,5 @@ class Test():
             if Is.get_size() !=0:
                 return False
             return True
-
 test=Test()
-print(test.BracketMatch('()()()()){{{{'))     
+print(test.BracketMatch('()()()()){{{{'))
