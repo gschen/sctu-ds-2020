@@ -28,13 +28,3 @@ q.enqueue('1')
 q.enqueue('2')
 q.enqueue('1')
 print(q.que_size())
-
-
-
-
-
-
-
-
-
-
