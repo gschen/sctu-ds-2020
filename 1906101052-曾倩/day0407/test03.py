@@ -19,7 +19,7 @@ class Queue_:
     def que size(self):
         return self.size
         
-    #列表添加元素
+#列表添加元素
     def enqueue(self,value):
         self.size+=1
         que=Node(value)#创建节点
@@ -28,7 +28,7 @@ class Queue_:
         else：
             self.end.next=que
             self.end=que
-    #删除队列元素
+#删除队列元素
     def dequeue(self):
         if self.head is None:
             print("没东西，不能删")
