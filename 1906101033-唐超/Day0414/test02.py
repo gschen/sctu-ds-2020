@@ -11,7 +11,6 @@ class SingleLink():
                 cur=cur.next
             cur.next=node
 
-
     def travel(self):
         cur=self._head
         while cur != None:
