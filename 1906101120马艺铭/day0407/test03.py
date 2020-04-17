@@ -5,7 +5,7 @@ class Node:
         self.value=value
         self.next=next
 
-
+#
 class Queue_:
     #初始化
     def __init__(self):
