@@ -33,6 +33,7 @@ class Tree():
 
 
 
+
 tree=Tree()
 tree.add_left(10)
 tree.add_right(10)

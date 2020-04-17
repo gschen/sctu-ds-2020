@@ -26,4 +26,5 @@ def kmp(s1,s2):#是s1是母串，s2是子串
             lis.append(i)
             k=s2_lis[k]#每次匹配成功后都要回退，不然后续会超出
     return lis
+
 print(kmp("abaabcab","abc"))
