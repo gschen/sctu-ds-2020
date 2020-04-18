@@ -36,3 +36,8 @@ class SingleLink():
             if node==None:
                 return 
             tra(node.next)
+            print(node.val)
+        tra(self._head)
+a=SingleLink()
+a.add_tail(10)
+
