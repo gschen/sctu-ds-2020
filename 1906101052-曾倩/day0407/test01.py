@@ -2,7 +2,6 @@ class Node(object):
     def __init__(self,data):
         self.data=data
         self.next=None
-
 class Stack(object):
     def __init__(self):
         self.node=Node(None)
@@ -53,5 +52,6 @@ class Test():
         if ls.get_size() !=0:
             return False
         return True
+
 test = Test()
 print(test.BracketMatch('()()()()){{{{'))
