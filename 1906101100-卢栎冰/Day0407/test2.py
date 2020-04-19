@@ -1,3 +1,4 @@
+# 队列类的实现
 class Queue():
 # 初始化队列
     def __init__(self):
