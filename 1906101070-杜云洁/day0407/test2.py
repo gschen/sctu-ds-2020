@@ -23,6 +23,7 @@ class Queue:
         else:
             self.size-=1
             self.que.pop(0)
+            
 queue=Queue()
 queue.enqueue('a')
 queue.enqueue('b')

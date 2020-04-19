@@ -47,6 +47,7 @@ class SingleLink():
             tra(node.next)
         tra(self._head)
 
+
 a=SingleLink()
 a.add_tail(10)
 a.add_tail(20)

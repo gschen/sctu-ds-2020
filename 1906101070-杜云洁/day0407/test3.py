@@ -38,6 +38,7 @@ class Queue_:
             #如果删除元素后,队列没有元素，head此时为None，end此时也应该为None
             if self.head is None:
                 self.end=None
+                
 queue=Queue_()
 print(queue.is_empty())
 queue.enqueue(1)
