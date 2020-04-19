@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5b0022d-1022-454c-ba73-d694d0543b5c" name="Default Changelist" comment="" />
+    <list default="true" id="d5b0022d-1022-454c-ba73-d694d0543b5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1906101005-吴雨桓/课堂/0407/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
