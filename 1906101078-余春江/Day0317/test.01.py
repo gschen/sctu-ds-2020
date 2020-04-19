@@ -41,18 +41,6 @@ class SigleLink():
                 cur=cur.next
             cur.next=node
 
-    #根据下标查找节点
-    def find(self,pos):
-        if pos<0 or pos>self.length()-1:
-            return 'error:index out of list'
-        cur=self.__head
-        count=0
-        while cur!=None:
-            if count==pos:
-                return cur.elem
-            else:
-                count+=1
-                cur=cur.next
 
 if __name__=='__main__':#运行次页面，会直接该行代码之后的代码
     sl=SigleLink()

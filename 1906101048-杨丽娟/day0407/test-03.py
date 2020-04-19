@@ -5,7 +5,6 @@ class Node:
         self.value=value
         self.next=next
 
-
 class Queue_:
     #初始化队列
     def __init__(self):
@@ -22,7 +21,6 @@ class Queue_:
     #返回队列的长度
     def que_size(self):
         return self.size
-
 
     #列表添加元素
     def enqueue(self,value):
@@ -45,7 +43,3 @@ class Queue_:
          #如果删除元素后，队列没有元素。head此时为None，end此时也应该为None
             if self.head is None:
                 self.end=None
-              
-
-                
-            

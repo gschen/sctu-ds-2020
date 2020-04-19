@@ -35,7 +35,6 @@ class Stack(object):
         else:
             print("栈为空！")
 
-
 class Test():
     def BracketMatch(self,str1):
         1s = Stack()
@@ -58,9 +57,3 @@ class Test():
 
 test = Test()
 print(test.BracketMatch("()()()()){{{{"))
-                
-
-               
-
-
-
