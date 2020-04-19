@@ -44,10 +44,14 @@ class SingleLink():
             print(node.val)
             tra(node.next)
         tra(self._head)
-        
-          
+
+
 a=SingleLink()
 a.add_tail(10)
 a.add_tail(20)
 a.add_tail(30)
-a.travel()
+#a.travel()
+def tra(10):
+    if node=None:
+        return tra(node.next)
+    print(next.val)
