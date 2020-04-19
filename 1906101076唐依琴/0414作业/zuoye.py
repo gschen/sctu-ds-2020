@@ -4,4 +4,4 @@ def fib(n):
         return 1
     else:
         return n * fib(n-1)
-print(fib(7)) 
+print(fib(6)) 
