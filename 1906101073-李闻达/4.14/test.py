@@ -124,3 +124,5 @@ def kmp(s1,s2):#s1是母串，s2是子串
     return lis
 
 print(kmp("abbabcab","abc"))
+
+
