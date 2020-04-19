@@ -51,9 +51,11 @@ class SingleLink():
         tra(self._head)
 
 
+
 a = SingleLink()
 a.add_tail(10)
 a.add_tail(20)
+
 
 
 #计算回退下标
