@@ -10,6 +10,8 @@ print('第一题-person')
 a = Person()
 Person.personInfo(a)
 print('\n')
+
+
 class Teacher(Person):
     def __init__(self):
         self.college = '信息与工程'
@@ -26,6 +28,9 @@ b = Teacher()
 Teacher.personInfo(b)
 b.teach0bj()
 print('\n')
+
+
+
 class Student(Person):
     def __init__(self):
         self.classs = '19信管01'
