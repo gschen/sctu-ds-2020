@@ -16,13 +16,13 @@ def kmp(s1,s2):#是s1是母串，s2是子串
     lis=[]
     for i in range(len(s1)):
        #需要回退的情况
-        while k>-1 and s1[i]=s2[k+1]:
+        while k>-1 and s1[i]==s2[k+1]:
             k=s2_lis[k]
         #相同序列
         if s1[i]==s2[k+1]:
             k=k+1
             #当k满足k=len（s2）-1条件，代表匹配成功
-        if k==lens(s2)-1:
+        if k==len(s2)-1:
             lis.append(i)
             k=s2_lis[k]#每次匹配成功后都要回退，不然后续会超出
     return lis
