@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5b0022d-1022-454c-ba73-d694d0543b5c" name="Default Changelist" comment="" />
+    <list default="true" id="0070993c-a264-4eaf-a7a4-e8834e4ca3df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/1906101078-余春江/Day0421/test.02.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101078-余春江/Day0421/test.02.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.0324作业">
+  <component name="RunManager" selected="Python.test.02">
     <configuration name="0310作业" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sctu-ds-2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,8 +178,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test.02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sctu-ds-2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\wuyuhuan7\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1906101078-余春江/Day0421/test.02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test.02" />
         <item itemvalue="Python.0324作业" />
         <item itemvalue="Python.0310作业" />
         <item itemvalue="Python.1 (1)" />
@@ -413,7 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587291422184</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="zuoye">
+      <created>1587459588218</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1587459588218</updated>
+    </task>
+    <task id="LOCAL-00033" summary="zuoye">
+      <created>1587459646496</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1587459646496</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
