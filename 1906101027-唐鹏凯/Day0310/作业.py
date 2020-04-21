@@ -47,7 +47,7 @@ class Fight:
                     print('{}进行了攻击，造成了{}点伤害'.format(self.b.name,self.b.ATK))
                     self.a.HP-= self.b.ATK
                 b = 0
-            print('第{}回合结束，{}剩余{}点生命值，{}剩余{}点生命值'.format(n,self.a.name,self.a.HP,self.b.name,self.b.HP))1
+            print('第{}回合结束，{}剩余{}点生命值，{}剩余{}点生命值'.format(n,self.a.name,self.a.HP,self.b.name,self.b.HP))
             n += 1
         if  self.a.HP < 0 and self.b.HP > 0:
             print('因此，{}获得胜利'.format(self.b.name))
