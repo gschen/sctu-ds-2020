@@ -4,11 +4,11 @@ class Node(object):
         self.left=None
         self.right=None
     def __str__(self):
-        return str(self.item) #print 一个Node类时会打印__str__的返回值
+        return str(self.item) #print一个Node类时会打印__str__的返回值
 
 class Tree(object):
     def __init__(self):
-        self.root=Node("root") #根节点定义为root 永不删除
+        self.root=Node("root") #根节点定义为root,永不删除
     def add(self,item):
         node=Node(item)
         if self.root is None: #如果二叉树为空，那么生成的二叉树最终为新插入的
