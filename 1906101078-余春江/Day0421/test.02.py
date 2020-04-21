@@ -10,6 +10,7 @@ def pre(root,ls):
     pre(root.left,ls)
     pre(root,right,ls)
 
+
 def mid(root,ls):
     if not root:
         return

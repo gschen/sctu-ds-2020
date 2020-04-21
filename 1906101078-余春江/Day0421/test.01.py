@@ -8,6 +8,7 @@ class Node(object):
         return str(self.item) #print 一个Node类时，会打印__str__的返回值
 
 
+
 class Tree(object):
     def __init__(self):
         self.root = Node("root") #根节点定义为root 永不删除
