@@ -8,7 +8,7 @@ def pre(root,ls):
     
     ls.append(root,val)
     pre(root.left,ls)
-    pre(root,right,ls)
+    pre(root.right,ls)
 
 
 def mid(root,ls):
