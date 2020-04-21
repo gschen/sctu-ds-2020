@@ -4,7 +4,7 @@ class Node(object):
         self.left=None
         self.right=None
     def __str__(self):
-        return str(self.item)#print一个Node类时会打印__str__的返回值
+        return str(self.item) #print一个Node类时会打印__str__的返回值
 
 class Tree(object):
     def __init__(self):

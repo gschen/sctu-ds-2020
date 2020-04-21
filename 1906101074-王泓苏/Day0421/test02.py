@@ -23,7 +23,7 @@ def post(root,ls):
         return
     mid(root.left,ls) #左
     mid(root.right,ls) #右
-    ls.append(root.val) #根
+    ls.append(root.val)#根
     
 
 
