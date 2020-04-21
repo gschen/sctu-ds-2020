@@ -6,7 +6,7 @@ def pre(root,ls):
     if not root:
         return
     
-    ls.append(root,val)
+    ls.append(root.val)
     pre(root.left,ls)
     pre(root.right,ls)
 
