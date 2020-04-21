@@ -8,19 +8,18 @@ class Node():
 class Tree():
     def __init__(self):
         self.root=None
-    def add_left(self,val):
+    def add_left():
         node=Node(val)
         if self.root==None:
             self.root=node
         else:
             node.left=self.root.left
             self.root.left=node
-
-
+    
     def add_right(self,val):
         node=Node(val)
         if self.root==None:
-            self.root==node
+            self.root=node
         else:
             node.right=self.root.right
             self.root.right=node
@@ -40,4 +39,3 @@ tree.add_right(20)
 tree.add_left(30)
 tree.add_right(40)
 tree.add_left(50)
-tree.travel()
