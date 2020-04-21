@@ -33,6 +33,7 @@ class Tree(object):
         else:
             node.left=self.root.left
             self.root.left=node
+            
     def inssertleft(self,item):
         node = Node(item)
         if self.root.right is None:

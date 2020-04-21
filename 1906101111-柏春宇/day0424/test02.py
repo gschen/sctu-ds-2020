@@ -7,6 +7,7 @@ def pre(root,ls):#如果节点为空（如果为叶子节点）
     pre(root.left,ls)
     pre(root.right,ls)
 
+
 def mid(root,ls):
     if not root:
         return
