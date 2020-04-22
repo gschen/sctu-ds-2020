@@ -17,8 +17,7 @@ def mid(root,ls):
 #后，左右根
 def post(root,ls):
     if not root:
-        return
-        
+        return   
     post(root.left,ls)
     post(root.right,ls)
     ls.append(root.val)
