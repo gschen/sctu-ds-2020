@@ -98,6 +98,7 @@ class Tree(object):
         else:
             return False
 
+
 t = Tree()
 t.add(1)
 t.add(2)
