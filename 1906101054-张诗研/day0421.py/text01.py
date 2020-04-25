@@ -42,7 +42,7 @@ class Tree(object):
             self.root.right=node
         else:
             node.right=self.root.right
-            self.root.right=node.right
+            self.root.right=node.right  
     
 
 

@@ -16,7 +16,7 @@ def mid(root,ls):
 
 def behi(root,ls):
     if not root:
-        return
+        return 
     behi(root.left,ls)
     behi(root.right,ls)
     ls.append(root.val)
