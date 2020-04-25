@@ -29,4 +29,4 @@ def kmp(s1,s2):#s1是母串，s2是子串
             k=s2_lis[k]
     return lis
 print(kmp('abaabcab','abc'))
-#
+#.

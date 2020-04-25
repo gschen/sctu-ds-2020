@@ -1,0 +1,32 @@
+class Node():
+    def __init__(self,val=None):
+        self.val=val
+        self.left=None
+        self.right=None
+class Tree():
+    def __init__(self):
+        self.root=None
+    def add_left(self,val):
+        node=Node(val)
+        if self.root==None:
+            self.root=Node
+        else:
+            node.left=self.root.left
+            self.root.left=Node
+    def add_right(self,val):
+        node=Node(val)
+        if self.root==None:
+            self.root=Node
+        else:
+            node.right=self.root.right
+            self.root.right=Node
+    def trave(self):
+        def tra(node):
+            print(node.val)
+            tra(node.left)
+            tra(node.right)
+tree=Tree()
+tree.add_left(10)
+tree.add_right(20)
+tree.add_left(30)
+tree.add_right(40)
