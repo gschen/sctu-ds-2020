@@ -14,7 +14,7 @@ def mid(root,ls):
     ls.append(root.val)
     mid(root.right,ls)
 def post(root,ls):
-    if not root:
+    if not root: 
         return
     post(root.left,ls)
     post(root.right,ls)
