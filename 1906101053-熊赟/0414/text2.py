@@ -41,3 +41,10 @@ tree . add_ 1eft(30)
 tree. add_ right (40)
 tree . add 1eft(50)
 
+
+
+
+
+
+
+

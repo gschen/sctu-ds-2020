@@ -4,3 +4,6 @@ def fib(a=1, b=1,k=2):
        return b
     return fib(b, a+b,k+1)
 print(fib())
+      
+
+      
