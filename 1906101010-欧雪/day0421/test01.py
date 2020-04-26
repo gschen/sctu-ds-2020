@@ -9,19 +9,19 @@ class Node(object):
 
 class Tree(object): 
     def __init__(self):
-        self.root = Node("root")#根节点定义为root 永不删除
+        self.root = Node("root")
     def add(self,item):
         node = Node(item)
         if self.root is None:#如果二叉树为空，那么生成的二叉树最终为新插入
             self.root = node
         else:
-            q = [self.root]#将q列表添加二叉树的根节点
+            q = [self.root]
             while True:
                 pop_node = q.pop(0)
-                if pop_node.left is None:#如果左子树为空，则将该点添加到
+                if pop_node.left is None:
                     pop_node.left = node
                     return
-                elif pop_node.right is None:#右子树为空，则将该点添加到
+                elif pop_node.right is None:
                     pop_node.right = node
                     return
                 else:
