@@ -25,3 +25,4 @@ def pos(root,ls1):
     pos(root.left,ls1)
     pos(root.right,ls1)
     ls2.append(root.val)
+
