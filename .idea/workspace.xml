@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0070993c-a264-4eaf-a7a4-e8834e4ca3df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/1906101078-余春江/Day0421/test.02.py" beforeDir="false" afterPath="$PROJECT_DIR$/1906101078-余春江/Day0421/test.02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1906101072-董泽梅/day0428/01.test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1906101072-董泽梅/day0428/02.test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1906101072-董泽梅/day0428/课堂测验.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,6 +185,9 @@
       <module name="sctu-ds-2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\wuyuhuan7\AppData\Local\Programs\Python\Python37-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
       <option name="IS_MODULE_SDK" value="true" />
@@ -211,7 +217,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d5b0022d-1022-454c-ba73-d694d0543b5c" name="Default Changelist" comment="" />
+      <changelist id="0070993c-a264-4eaf-a7a4-e8834e4ca3df" name="Default Changelist" comment="" />
       <created>1582370133905</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
