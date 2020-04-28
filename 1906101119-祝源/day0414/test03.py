@@ -1,9 +1,10 @@
-class Tree():
+class Node():
     def __init__(self,val=None):
         self.val=val
-        self.left=Node
+        self.left=None 
         self.right=None
-class tree():
+
+class Tree():
     def __init__(self):
         self.root=None
     def add_left(self,val):
@@ -13,6 +14,7 @@ class tree():
         else:
             node.left=self.root.left
             self.root.left=node
+
     def add_right(self,val):
         node=Node(val)
         if self.root==None:
@@ -21,11 +23,18 @@ class tree():
             node.right=self.root.right
             self.root.right=node
 
+
     def travel(self):
         def tra(node):
-            if node == None:
+            if node==None:
                 return
             print(node.val)
             tra(node.left)
             tra(node.right)
-        tra(self)
+        tra(self.root)
+
+
+tree=Tree()
+tree.add_right(10)
+tree.add_left(20)
+tree.travel()
