@@ -17,3 +17,4 @@ class Soulution:
         
         return tyq(root.left) and tyq(root.right)
     return tyq(root.left,root.right)
+

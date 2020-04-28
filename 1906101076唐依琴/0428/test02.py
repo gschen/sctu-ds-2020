@@ -15,3 +15,4 @@ class Solution:
             b.next=ListNode(j)
             b=b.next
         return a
+
