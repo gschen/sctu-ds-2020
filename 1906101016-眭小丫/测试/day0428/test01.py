@@ -12,5 +12,3 @@ class Solution:
         pre(root1)
         pre(root2)
         return list(sorted(L))
-
-
