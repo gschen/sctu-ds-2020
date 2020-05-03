@@ -12,12 +12,3 @@ class Solution:
         return dfs(left.left,right.right) and dfs(left.right,right.left)
         return dfs(root.left,root.right)
 
-
-
-
-
-
-
-
-    
-
