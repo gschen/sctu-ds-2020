@@ -29,12 +29,3 @@ class tree():
             tra(node.left)
             tra(node.right)
         tra(self)
-
-''' tree=Tree()
-tree.add_left(10)
-tree.add_right(20)
-tree.add_left(30)
-tree.add_right(40)
-tree.add_left(50)
-tree.travel() '''
-#.

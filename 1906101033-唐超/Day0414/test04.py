@@ -35,6 +35,8 @@ def kmp(s1,s2):#s1是字符串，s2是子串
             lis.append(i)
             k=s2_lis[k]#每次匹配成功后需要后退，不然后续会超出
     return lis
+
+    
 print(kmp('abaabcab','abc'))
 
 

@@ -16,6 +16,7 @@ class Tree():
             node.left=self.root.left
             self.root.left=node
 
+
     def add_right(self,val):
         node=Node(val)
         if self.root==None:
