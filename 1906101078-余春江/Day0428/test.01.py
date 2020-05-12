@@ -10,3 +10,5 @@ class Solution:
             f(root2)
             l.sort()
             return l
+
+            
