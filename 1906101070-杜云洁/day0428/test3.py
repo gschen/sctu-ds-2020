@@ -4,6 +4,10 @@
 #         self.val=x
 #         self.next=None
 
+
+
+
+
 class Solution(ListNode):
     def mergeKLists(self,lists]):
         if lists==[]:
