@@ -15,7 +15,7 @@ def List():
             node = Node(i)#创建新节点
             #判断头节点的下一个节点是否为空
             if self.head.next is None:#如果为空，则将新节点加入到next
-                self.head.nex = node
+                self.head.next = node
             else:
                 node.next = self.head.next#将头节点的下一个节点加入到当前节点的next
                 self.head.next = node
