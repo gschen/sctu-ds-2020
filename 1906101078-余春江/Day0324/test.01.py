@@ -5,7 +5,7 @@ class Node():
         self.next=None
 
 
-def List():
+class List():
     def __init__(self):
         #头节点
         self.head = Node(-1)
