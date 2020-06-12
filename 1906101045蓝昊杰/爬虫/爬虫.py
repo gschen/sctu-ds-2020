@@ -5,12 +5,12 @@ import re
 import json
  
  
-file = open("meituan.txt","w",encoding='utf8') 
-writer = csv.writer(file, delimiter=',')
+file = open(r"C:\Users\LEGION\Desktop\meituan.txt","w",newline ='',encoding='utf-8') 
+writer = csv.writer(file)
  
 class Spider:
 	def loadPage(self,page):
-		url = "http://gz.meituan.com/meishi/pn"+str(page)+"/"
+		url = "http://cd.meituan.com/meishi/pn"+str(page)+"/"
  
 		#user-Agent头
 		user_agent="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT6.1; Trident/5.0"
@@ -40,7 +40,7 @@ class Spider:
 if __name__ == "__main__":
 	mySpider = Spider()
 	
-	for i in range(1,33):
+	for i in range(1,10):
 		print("fecth:Page"+str(i))
 		mySpider.loadPage(i)
 		

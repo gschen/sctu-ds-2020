@@ -13,6 +13,8 @@ def oushi(s):
         for j in range(len(text)):
             answer+=(i[j]-text[j])**2
         lis.append((answer**(1/2)))
+        answer=0
+        
 #曼哈顿距离
 def manhadun(s):
     answer=0
@@ -20,6 +22,7 @@ def manhadun(s):
         for j in range(len(text)):
             answer+=abs((i[j]-text[j]))
         lis.append(answer)
+        answer=0
 
 #计算
 def jisuan():
@@ -41,6 +44,6 @@ def jisuan():
         return "A"
     else:
         return "B"
-# oushi(array)
-manhadun(array)
+oushi(array)
+# manhadun(array)
 print(jisuan())
