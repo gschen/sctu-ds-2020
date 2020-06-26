@@ -15,5 +15,3 @@ def huiwen(s):
         return True
     else:
         return False
-s = 'abba'
-print(huiwen(s))
