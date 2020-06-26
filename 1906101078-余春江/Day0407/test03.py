@@ -30,7 +30,7 @@ class Queue_:
         if self.head is None:#判断是否存在头节点
             self.head=self.end=que
         else:#如果存在头节点
-            self.end.next=que#将新节点放在违建点后面（第一步）
+            self.end.next=que#将新节点放在尾结点后面（第一步）
             self.end=que#将尾节点指针指向新节点（第二步）
 
     #删除队列元素
