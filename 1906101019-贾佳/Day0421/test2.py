@@ -18,5 +18,6 @@ def post(root,ls):
     post(root.left,ls)
     post(root.right,ls) 
     ls.append(root.val)
-
+pre(1)
+pre(2)
 
